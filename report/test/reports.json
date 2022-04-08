@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2022-03-30T00:00:00.000Z",
+    "createdAt": "2022-04-08T09:29:58.034Z",
+    "cuts": 5055.217391304439,
+    "valid_cuts": 1531.7391304346966,
+    "recorded_hours": 6.459444444444443,
+    "valid_hours": 1.957222222222299,
+    "referenceStats": {
+      "yesterdayStat": {
+        "_id": "62449aa14bcf9432a999b2f0",
+        "date": "2022-03-30T17:00:26.000Z",
+        "total": 6996688,
+        "valid": 4129140
+      },
+      "todayStat": {
+        "_id": "6245ec4c4bcf9432a999bc13",
+        "date": "2022-03-31T18:00:11.000Z",
+        "total": 7019942,
+        "valid": 4136186
+      }
+    }
+  },
+  {
+    "date": "2022-03-31T00:00:00.000Z",
+    "createdAt": "2022-04-08T09:29:58.120Z",
+    "cuts": 6361.304347825935,
+    "valid_cuts": 1729.7826086956775,
+    "recorded_hours": 8.12833333333333,
+    "valid_hours": 2.210277777777719,
+    "referenceStats": {
+      "yesterdayStat": {
+        "_id": "6245ec4c4bcf9432a999bc13",
+        "date": "2022-03-31T18:00:11.000Z",
+        "total": 7019942,
+        "valid": 4136186
+      },
+      "todayStat": {
+        "_id": "62474bb094df4fec5700b2e1",
+        "date": "2022-04-01T18:30:37.000Z",
+        "total": 7049204,
+        "valid": 4144143
+      }
+    }
+  },
+  {
+    "date": "2022-04-01T00:00:00.000Z",
+    "createdAt": "2022-04-08T09:29:58.153Z",
+    "cuts": 4422.391304347897,
+    "valid_cuts": 1528.0434782608645,
+    "recorded_hours": 5.650833333333367,
+    "valid_hours": 1.9524999999998727,
+    "referenceStats": {
+      "yesterdayStat": {
+        "_id": "62474bb094df4fec5700b2e1",
+        "date": "2022-04-01T18:30:37.000Z",
+        "total": 7049204,
+        "valid": 4144143
+      },
+      "todayStat": {
+        "_id": "62489d3094df4fec5700bbf2",
+        "date": "2022-04-02T18:58:01.000Z",
+        "total": 7069547,
+        "valid": 4151172
+      }
+    }
+  },
+  {
+    "date": "2022-04-02T00:00:00.000Z",
+    "createdAt": "2022-04-08T09:29:58.186Z",
+    "cuts": 4762.391304347897,
+    "valid_cuts": 1183.2608695653034,
+    "recorded_hours": 6.085277777777719,
+    "valid_hours": 1.5119444444444525,
+    "referenceStats": {
+      "yesterdayStat": {
+        "_id": "62489d3094df4fec5700bbf2",
+        "date": "2022-04-02T18:58:01.000Z",
+        "total": 7069547,
+        "valid": 4151172
+      },
+      "todayStat": {
+        "_id": "6249fcc094df4fec5700c59b",
+        "date": "2022-04-03T19:39:56.000Z",
+        "total": 7091454,
+        "valid": 4156615
+      }
+    }
+  },
+  {
+    "date": "2022-04-03T00:00:00.000Z",
+    "createdAt": "2022-04-08T09:29:58.219Z",
+    "cuts": 6529.130434782477,
+    "valid_cuts": 2060.6521739129676,
+    "recorded_hours": 8.342777777777656,
+    "valid_hours": 2.6330555555555293,
+    "referenceStats": {
+      "yesterdayStat": {
+        "_id": "6249fcc094df4fec5700c59b",
+        "date": "2022-04-03T19:39:56.000Z",
+        "total": 7091454,
+        "valid": 4156615
+      },
+      "todayStat": {
+        "_id": "624b4e4094df4fec5700cec6",
+        "date": "2022-04-04T19:58:01.000Z",
+        "total": 7121488,
+        "valid": 4166094
+      }
+    }
+  },
+  {
+    "date": "2022-04-04T00:00:00.000Z",
+    "createdAt": "2022-04-08T09:29:58.252Z",
+    "cuts": 5407.173913043458,
+    "valid_cuts": 1492.6086956522195,
+    "recorded_hours": 6.909166666666806,
+    "valid_hours": 1.9072222222223445,
+    "referenceStats": {
+      "yesterdayStat": {
+        "_id": "624b4e4094df4fec5700cec6",
+        "date": "2022-04-04T19:58:01.000Z",
+        "total": 7121488,
+        "valid": 4166094
+      },
+      "todayStat": {
+        "_id": "624cadd094df4fec5700d83b",
+        "date": "2022-04-05T20:05:13.000Z",
+        "total": 7146361,
+        "valid": 4172960
+      }
+    }
+  }
+]

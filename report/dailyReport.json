@@ -1,0 +1,661 @@
+[
+  {
+    "date": "2022-02-18T00:00:00.000Z",
+    "talls": 254030.43478260865,
+    "talls_validats": 62589.34782608703,
+    "hores_totals": 1385.5944444444444,
+    "hores_validades_totals": 1010.9752777777778,
+    "stats": {
+      "yesterdayStat": {
+        "date": "2022-01-21T00:00:00.000Z",
+        "total": 3819600,
+        "valid": 3351600
+      },
+      "todayStat": {
+        "_id": "623b098a88a38efc58ced896",
+        "date": "2022-02-19T17:10:56.000Z",
+        "total": 4988140,
+        "valid": 3639511
+      },
+      "referenceDate": "2022-02-18T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-19T00:00:00.000Z",
+    "talls": 13128.913043478271,
+    "talls_validats": 3842.3913043477805,
+    "hores_totals": 1402.3702777777778,
+    "hores_validades_totals": 1015.885,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "623b098a88a38efc58ced896",
+        "date": "2022-02-19T17:10:56.000Z",
+        "total": 4988140,
+        "valid": 3639511
+      },
+      "todayStat": {
+        "_id": "623b098a88a38efc58ced968",
+        "date": "2022-02-20T05:20:01.000Z",
+        "total": 5048533,
+        "valid": 3657186
+      },
+      "referenceDate": "2022-02-19T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-20T00:00:00.000Z",
+    "talls": 28642.17391304369,
+    "talls_validats": 6362.6086956522195,
+    "hores_totals": 1438.9686111111112,
+    "hores_validades_totals": 1024.015,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "623b098a88a38efc58ced968",
+        "date": "2022-02-20T05:20:01.000Z",
+        "total": 5048533,
+        "valid": 3657186
+      },
+      "todayStat": {
+        "_id": "623b098a88a38efc58cedb34",
+        "date": "2022-02-21T05:41:07.000Z",
+        "total": 5180287,
+        "valid": 3686454
+      },
+      "referenceDate": "2022-02-20T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-21T00:00:00.000Z",
+    "talls": 21966.521739130374,
+    "talls_validats": 4473.0434782608645,
+    "hores_totals": 1467.0369444444445,
+    "hores_validades_totals": 1029.7305555555556,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "623b098a88a38efc58cedb34",
+        "date": "2022-02-21T05:41:07.000Z",
+        "total": 5180287,
+        "valid": 3686454
+      },
+      "todayStat": {
+        "_id": "623b098b88a38efc58cedd00",
+        "date": "2022-02-22T05:59:45.000Z",
+        "total": 5281333,
+        "valid": 3707030
+      },
+      "referenceDate": "2022-02-21T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-22T00:00:00.000Z",
+    "talls": 14216.304347825935,
+    "talls_validats": 3578.0434782608645,
+    "hores_totals": 1485.2022222222222,
+    "hores_validades_totals": 1034.3025,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "623b098b88a38efc58cedd00",
+        "date": "2022-02-22T05:59:45.000Z",
+        "total": 5281333,
+        "valid": 3707030
+      },
+      "todayStat": {
+        "_id": "623b098b88a38efc58cedef4",
+        "date": "2022-02-23T07:30:01.000Z",
+        "total": 5346728,
+        "valid": 3723489
+      },
+      "referenceDate": "2022-02-22T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-23T00:00:00.000Z",
+    "talls": 10329.13043478271,
+    "talls_validats": 2139.782608695561,
+    "hores_totals": 1498.4005555555555,
+    "hores_validades_totals": 1037.0366666666666,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "623b098b88a38efc58cedef4",
+        "date": "2022-02-23T07:30:01.000Z",
+        "total": 5346728,
+        "valid": 3723489
+      },
+      "todayStat": {
+        "_id": "623b098c88a38efc58cee0c0",
+        "date": "2022-02-24T09:02:24.000Z",
+        "total": 5394242,
+        "valid": 3733332
+      },
+      "referenceDate": "2022-02-23T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-24T00:00:00.000Z",
+    "talls": 9826.086956521729,
+    "talls_validats": 2437.391304347897,
+    "hores_totals": 1510.956111111111,
+    "hores_validades_totals": 1040.151111111111,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "623b098c88a38efc58cee0c0",
+        "date": "2022-02-24T09:02:24.000Z",
+        "total": 5394242,
+        "valid": 3733332
+      },
+      "todayStat": {
+        "_id": "6218a8a0706d6abfda28e4ee",
+        "date": "2022-02-25T09:54:51.000Z",
+        "total": 5439442,
+        "valid": 3744544
+      },
+      "referenceDate": "2022-02-24T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-25T00:00:00.000Z",
+    "talls": 18507.826086956542,
+    "talls_validats": 3849.5652173912385,
+    "hores_totals": 1534.605,
+    "hores_validades_totals": 1045.07,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "6218a8a0706d6abfda28e4ee",
+        "date": "2022-02-25T09:54:51.000Z",
+        "total": 5439442,
+        "valid": 3744544
+      },
+      "todayStat": {
+        "_id": "621a0830be0bb56bcf495401",
+        "date": "2022-02-26T10:30:01.000Z",
+        "total": 5524578,
+        "valid": 3762252
+      },
+      "referenceDate": "2022-02-25T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-26T00:00:00.000Z",
+    "talls": 15471.739130434813,
+    "talls_validats": 2844.7826086956775,
+    "hores_totals": 1554.3744444444444,
+    "hores_validades_totals": 1048.705,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "621a0830be0bb56bcf495401",
+        "date": "2022-02-26T10:30:01.000Z",
+        "total": 5524578,
+        "valid": 3762252
+      },
+      "todayStat": {
+        "_id": "621b67c0be0bb56bcf495967",
+        "date": "2022-02-27T11:08:53.000Z",
+        "total": 5595748,
+        "valid": 3775338
+      },
+      "referenceDate": "2022-02-26T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-27T00:00:00.000Z",
+    "talls": 15990,
+    "talls_validats": 3298.0434782608645,
+    "hores_totals": 1574.806111111111,
+    "hores_validades_totals": 1052.9191666666666,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "621b67c0be0bb56bcf495967",
+        "date": "2022-02-27T11:08:53.000Z",
+        "total": 5595748,
+        "valid": 3775338
+      },
+      "todayStat": {
+        "_id": "621cb941be0bb56bcf495ea7",
+        "date": "2022-02-28T11:28:56.000Z",
+        "total": 5669302,
+        "valid": 3790509
+      },
+      "referenceDate": "2022-02-27T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-02-28T00:00:00.000Z",
+    "talls": 21934.78260869556,
+    "talls_validats": 3878.0434782608645,
+    "hores_totals": 1602.8338888888889,
+    "hores_validades_totals": 1057.8744444444444,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "621cb941be0bb56bcf495ea7",
+        "date": "2022-02-28T11:28:56.000Z",
+        "total": 5669302, = 1,232,456.956521739
+        "valid": 3790509
+      },
+      "todayStat": {
+        "_id": "621e0ac0be0bb56bcf4963dd",
+        "date": "2022-03-01T11:59:46.000Z",
+        "total": 5770202, = 1,254,391.739130435
+        "valid": 3808348
+      },
+      "referenceDate": "2022-02-28T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-01T00:00:00.000Z",
+    "talls": 10771.739130434813,
+    "talls_validats": 2162.173913043458,
+    "hores_totals": 1616.5977777777778,
+    "hores_validades_totals": 1060.6372222222221,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "621e0ac0be0bb56bcf4963dd",
+        "date": "2022-03-01T11:59:46.000Z",
+        "total": 5770202,
+        "valid": 3808348
+      },
+      "todayStat": {
+        "_id": "621eb3a1be0bb56bcf4966a3",
+        "date": "2022-03-02T00:00:54.000Z",
+        "total": 5819752,
+        "valid": 3818294
+      },
+      "referenceDate": "2022-03-01T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-02T00:00:00.000Z",
+    "talls": 13759.565217391355,
+    "talls_validats": 2811.739130434813,
+    "hores_totals": 1634.1794444444445,
+    "hores_validades_totals": 1064.23,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "621eb3a1be0bb56bcf4966a3",
+        "date": "2022-03-02T00:00:54.000Z",
+        "total": 5819752,
+        "valid": 3818294
+      },
+      "todayStat": {
+        "_id": "62201310be0bb56bcf496bf7",
+        "date": "2022-03-03T00:43:09.000Z",
+        "total": 5883046,
+        "valid": 3831228
+      },
+      "referenceDate": "2022-03-02T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-03T00:00:00.000Z",
+    "talls": 12636.521739130374,
+    "talls_validats": 2849.3478260870324,
+    "hores_totals": 1650.326111111111,
+    "hores_validades_totals": 1067.8708333333334,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "62201310be0bb56bcf496bf7",
+        "date": "2022-03-03T00:43:09.000Z",
+        "total": 5883046,
+        "valid": 3831228
+      },
+      "todayStat": {
+        "_id": "62216490be0bb56bcf49713f",
+        "date": "2022-03-04T01:00:11.000Z",
+        "total": 5941174,
+        "valid": 3844335
+      },
+      "referenceDate": "2022-03-03T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-04T00:00:00.000Z",
+    "talls": 10205,
+    "talls_validats": 1682.8260869564256,
+    "hores_totals": 1663.3658333333333,
+    "hores_validades_totals": 1070.0211111111112,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "62216490be0bb56bcf49713f",
+        "date": "2022-03-04T01:00:11.000Z",
+        "total": 5941174,
+        "valid": 3844335
+      },
+      "todayStat": {
+        "_id": "6222c421be0bb56bcf4976cf",
+        "date": "2022-03-05T01:17:59.000Z",
+        "total": 5988117,
+        "valid": 3852076
+      },
+      "referenceDate": "2022-03-04T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-05T00:00:00.000Z",
+    "talls": 8501.086956521729,
+    "talls_validats": 1733.478260869626,
+    "hores_totals": 1674.2283333333332,
+    "hores_validades_totals": 1072.236111111111,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "6222c421be0bb56bcf4976cf",
+        "date": "2022-03-05T01:17:59.000Z",
+        "total": 5988117,
+        "valid": 3852076
+      },
+      "todayStat": {
+        "_id": "622415a0be0bb56bcf497bf5",
+        "date": "2022-03-06T01:58:01.000Z",
+        "total": 6027222,
+        "valid": 3860050
+      },
+      "referenceDate": "2022-03-05T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-06T00:00:00.000Z",
+    "talls": 11687.173913043458,
+    "talls_validats": 2613.260869565187,
+    "hores_totals": 1689.1619444444445,
+    "hores_validades_totals": 1075.5752777777777,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "622415a0be0bb56bcf497bf5",
+        "date": "2022-03-06T01:58:01.000Z",
+        "total": 6027222,
+        "valid": 3860050
+      },
+      "todayStat": {
+        "_id": "62257530be0bb56bcf49816b",
+        "date": "2022-03-07T02:58:02.000Z",
+        "total": 6080983,
+        "valid": 3872071
+      },
+      "referenceDate": "2022-03-06T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-07T00:00:00.000Z",
+    "talls": 11140.217391304439,
+    "talls_validats": 2589.565217391355,
+    "hores_totals": 1703.3966666666668,
+    "hores_validades_totals": 1078.8841666666667,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "62257530be0bb56bcf49816b",
+        "date": "2022-03-07T02:58:02.000Z",
+        "total": 6080983,
+        "valid": 3872071
+      },
+      "todayStat": {
+        "_id": "6226d4c07c89a5aeafed0d25",
+        "date": "2022-03-08T03:01:19.000Z",
+        "total": 6132228,
+        "valid": 3883983
+      },
+      "referenceDate": "2022-03-07T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-08T00:00:00.000Z",
+    "talls": 11210,
+    "talls_validats": 2733.695652173832,
+    "hores_totals": 1717.7205555555556,
+    "hores_validades_totals": 1082.3772222222221,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "6226d4c07c89a5aeafed0d25",
+        "date": "2022-03-08T03:01:19.000Z",
+        "total": 6132228,
+        "valid": 3883983
+      },
+      "todayStat": {
+        "_id": "622826407c89a5aeafed1605",
+        "date": "2022-03-09T03:58:01.000Z",
+        "total": 6183794,
+        "valid": 3896558
+      },
+      "referenceDate": "2022-03-08T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-09T00:00:00.000Z",
+    "talls": 10417.608695652103,
+    "talls_validats": 2723.0434782608645,
+    "hores_totals": 1731.0319444444444,
+    "hores_validades_totals": 1085.8566666666666,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "622826407c89a5aeafed1605",
+        "date": "2022-03-09T03:58:01.000Z",
+        "total": 6183794,
+        "valid": 3896558
+      },
+      "todayStat": {
+        "_id": "622985d07c89a5aeafed1f63",
+        "date": "2022-03-10T04:58:01.000Z",
+        "total": 6231715,
+        "valid": 3909084
+      },
+      "referenceDate": "2022-03-09T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-10T00:00:00.000Z",
+    "talls": 11014.13043478271,
+    "talls_validats": 2611.0869565218454,
+    "hores_totals": 1745.1055555555556,
+    "hores_validades_totals": 1089.1930555555555,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "622985d07c89a5aeafed1f63",
+        "date": "2022-03-10T04:58:01.000Z",
+        "total": 6231715,
+        "valid": 3909084
+      },
+      "todayStat": {
+        "_id": "622ae5607c89a5aeafed28e5",
+        "date": "2022-03-11T05:58:01.000Z",
+        "total": 6282380,
+        "valid": 3921095
+      },
+      "referenceDate": "2022-03-10T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-11T00:00:00.000Z",
+    "talls": 10585.217391304206,
+    "talls_validats": 2087.608695652103,
+    "hores_totals": 1758.631111111111,
+    "hores_validades_totals": 1091.8605555555555,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "622ae5607c89a5aeafed28e5",
+        "date": "2022-03-11T05:58:01.000Z",
+        "total": 6282380,
+        "valid": 3921095
+      },
+      "todayStat": {
+        "_id": "622c44f17c89a5aeafed325b",
+        "date": "2022-03-12T06:35:14.000Z",
+        "total": 6331072,
+        "valid": 3930698
+      },
+      "referenceDate": "2022-03-11T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-12T00:00:00.000Z",
+    "talls": 10603.043478260981,
+    "talls_validats": 2455.2173913043225,
+    "hores_totals": 1772.1794444444445,
+    "hores_validades_totals": 1094.9977777777779,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "622c44f17c89a5aeafed325b",
+        "date": "2022-03-12T06:35:14.000Z",
+        "total": 6331072,
+        "valid": 3930698
+      },
+      "todayStat": {
+        "_id": "622d96707c89a5aeafed3b49",
+        "date": "2022-03-13T06:58:01.000Z",
+        "total": 6379846,
+        "valid": 3941992
+      },
+      "referenceDate": "2022-03-12T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-13T00:00:00.000Z",
+    "talls": 16565.21739130444,
+    "talls_validats": 3848.2608695653034,
+    "hores_totals": 1793.3461111111112,
+    "hores_validades_totals": 1099.915,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "622d96707c89a5aeafed3b49",
+        "date": "2022-03-13T06:58:01.000Z",
+        "total": 6379846,
+        "valid": 3941992
+      },
+      "todayStat": {
+        "_id": "622ef6007c89a5aeafed44bd",
+        "date": "2022-03-14T07:01:30.000Z",
+        "total": 6456046,
+        "valid": 3959694
+      },
+      "referenceDate": "2022-03-13T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-14T00:00:00.000Z",
+    "talls": 9184.782608695561,
+    "talls_validats": 2778.695652173832,
+    "hores_totals": 1805.0822222222223,
+    "hores_validades_totals": 1103.4655555555555,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "622ef6007c89a5aeafed44bd",
+        "date": "2022-03-14T07:01:30.000Z",
+        "total": 6456046,
+        "valid": 3959694
+      },
+      "todayStat": {
+        "_id": "623047807c89a5aeafed4d95",
+        "date": "2022-03-15T07:58:01.000Z",
+        "total": 6498296,
+        "valid": 3972476
+      },
+      "referenceDate": "2022-03-14T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-15T00:00:00.000Z",
+    "talls": 9220.217391304439,
+    "talls_validats": 2720.652173913084,
+    "hores_totals": 1816.8636111111111,
+    "hores_validades_totals": 1106.9419444444445,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "623047807c89a5aeafed4d95",
+        "date": "2022-03-15T07:58:01.000Z",
+        "total": 6498296,
+        "valid": 3972476
+      },
+      "todayStat": {
+        "_id": "6231d1424bcf9432a99932da",
+        "date": "2022-03-16T08:25:07.000Z",
+        "total": 6540709,
+        "valid": 3984991
+      },
+      "referenceDate": "2022-03-15T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-16T00:00:00.000Z",
+    "talls": 10055.217391304206,
+    "talls_validats": 3065.652173913084,
+    "hores_totals": 1829.7119444444445,
+    "hores_validades_totals": 1110.8591666666666,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "6231d1424bcf9432a99932da",
+        "date": "2022-03-16T08:25:07.000Z",
+        "total": 6540709,
+        "valid": 3984991
+      },
+      "todayStat": {
+        "_id": "6232f8904bcf9432a9993aca",
+        "date": "2022-03-17T08:50:43.000Z",
+        "total": 6586963,
+        "valid": 3999093
+      },
+      "referenceDate": "2022-03-16T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-17T00:00:00.000Z",
+    "talls": 8410,
+    "talls_validats": 2358.0434782608645,
+    "hores_totals": 1840.4580555555556,
+    "hores_validades_totals": 1113.8722222222223,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "6232f8904bcf9432a9993aca",
+        "date": "2022-03-17T08:50:43.000Z",
+        "total": 6586963,
+        "valid": 3999093
+      },
+      "todayStat": {
+        "_id": "62344a114bcf9432a99943a0",
+        "date": "2022-03-18T08:58:02.000Z",
+        "total": 6625649,
+        "valid": 4009940
+      },
+      "referenceDate": "2022-03-17T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-18T00:00:00.000Z",
+    "talls": 8071.304347826168,
+    "talls_validats": 2416.086956521729,
+    "hores_totals": 1850.7713888888889,
+    "hores_validades_totals": 1116.9594444444444,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "62344a114bcf9432a99943a0",
+        "date": "2022-03-18T08:58:02.000Z",
+        "total": 6625649,
+        "valid": 4009940
+      },
+      "todayStat": {
+        "_id": "6235a9a04bcf9432a9994d02",
+        "date": "2022-03-19T09:20:48.000Z",
+        "total": 6662777,
+        "valid": 4021054
+      },
+      "referenceDate": "2022-03-18T00:00:00.000Z"
+    }
+  },
+  {
+    "date": "2022-03-19T00:00:00.000Z",
+    "talls": 5416.739130434813,
+    "talls_validats": 1810.434782608645,
+    "hores_totals": 1857.6927777777778,
+    "hores_validades_totals": 1119.2727777777777,
+    "stats": {
+      "yesterdayStat": {
+        "_id": "6235a9a04bcf9432a9994d02",
+        "date": "2022-03-19T09:20:48.000Z",
+        "total": 6662777,
+        "valid": 4021054
+      },
+      "todayStat": {
+        "_id": "623709304bcf9432a9995668",
+        "date": "2022-03-20T10:00:08.000Z",
+        "total": 6687694,
+        "valid": 4029382
+      },
+      "referenceDate": "2022-03-19T00:00:00.000Z"
+    }
+  }
+]

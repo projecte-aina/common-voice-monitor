@@ -1,0 +1,21 @@
+{
+  "name": "commonvoice-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Paul Andrei Petrea",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "croner": "^4.2.3",
+    "dotenv": "^16.0.0",
+    "google-spreadsheet": "^3.2.0",
+    "luxon": "^2.3.0",
+    "mongoose": "^6.2.7"
+  }
+}
