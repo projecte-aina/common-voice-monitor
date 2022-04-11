@@ -1,9 +1,8 @@
 const {DateTime} = require('luxon');
-const {createStartEndOfDayUtcDateRange} = require("../../utils/dates");
-const {getTwentyFourHours} = require("../../service/stat");
-const {convertArrayToObject} = require("../../utils/list");
+const {getStatByDateAscending} = require("../../service/stat");
 const {getLastReport} = require("../../service/daily_report");
-const {getLanguageStatsByLanguageCode} = require("../../service/language_stat");
+const {getLanguageStatNextDayByLocale
+} = require("../../service/language_stat");
 const {insertError} = require("../../utils/logger");
 const fs = require("fs");
 const {loadDocument, addElements} = require("../../store/spread_sheet");
@@ -15,52 +14,46 @@ const roundHalfDown = (number) => {
     return -Math.round(-number)
 }
 
-const generateReport = async (dateRanges) => {
+const generateReport = async (objRef, lastReport) => {
     console.log(`[${DateTime.now().toUTC()}] Generating daily report... `)
 
     try {
 
-        // const lastReport = await getLastReport()
-        // const languageStats = await getLanguageStatsByLanguageCode('ca')
+        const totalAccumulatedCuts  = objRef.values.total / 4.6
+        const totalValidCuts = objRef.values.valid / 4.6
 
-        const yesterdayTallsTotals = dateRanges.yesterdayStat.total / 4.6
-        const todayTallsTotals = dateRanges.todayStat.total / 4.6
-        const cuts = todayTallsTotals - yesterdayTallsTotals
+        const totalHours = objRef.values.total / 3600
+        const totalValidHours = objRef.values.valid / 3600
 
+        const cuts = totalAccumulatedCuts - lastReport.total_accumulated_cuts
+        const accumulatedCutsAina = lastReport.accumulated_cuts_aina + cuts
 
-        const yesterdayTallsValid = dateRanges.yesterdayStat.valid / 4.6
-        const todayTallsValid = dateRanges.todayStat.valid / 4.6
-        const validCuts = Math.abs(todayTallsValid - yesterdayTallsValid)
+        const validCuts = totalValidCuts - lastReport.total_valid_cuts
+        const validCutsAina = lastReport.valid_cuts_aina + validCuts
 
-        // const yesterdayTotalHours = lastReport.total_hours
+        const recordedHours = Math.abs(totalHours - lastReport.total_hours)
+        const recordedHoursAina = lastReport.recorded_hours_aina + recordedHours
 
+        const validHours = totalValidHours - lastReport.total_valid_hours
+        const validHoursAina = lastReport.valid_hours_aina + validHours
 
-        const todayTotalHours = dateRanges.todayStat.total / 3600
-        const todayTotalValidHours = dateRanges.todayStat.valid / 3600
-        const yesterdayValidHours = dateRanges.yesterdayStat.valid / 3600
-
-        const yesterdayTotalHours = dateRanges.yesterdayStat.total / 3600
-        const recordedHours =  Math.abs(todayTotalHours - yesterdayTotalHours )
-        const validRecordedHours =  Math.abs(todayTotalValidHours - yesterdayValidHours)
 
         return {
-            date: DateTime.fromJSDate(dateRanges.yesterdayStat.date).toUTC().startOf('day').toISO(),
+            date: DateTime.fromJSDate(objRef.statsRef.date).toUTC().startOf('day').toISO(),
             createdAt: DateTime.utc().toISO(),
             cuts: cuts,
-            // accumulated_cuts_aina: cuts + lastReport.accumulated_cuts_aina,
-            // total_accumulated_cuts: cuts + lastReport.total_accumulated_cuts,
+            accumulated_cuts_aina: accumulatedCutsAina,
+            total_accumulated_cuts: totalAccumulatedCuts,
             valid_cuts: validCuts,
-            // valid_cuts_aina: validCuts + lastReport.valid_cuts_aina,
-            // total_valid_cuts: validCuts + lastReport.total_valid_cuts,
+            valid_cuts_aina: validCutsAina,
+            total_valid_cuts: totalValidCuts,
             recorded_hours: recordedHours,
-            // recorded_hours_aina: lastReport.recorded_hours_aina + recordedHours,
-            // total_hours: todayTotalHours,
-            valid_hours: validRecordedHours,
-            // valid_hours_aina: lastReport.valid_hours_aina + validRecordedHours,
-            // total_valid_hours: todayTotalValidHours,
-            // speakers: languageStats.speakers.current_count,
-            referenceStats: dateRanges,
-
+            recorded_hours_aina: recordedHoursAina,
+            total_hours: totalHours,
+            valid_hours: validHours,
+            valid_hours_aina: validHoursAina,
+            total_valid_hours: totalValidHours,
+            speakers: objRef.values.speakers,
         }
 
 
@@ -73,29 +66,70 @@ const generateReport = async (dateRanges) => {
 
 }
 
+const generateSingleSourceOfTruth = async (date, locale) => {
+    const today = DateTime.utc()
+
+    if (date >= today){
+        console.log("cannot calculate stats of today (or the future), they are not yet published")
+    }
+    else {
+
+        const refLanguageStats = await getLanguageStatNextDayByLocale(locale, date)
+
+        const refStats = await getStatByDateAscending(date)
+
+
+        if (refLanguageStats && refStats) {
+            const refFraction = refStats.total / refStats.valid
+
+            const valid = refLanguageStats.info?.seconds
+            const speakers = refLanguageStats.info.speakers.current_count || refLanguageStats.info.speakers
+            const total = valid * refFraction
+
+
+            return {
+                statsRef: refStats,
+                languageStatsRef: refLanguageStats,
+                values: {
+                    valid: valid,
+                    total: total,
+                    speakers: speakers,
+                }
+            }
+        }
+
+        throw new Error("Not enough data to generate single source of truth")
+
+        // console.log(JSON.stringify(obj, null, 2))
+
+    }
+
+}
+
+
 const generate_reports = async () => {
 
 
-    // let reports = [{
-    //     "date": "29/03/2022",
-    //     "cuts": 3774,
-    //     "accumulated_cuts_aina": 637710,
-    //     "total_accumulated_cuts": 1521018,
-    //     "valid_cuts": 1710,
-    //     "valid_cuts_aina": 152688,
-    //     "total_valid_cuts": 897641,
-    //     "recorded_hours": 7,
-    //     "recorded_hours_aina": 904,
-    //     "total_hours": 1940,
-    //     "valid_hours": 2,
-    //     "valid_hours_aina": 229,
-    //     "total_valid_hours": 1145,
-    //     "speakers": 25412
-    // }]
+    let reports = [
+        {dailyReport: {
+            "date": "25/02/2022",
+            "cuts": 20648,
+            "accumulated_cuts_aina": 314635,
+            "total_accumulated_cuts": 1197943,
+            "valid_cuts": 4426,
+            "valid_cuts_aina": 71891,
+            "total_valid_cuts": 816844,
+            "recorded_hours": 26,
+            "recorded_hours_aina": 494,
+            "total_hours": 1530,
+            "valid_hours": 5,
+            "valid_hours_aina": 127,
+            "total_valid_hours": 1043,
+            "speakers": 20244}
+        }
+    ]
 
-    let reports = []
-
-    const startDate = "2022-03-31T00:00:00.000+00:00";
+    const startDate = "2022-02-26T00:00:00.000+00:00";
     const endDate = "2022-04-05T00:00:00.000+00:00";
     // loop from start date to end date
 
@@ -106,26 +140,18 @@ const generate_reports = async () => {
     for (let i = startDateTime; i <= endDateTime; i = i.plus({days: 1})) {
         console.log(i.toISO())
 
-        const today = i.toUTC();
-        const yesterday = i.plus({days: -1}).toUTC();
 
-        const dateRanges = {
-            yesterday: createStartEndOfDayUtcDateRange(yesterday),
-            today: createStartEndOfDayUtcDateRange(today)
-        }
+        const singleSourceOfTruth = await generateSingleSourceOfTruth(i, 'ca')
+        const report = await generateReport(singleSourceOfTruth, reports[reports.length - 1].dailyReport)
 
-        const list = await getTwentyFourHours(dateRanges)
+        reports.push({dailyReport: report, ref: singleSourceOfTruth})
 
-        if (list) {
-            let report = {}
-            const dateRangesToObject = convertArrayToObject(list)
-
-            report = await generateReport(dateRangesToObject)
-            reports.push(report)
-
-        }
 
     }
+
+    await fs.promises.writeFile('./reports.json', JSON.stringify(reports, null, 4))
+
+    reports.shift()
 
     const loadDoc = await loadDocument({id: sheets.daily_report_id})
 
@@ -133,34 +159,26 @@ const generate_reports = async () => {
 
        const reportRows = reports.map(report => {
            return {
-               "Data": DateTime.fromISO(report.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
-               "#Talls": roundHalfDown(report.cuts),
-               "#Talls acumulats AINA": roundHalfDown(report.accumulated_cuts_aina),
-               "#Talls acumulats TOTALS": roundHalfDown(report.total_accumulated_cuts),
-               "#Talls validats": roundHalfDown(report.valid_cuts),
-               "#Talls validats AINA": roundHalfDown(report.valid_cuts_aina),
-               "#Talls validats TOTALS": roundHalfDown(report.total_valid_cuts),
-               "#Hores gravades": roundHalfDown(report.recorded_hours),
-               "#Hores gravades AINA": roundHalfDown(report.recorded_hours_aina),
-               "#Hores TOTALS": roundHalfDown(report.total_hours),
-               "#Hores validades": roundHalfDown(report.valid_hours),
-               "#Hores validades AINA": roundHalfDown(report.valid_hours_aina),
-               "#Hores validades TOTALS": roundHalfDown(report.total_valid_hours),
-               "#Locutors": report.speakers
+               "Data": DateTime.fromISO(report.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
+               "#Talls": roundHalfDown(report.dailyReport.cuts),
+               "#Talls acumulats AINA": roundHalfDown(report.dailyReport.accumulated_cuts_aina),
+               "#Talls acumulats TOTALS": roundHalfDown(report.dailyReport.total_accumulated_cuts),
+               "#Talls validats": roundHalfDown(report.dailyReport.valid_cuts),
+               "#Talls validats AINA": roundHalfDown(report.dailyReport.valid_cuts_aina),
+               "#Talls validats TOTALS": roundHalfDown(report.dailyReport.total_valid_cuts),
+               "#Hores gravades": roundHalfDown(report.dailyReport.recorded_hours),
+               "#Hores gravades AINA": roundHalfDown(report.dailyReport.recorded_hours_aina),
+               "#Hores TOTALS": roundHalfDown(report.dailyReport.total_hours),
+               "#Hores validades": roundHalfDown(report.dailyReport.valid_hours),
+               "#Hores validades AINA": roundHalfDown(report.dailyReport.valid_hours_aina),
+               "#Hores validades TOTALS": roundHalfDown(report.dailyReport.total_valid_hours),
+               "#Locutors": report.dailyReport.speakers
            }
        })
 
-        await addElements({doc: loadDoc, sheetName: 'Report Test', headersRowIndex: 2, rows: reportRows})
-
+        await addElements({doc: loadDoc, sheetName: 'Report Test Complete', headersRowIndex: 2, rows: reportRows})
 
     }
-
-
-
-
-    await fs.promises.writeFile('./reports.json', JSON.stringify(reports, null, 2))
-    // console.log( DateTime.fromISO(startDate).toUTC().toISO() );
-
 
 }
 

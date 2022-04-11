@@ -48,6 +48,12 @@ const getYesterdayStats = async ({start: startOfDayIsoDate, end: endOfDateIsoDat
 }
 
 
+const getStatByDateAscending = async (date) => {
+
+  return Stat.findOne({date: {$gte: date}}).sort({date: 1})
+}
+
+
 const getStatsBetweenDateRange = async (utcDateRange) => {
 
   return Stat.find({date: {
@@ -83,6 +89,7 @@ const getTwentyFourHours = async (utcDateRange) => {
 
 module.exports = {
   addStats,
+  getStatByDateAscending,
   getYesterdayStats,
   getStatsBetweenDateRange,
   getTwentyFourHours,
