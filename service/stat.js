@@ -95,7 +95,7 @@ const getTwentyFourHours = async (utcDateRange) => {
 
 module.exports = {
   addStats,
-  getStatByDateAscending,
+  getStatByDayLatest,
   getYesterdayStats,
   getStatsBetweenDateRange,
   getTwentyFourHours,
