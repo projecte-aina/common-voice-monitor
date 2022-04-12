@@ -54,6 +54,12 @@ const getStatByDateAscending = async (date) => {
 }
 
 
+const getStatByDayLatest = async (date) => {
+
+  return Stat.findOne({date: {$gte: date, $lte: date.plus({days: 1})}}).sort({date: -1})
+}
+
+
 const getStatsBetweenDateRange = async (utcDateRange) => {
 
   return Stat.find({date: {
