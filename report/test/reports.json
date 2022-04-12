@@ -20,16 +20,16 @@
     {
         "dailyReport": {
             "date": "2022-02-26T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:36.861Z",
-            "cuts": 5852.436527863145,
-            "accumulated_cuts_aina": 320487.43652786314,
-            "total_accumulated_cuts": 1203795.4365278631,
+            "createdAt": "2022-04-12T13:29:14.673Z",
+            "cuts": 14981.398572756443,
+            "accumulated_cuts_aina": 329616.39857275644,
+            "total_accumulated_cuts": 1212924.3985727564,
             "valid_cuts": 2943.826086956542,
             "valid_cuts_aina": 74834.82608695654,
             "total_valid_cuts": 819787.8260869565,
-            "recorded_hours": 8.183057785602841,
-            "recorded_hours_aina": 502.18305778560284,
-            "total_hours": 1538.1830577856028,
+            "recorded_hours": 19.84784262074413,
+            "recorded_hours_aina": 513.8478426207441,
+            "total_hours": 1549.8478426207441,
             "valid_hours": 4.506666666666661,
             "valid_hours_aina": 131.50666666666666,
             "total_valid_hours": 1047.5066666666667,
@@ -37,10 +37,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "621a0830be0bb56bcf495401",
-                "date": "2022-02-26T10:30:01.000Z",
-                "total": 5524578,
-                "valid": 3762252
+                "_id": "621ab0fabe0bb56bcf4956ab",
+                "date": "2022-02-26T23:00:13.000Z",
+                "total": 5580772,
+                "valid": 3771916
             },
             "languageStatsRef": {
                 "_id": "621abf00be0bb56bcf4956b1",
@@ -53,7 +53,7 @@
             },
             "values": {
                 "valid": 3771024,
-                "total": 5537459.00802817,
+                "total": 5579452.233434679,
                 "speakers": 20588
             }
         }
@@ -61,16 +61,16 @@
     {
         "dailyReport": {
             "date": "2022-02-27T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:36.940Z",
-            "cuts": 16012.557504205965,
-            "accumulated_cuts_aina": 336499.9940320691,
-            "total_accumulated_cuts": 1219807.994032069,
+            "createdAt": "2022-04-12T13:29:14.764Z",
+            "cuts": 13395.642716032453,
+            "accumulated_cuts_aina": 343012.0412887889,
+            "total_accumulated_cuts": 1226320.041288789,
             "valid_cuts": 3191.9565217391355,
             "valid_cuts_aina": 78026.78260869568,
             "total_valid_cuts": 822979.7826086957,
-            "recorded_hours": 20.460490144263076,
-            "recorded_hours_aina": 522.6435479298659,
-            "total_hours": 1558.643547929866,
+            "recorded_hours": 17.116654581597004,
+            "recorded_hours_aina": 530.9644972023411,
+            "total_hours": 1566.9644972023411,
             "valid_hours": 4.078611111111059,
             "valid_hours_aina": 135.58527777777772,
             "total_valid_hours": 1051.5852777777777,
@@ -78,10 +78,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "621b67c0be0bb56bcf495967",
-                "date": "2022-02-27T11:08:53.000Z",
-                "total": 5595748,
-                "valid": 3775338
+                "_id": "621c1080be0bb56bcf495bff",
+                "date": "2022-02-27T23:14:21.000Z",
+                "total": 5642756,
+                "valid": 3786837
             },
             "languageStatsRef": {
                 "_id": "621c1080be0bb56bcf495c03",
@@ -94,7 +94,7 @@
             },
             "values": {
                 "valid": 3785707,
-                "total": 5611116.772547517,
+                "total": 5641072.189928428,
                 "speakers": 20800
             }
         }
@@ -102,16 +102,16 @@
     {
         "dailyReport": {
             "date": "2022-02-28T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.025Z",
-            "cuts": 16755.19173326576,
-            "accumulated_cuts_aina": 353255.18576533487,
-            "total_accumulated_cuts": 1236563.1857653349,
+            "createdAt": "2022-04-12T13:29:14.854Z",
+            "cuts": 23208.293140812544,
+            "accumulated_cuts_aina": 366220.33442960144,
+            "total_accumulated_cuts": 1249528.3344296014,
             "valid_cuts": 3789.3478260870324,
             "valid_cuts_aina": 81816.13043478271,
             "total_valid_cuts": 826769.1304347827,
-            "recorded_hours": 21.4094116591732,
-            "recorded_hours_aina": 544.0529595890391,
-            "total_hours": 1580.0529595890391,
+            "recorded_hours": 29.65504123548294,
+            "recorded_hours_aina": 560.6195384378241,
+            "total_hours": 1596.619538437824,
             "valid_hours": 4.841944444444607,
             "valid_hours_aina": 140.42722222222233,
             "total_valid_hours": 1056.4272222222223,
@@ -119,10 +119,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "621cb941be0bb56bcf495ea7",
-                "date": "2022-02-28T11:28:56.000Z",
-                "total": 5669302,
-                "valid": 3790509
+                "_id": "621d6200be0bb56bcf49613d",
+                "date": "2022-02-28T23:30:01.000Z",
+                "total": 5750451,
+                "valid": 3804872
             },
             "languageStatsRef": {
                 "_id": "621d6200be0bb56bcf49613f",
@@ -135,7 +135,7 @@
             },
             "values": {
                 "valid": 3803138,
-                "total": 5688190.6545205405,
+                "total": 5747830.338376166,
                 "speakers": 21376
             }
         }
@@ -143,14 +143,14 @@
     {
         "dailyReport": {
             "date": "2022-03-01T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.110Z",
-            "cuts": 20786.05184623995,
+            "createdAt": "2022-04-12T13:29:14.975Z",
+            "cuts": 7820.903181973379,
             "accumulated_cuts_aina": 374041.2376115748,
             "total_accumulated_cuts": 1257349.2376115748,
             "valid_cuts": 3084.5652173912385,
             "valid_cuts_aina": 84900.69565217395,
             "total_valid_cuts": 829853.695652174,
-            "recorded_hours": 26.559955136862072,
+            "recorded_hours": 9.993376288077116,
             "recorded_hours_aina": 570.6129147259012,
             "total_hours": 1606.6129147259012,
             "valid_hours": 3.941388888888696,
@@ -184,16 +184,16 @@
     {
         "dailyReport": {
             "date": "2022-03-02T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.192Z",
-            "cuts": 11537.86883735354,
-            "accumulated_cuts_aina": 385579.10644892836,
-            "total_accumulated_cuts": 1268887.1064489284,
+            "createdAt": "2022-04-12T13:29:15.072Z",
+            "cuts": 14614.766084283823,
+            "accumulated_cuts_aina": 388656.00369585864,
+            "total_accumulated_cuts": 1271964.0036958586,
             "valid_cuts": 2653.2608695653034,
             "valid_cuts_aina": 87553.95652173925,
             "total_valid_cuts": 832506.9565217393,
-            "recorded_hours": 14.742832403284865,
-            "recorded_hours_aina": 585.355747129186,
-            "total_hours": 1621.355747129186,
+            "recorded_hours": 18.674423329918,
+            "recorded_hours_aina": 589.2873380558192,
+            "total_hours": 1625.2873380558192,
             "valid_hours": 3.390277777777783,
             "valid_hours_aina": 147.7588888888888,
             "total_valid_hours": 1063.7588888888888,
@@ -201,10 +201,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "621eb3a1be0bb56bcf4966a3",
-                "date": "2022-03-02T00:00:54.000Z",
-                "total": 5819752,
-                "valid": 3818294
+                "_id": "621f6a50be0bb56bcf496961",
+                "date": "2022-03-02T12:30:01.000Z",
+                "total": 5839308,
+                "valid": 3821857
             },
             "languageStatsRef": {
                 "_id": "62200500be0bb56bcf496bb5",
@@ -217,7 +217,7 @@
             },
             "values": {
                 "valid": 3829532,
-                "total": 5836880.68966507,
+                "total": 5851034.417000949,
                 "speakers": 21836
             }
         }
@@ -225,16 +225,16 @@
     {
         "dailyReport": {
             "date": "2022-03-03T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.273Z",
-            "cuts": 13718.588914224878,
-            "accumulated_cuts_aina": 399297.69536315324,
-            "total_accumulated_cuts": 1282605.6953631532,
+            "createdAt": "2022-04-12T13:29:15.159Z",
+            "cuts": 12490.466337788384,
+            "accumulated_cuts_aina": 401146.470033647,
+            "total_accumulated_cuts": 1284454.470033647,
             "valid_cuts": 2766.956521739019,
             "valid_cuts_aina": 90320.91304347827,
             "total_valid_cuts": 835273.9130434783,
-            "recorded_hours": 17.529308057065236,
-            "recorded_hours_aina": 602.8850551862513,
-            "total_hours": 1638.8850551862513,
+            "recorded_hours": 15.960040320507233,
+            "recorded_hours_aina": 605.2473783763264,
+            "total_hours": 1641.2473783763264,
             "valid_hours": 3.535555555555675,
             "valid_hours_aina": 151.29444444444448,
             "total_valid_hours": 1067.2944444444445,
@@ -242,10 +242,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "62201310be0bb56bcf496bf7",
-                "date": "2022-03-03T00:43:09.000Z",
-                "total": 5883046,
-                "valid": 3831228
+                "_id": "6220bbd1be0bb56bcf496e97",
+                "date": "2022-03-03T12:54:35.000Z",
+                "total": 5896496,
+                "valid": 3834460
             },
             "languageStatsRef": {
                 "_id": "62215680be0bb56bcf4970f3",
@@ -258,7 +258,7 @@
             },
             "values": {
                 "valid": 3842260,
-                "total": 5899986.198670505,
+                "total": 5908490.5621547755,
                 "speakers": 22022
             }
         }
@@ -266,16 +266,16 @@
     {
         "dailyReport": {
             "date": "2022-03-04T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.360Z",
-            "cuts": 11508.54288193048,
-            "accumulated_cuts_aina": 410806.2382450837,
-            "total_accumulated_cuts": 1294114.2382450837,
+            "createdAt": "2022-04-12T13:29:15.266Z",
+            "cuts": 11649.151065275772,
+            "accumulated_cuts_aina": 412795.6210989228,
+            "total_accumulated_cuts": 1296103.6210989228,
             "valid_cuts": 2104.13043478271,
             "valid_cuts_aina": 92425.04347826098,
             "total_valid_cuts": 837378.043478261,
-            "recorded_hours": 14.705360349133116,
-            "recorded_hours_aina": 617.5904155353844,
-            "total_hours": 1653.5904155353844,
+            "recorded_hours": 14.885026361185965,
+            "recorded_hours_aina": 620.1324047375124,
+            "total_hours": 1656.1324047375124,
             "valid_hours": 2.688611111111186,
             "valid_hours_aina": 153.98305555555567,
             "total_valid_hours": 1069.9830555555557,
@@ -283,10 +283,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "62216490be0bb56bcf49713f",
-                "date": "2022-03-04T01:00:11.000Z",
-                "total": 5941174,
-                "valid": 3844335
+                "_id": "62221b60be0bb56bcf497423",
+                "date": "2022-03-04T13:01:13.000Z",
+                "total": 5954124,
+                "valid": 3846801
             },
             "languageStatsRef": {
                 "_id": "6222a800be0bb56bcf497633",
@@ -299,7 +299,7 @@
             },
             "values": {
                 "valid": 3851939,
-                "total": 5952925.495927384,
+                "total": 5962076.657055045,
                 "speakers": 22159
             }
         }
@@ -307,16 +307,16 @@
     {
         "dailyReport": {
             "date": "2022-03-05T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.438Z",
-            "cuts": 10291.653841699706,
-            "accumulated_cuts_aina": 421097.8920867834,
-            "total_accumulated_cuts": 1304405.8920867834,
+            "createdAt": "2022-04-12T13:29:15.388Z",
+            "cuts": 10634.931259353645,
+            "accumulated_cuts_aina": 423430.55235827644,
+            "total_accumulated_cuts": 1306738.5523582764,
             "valid_cuts": 1728.913043478271,
             "valid_cuts_aina": 94153.95652173925,
             "total_valid_cuts": 839106.9565217393,
-            "recorded_hours": 13.150446575505157,
-            "recorded_hours_aina": 630.7408621108896,
-            "total_hours": 1666.7408621108896,
+            "recorded_hours": 13.589078831396364,
+            "recorded_hours_aina": 633.7214835689088,
+            "total_hours": 1669.7214835689088,
             "valid_hours": 2.2091666666665333,
             "valid_hours_aina": 156.1922222222222,
             "total_valid_hours": 1072.1922222222222,
@@ -324,10 +324,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6222c421be0bb56bcf4976cf",
-                "date": "2022-03-05T01:17:59.000Z",
-                "total": 5988117,
-                "valid": 3852076
+                "_id": "62236ce1be0bb56bcf49794d",
+                "date": "2022-03-05T13:37:22.000Z",
+                "total": 6003935,
+                "valid": 3855357
             },
             "languageStatsRef": {
                 "_id": "6223f981be0bb56bcf497ba7",
@@ -340,7 +340,7 @@
             },
             "values": {
                 "valid": 3859892,
-                "total": 6000267.103599203,
+                "total": 6010997.3408480715,
                 "speakers": 22261
             }
         }
@@ -348,16 +348,16 @@
     {
         "dailyReport": {
             "date": "2022-03-06T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.516Z",
-            "cuts": 9582.427774696145,
-            "accumulated_cuts_aina": 430680.31986147957,
-            "total_accumulated_cuts": 1313988.3198614796,
+            "createdAt": "2022-04-12T13:29:15.483Z",
+            "cuts": 9401.440140076214,
+            "accumulated_cuts_aina": 432831.99249835266,
+            "total_accumulated_cuts": 1316139.9924983527,
             "valid_cuts": 2418.4782608695095,
             "valid_cuts_aina": 96572.43478260876,
             "total_valid_cuts": 841525.4347826088,
-            "recorded_hours": 12.244213267667647,
-            "recorded_hours_aina": 642.9850753785572,
-            "total_hours": 1678.9850753785572,
+            "recorded_hours": 12.012951290097362,
+            "recorded_hours_aina": 645.7344348590061,
+            "total_hours": 1681.7344348590061,
             "valid_hours": 3.0902777777778283,
             "valid_hours_aina": 159.28250000000003,
             "total_valid_hours": 1075.2825,
@@ -365,10 +365,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "622415a0be0bb56bcf497bf5",
-                "date": "2022-03-06T01:58:01.000Z",
-                "total": 6027222,
-                "valid": 3860050
+                "_id": "6224cc70be0bb56bcf497ec5",
+                "date": "2022-03-06T14:01:18.000Z",
+                "total": 6042758,
+                "valid": 3863673
             },
             "languageStatsRef": {
                 "_id": "62254b00be0bb56bcf4980bf",
@@ -381,7 +381,7 @@
             },
             "values": {
                 "valid": 3871017,
-                "total": 6044346.271362806,
+                "total": 6054243.965492422,
                 "speakers": 22491
             }
         }
@@ -389,16 +389,16 @@
     {
         "dailyReport": {
             "date": "2022-03-07T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.598Z",
-            "cuts": 11830.942495740252,
-            "accumulated_cuts_aina": 442511.2623572198,
-            "total_accumulated_cuts": 1325819.2623572198,
+            "createdAt": "2022-04-12T13:29:15.576Z",
+            "cuts": 12541.931059286697,
+            "accumulated_cuts_aina": 445373.92355763935,
+            "total_accumulated_cuts": 1328681.9235576394,
             "valid_cuts": 2691.086956521729,
             "valid_cuts_aina": 99263.52173913049,
             "total_valid_cuts": 844216.5217391305,
-            "recorded_hours": 15.117315411223444,
-            "recorded_hours_aina": 658.1023907897807,
-            "total_hours": 1694.1023907897807,
+            "recorded_hours": 16.02580079797758,
+            "recorded_hours_aina": 661.7602356569837,
+            "total_hours": 1697.7602356569837,
             "valid_hours": 3.438611111111186,
             "valid_hours_aina": 162.7211111111112,
             "total_valid_hours": 1078.7211111111112,
@@ -406,10 +406,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "62257530be0bb56bcf49816b",
-                "date": "2022-03-07T02:58:02.000Z",
-                "total": 6080983,
-                "valid": 3872071
+                "_id": "62261df0be0bb56bcf498409",
+                "date": "2022-03-07T15:00:00.000Z",
+                "total": 6102064,
+                "valid": 3877123
             },
             "languageStatsRef": {
                 "_id": "62269c807c89a5aeafed0b6f",
@@ -422,7 +422,7 @@
             },
             "values": {
                 "valid": 3883396,
-                "total": 6098768.606843211,
+                "total": 6111936.848365141,
                 "speakers": 22662
             }
         }
@@ -430,16 +430,16 @@
     {
         "dailyReport": {
             "date": "2022-03-08T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.675Z",
-            "cuts": 11496.51940643345,
-            "accumulated_cuts_aina": 454007.7817636533,
-            "total_accumulated_cuts": 1337315.7817636533,
+            "createdAt": "2022-04-12T13:29:15.664Z",
+            "cuts": 11938.828842733521,
+            "accumulated_cuts_aina": 457312.7524003729,
+            "total_accumulated_cuts": 1340620.7524003729,
             "valid_cuts": 2802.173913043458,
             "valid_cuts_aina": 102065.69565217395,
             "total_valid_cuts": 847018.695652174,
-            "recorded_hours": 14.689997019331713,
-            "recorded_hours_aina": 672.7923878091124,
-            "total_hours": 1708.7923878091124,
+            "recorded_hours": 15.25517018793721,
+            "recorded_hours_aina": 677.0154058449209,
+            "total_hours": 1713.015405844921,
             "valid_hours": 3.58055555555552,
             "valid_hours_aina": 166.30166666666673,
             "total_valid_hours": 1082.3016666666667,
@@ -447,10 +447,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6226d4c07c89a5aeafed0d25",
-                "date": "2022-03-08T03:01:19.000Z",
-                "total": 6132228,
-                "valid": 3883983
+                "_id": "62277d807c89a5aeafed1183",
+                "date": "2022-03-08T15:46:13.000Z",
+                "total": 6156308,
+                "valid": 3889622
             },
             "languageStatsRef": {
                 "_id": "6227ee007c89a5aeafed146f",
@@ -463,7 +463,7 @@
             },
             "values": {
                 "valid": 3896286,
-                "total": 6151652.5961128045,
+                "total": 6166855.461041715,
                 "speakers": 22846
             }
         }
@@ -471,16 +471,16 @@
     {
         "dailyReport": {
             "date": "2022-03-09T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.752Z",
-            "cuts": 11241.081759397872,
-            "accumulated_cuts_aina": 465248.86352305114,
-            "total_accumulated_cuts": 1348556.8635230511,
+            "createdAt": "2022-04-12T13:29:15.747Z",
+            "cuts": 11216.521957035176,
+            "accumulated_cuts_aina": 468529.27435740805,
+            "total_accumulated_cuts": 1351837.274357408,
             "valid_cuts": 2739.565217391355,
             "valid_cuts_aina": 104805.2608695653,
             "total_valid_cuts": 849758.2608695653,
-            "recorded_hours": 14.36360447034167,
-            "recorded_hours_aina": 687.155992279454,
-            "total_hours": 1723.155992279454,
+            "recorded_hours": 14.33222250065569,
+            "recorded_hours_aina": 691.3476283455766,
+            "total_hours": 1727.3476283455766,
             "valid_hours": 3.500555555555593,
             "valid_hours_aina": 169.80222222222233,
             "total_valid_hours": 1085.8022222222223,
@@ -488,10 +488,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "622826407c89a5aeafed1605",
-                "date": "2022-03-09T03:58:01.000Z",
-                "total": 6183794,
-                "valid": 3896558
+                "_id": "6228dd107c89a5aeafed1ae3",
+                "date": "2022-03-09T16:01:22.000Z",
+                "total": 6206571,
+                "valid": 3901420
             },
             "languageStatsRef": {
                 "_id": "62293f807c89a5aeafed1da3",
@@ -504,7 +504,7 @@
             },
             "values": {
                 "valid": 3908888,
-                "total": 6203361.572206034,
+                "total": 6218451.462044076,
                 "speakers": 22982
             }
         }
@@ -512,16 +512,16 @@
     {
         "dailyReport": {
             "date": "2022-03-10T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:37.829Z",
-            "cuts": 10290.243545521516,
-            "accumulated_cuts_aina": 475539.10706857266,
-            "total_accumulated_cuts": 1358847.1070685727,
+            "createdAt": "2022-04-12T13:29:15.840Z",
+            "cuts": 11329.17848441191,
+            "accumulated_cuts_aina": 479858.45284181996,
+            "total_accumulated_cuts": 1363166.45284182,
             "valid_cuts": 2631.086956521729,
             "valid_cuts_aina": 107436.34782608703,
             "total_valid_cuts": 852389.347826087,
-            "recorded_hours": 13.148644530388765,
-            "recorded_hours_aina": 700.3046368098428,
-            "total_hours": 1736.3046368098428,
+            "recorded_hours": 14.476172507859928,
+            "recorded_hours_aina": 705.8238008534365,
+            "total_hours": 1741.8238008534365,
             "valid_hours": 3.3619444444443616,
             "valid_hours_aina": 173.1641666666667,
             "total_valid_hours": 1089.1641666666667,
@@ -529,10 +529,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "622985d07c89a5aeafed1f63",
-                "date": "2022-03-10T04:58:01.000Z",
-                "total": 6231715,
-                "valid": 3909084
+                "_id": "622a2e997c89a5aeafed2421",
+                "date": "2022-03-10T17:00:11.000Z",
+                "total": 6261602,
+                "valid": 3915386
             },
             "languageStatsRef": {
                 "_id": "622a91007c89a5aeafed269f",
@@ -545,7 +545,7 @@
             },
             "values": {
                 "valid": 3920991,
-                "total": 6250696.692515434,
+                "total": 6270565.683072371,
                 "speakers": 23124
             }
         }
@@ -553,16 +553,16 @@
     {
         "dailyReport": {
             "date": "2022-03-11T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:38.193Z",
-            "cuts": 10196.567682441091,
-            "accumulated_cuts_aina": 485735.67475101375,
-            "total_accumulated_cuts": 1369043.6747510138,
+            "createdAt": "2022-04-12T13:29:15.930Z",
+            "cuts": 10602.463701299625,
+            "accumulated_cuts_aina": 490460.9165431196,
+            "total_accumulated_cuts": 1373768.9165431196,
             "valid_cuts": 2087.826086956542,
             "valid_cuts_aina": 109524.17391304357,
             "total_valid_cuts": 854477.1739130436,
-            "recorded_hours": 13.028947594230203,
-            "recorded_hours_aina": 713.333584404073,
-            "total_hours": 1749.333584404073,
+            "recorded_hours": 13.547592507215995,
+            "recorded_hours_aina": 719.3713933606525,
+            "total_hours": 1755.3713933606525,
             "valid_hours": 2.667777777777701,
             "valid_hours_aina": 175.8319444444444,
             "total_valid_hours": 1091.8319444444444,
@@ -570,10 +570,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "622ae5607c89a5aeafed28e5",
-                "date": "2022-03-11T05:58:01.000Z",
-                "total": 6282380,
-                "valid": 3921095
+                "_id": "622b9c307c89a5aeafed2dcd",
+                "date": "2022-03-11T18:01:26.000Z",
+                "total": 6313136,
+                "valid": 3926738
             },
             "languageStatsRef": {
                 "_id": "622be2827c89a5aeafed2fa5",
@@ -586,7 +586,7 @@
             },
             "values": {
                 "valid": 3930595,
-                "total": 6297600.903854663,
+                "total": 6319337.016098349,
                 "speakers": 23332
             }
         }
@@ -594,16 +594,16 @@
     {
         "dailyReport": {
             "date": "2022-03-12T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:38.340Z",
-            "cuts": 11057.556897919858,
-            "accumulated_cuts_aina": 496793.2316489336,
-            "total_accumulated_cuts": 1380101.2316489336,
+            "createdAt": "2022-04-12T13:29:16.017Z",
+            "cuts": 11515.123163518729,
+            "accumulated_cuts_aina": 501976.0397066383,
+            "total_accumulated_cuts": 1385284.0397066383,
             "valid_cuts": 2370,
             "valid_cuts_aina": 111894.17391304357,
             "total_valid_cuts": 856847.1739130436,
-            "recorded_hours": 14.129100480675334,
-            "recorded_hours_aina": 727.4626848847483,
-            "total_hours": 1763.4626848847483,
+            "recorded_hours": 14.713768486718436,
+            "recorded_hours_aina": 734.085161847371,
+            "total_hours": 1770.085161847371,
             "valid_hours": 3.0283333333334213,
             "valid_hours_aina": 178.8602777777778,
             "total_valid_hours": 1094.8602777777778,
@@ -611,10 +611,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "622c44f17c89a5aeafed325b",
-                "date": "2022-03-12T06:35:14.000Z",
-                "total": 6331072,
-                "valid": 3930698
+                "_id": "622cedb07c89a5aeafed36c3",
+                "date": "2022-03-12T18:40:22.000Z",
+                "total": 6367977,
+                "valid": 3938819
             },
             "languageStatsRef": {
                 "_id": "622d34007c89a5aeafed38a3",
@@ -627,7 +627,7 @@
             },
             "values": {
                 "valid": 3941497,
-                "total": 6348465.665585094,
+                "total": 6372306.582650536,
                 "speakers": 23471
             }
         }
@@ -635,27 +635,27 @@
     {
         "dailyReport": {
             "date": "2022-03-13T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:38.580Z",
-            "cuts": 6647.654472711496,
-            "accumulated_cuts_aina": 503440.8861216451,
-            "total_accumulated_cuts": 1386748.886121645,
-            "valid_cuts": 0,
-            "valid_cuts_aina": 111894.17391304357,
-            "total_valid_cuts": 856847.1739130436,
-            "recorded_hours": 8.494225159575763,
-            "recorded_hours_aina": 735.9569100443241,
-            "total_hours": 1771.956910044324,
-            "valid_hours": 0,
-            "valid_hours_aina": 178.8602777777778,
-            "total_valid_hours": 1094.8602777777778,
+            "createdAt": "2022-04-12T13:29:16.107Z",
+            "cuts": 13863.351597709581,
+            "accumulated_cuts_aina": 515839.3913043479,
+            "total_accumulated_cuts": 1399147.391304348,
+            "valid_cuts": 2693.695652173832,
+            "valid_cuts_aina": 114587.8695652174,
+            "total_valid_cuts": 859540.8695652174,
+            "recorded_hours": 17.714282597073407,
+            "recorded_hours_aina": 751.7994444444444,
+            "total_hours": 1787.7994444444444,
+            "valid_hours": 3.441944444444516,
+            "valid_hours_aina": 182.30222222222233,
+            "total_valid_hours": 1098.3022222222223,
             "speakers": 23471
         },
         "ref": {
             "statsRef": {
-                "_id": "622d96707c89a5aeafed3b49",
-                "date": "2022-03-13T06:58:01.000Z",
-                "total": 6379846,
-                "valid": 3941992
+                "_id": "622e3f307c89a5aeafed3fab",
+                "date": "2022-03-13T19:00:11.000Z",
+                "total": 6436078,
+                "valid": 3953888
             },
             "languageStatsRef": {
                 "_id": "622e85807c89a5aeafed41c3",
@@ -668,7 +668,7 @@
             },
             "values": {
                 "valid": 3941497,
-                "total": 6379044.876159566,
+                "total": 6415908.121010509,
                 "speakers": 23471
             }
         }
@@ -676,27 +676,27 @@
     {
         "dailyReport": {
             "date": "2022-03-14T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:38.661Z",
-            "cuts": 16228.975940423552,
-            "accumulated_cuts_aina": 519669.86206206866,
-            "total_accumulated_cuts": 1402977.8620620687,
-            "valid_cuts": 3642.826086956542,
+            "createdAt": "2022-04-12T13:29:16.197Z",
+            "cuts": 7104.151397549314,
+            "accumulated_cuts_aina": 522943.5427018972,
+            "total_accumulated_cuts": 1406251.5427018972,
+            "valid_cuts": 949.1304347827099,
             "valid_cuts_aina": 115537.00000000012,
             "total_valid_cuts": 860490.0000000001,
-            "recorded_hours": 20.737024812763366,
-            "recorded_hours_aina": 756.6939348570875,
-            "total_hours": 1792.6939348570875,
-            "valid_hours": 4.65472222222229,
+            "recorded_hours": 9.077526785757527,
+            "recorded_hours_aina": 760.8769712302019,
+            "total_hours": 1796.876971230202,
+            "valid_hours": 1.2127777777777737,
             "valid_hours_aina": 183.5150000000001,
             "total_valid_hours": 1099.515,
             "speakers": 23920
         },
         "ref": {
             "statsRef": {
-                "_id": "622ef6007c89a5aeafed44bd",
-                "date": "2022-03-14T07:01:30.000Z",
-                "total": 6456046,
-                "valid": 3959694
+                "_id": "622f9ec07c89a5aeafed4941",
+                "date": "2022-03-14T19:10:27.000Z",
+                "total": 6485732,
+                "valid": 3968641
             },
             "languageStatsRef": {
                 "_id": "622fd7017c89a5aeafed4aa5",
@@ -709,7 +709,7 @@
             },
             "values": {
                 "valid": 3958254,
-                "total": 6453698.165485515,
+                "total": 6468757.096428727,
                 "speakers": 23920
             }
         }
@@ -717,16 +717,16 @@
     {
         "dailyReport": {
             "date": "2022-03-15T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:38.797Z",
-            "cuts": 9461.186582086608,
-            "accumulated_cuts_aina": 529131.0486441553,
-            "total_accumulated_cuts": 1412439.0486441553,
+            "createdAt": "2022-04-12T13:29:16.295Z",
+            "cuts": 10372.945193243911,
+            "accumulated_cuts_aina": 533316.4878951411,
+            "total_accumulated_cuts": 1416624.4878951411,
             "valid_cuts": 2948.695652173832,
             "valid_cuts_aina": 118485.69565217395,
             "total_valid_cuts": 863438.695652174,
-            "recorded_hours": 12.089293965999786,
-            "recorded_hours_aina": 768.7832288230873,
-            "total_hours": 1804.7832288230873,
+            "recorded_hours": 13.254318858033685,
+            "recorded_hours_aina": 774.1312900882356,
+            "total_hours": 1810.1312900882356,
             "valid_hours": 3.76777777777761,
             "valid_hours_aina": 187.2827777777777,
             "total_valid_hours": 1103.2827777777777,
@@ -734,10 +734,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "623047807c89a5aeafed4d95",
-                "date": "2022-03-15T07:58:01.000Z",
-                "total": 6498296,
-                "valid": 3972476
+                "_id": "6230fe507ce3095beaf07b9c",
+                "date": "2022-03-15T20:00:01.000Z",
+                "total": 6530991,
+                "valid": 3980667
             },
             "languageStatsRef": {
                 "_id": "623128807ce3095beaf07ca8",
@@ -750,7 +750,7 @@
             },
             "values": {
                 "valid": 3971818,
-                "total": 6497219.623763114,
+                "total": 6516472.644317648,
                 "speakers": 24109
             }
         }
@@ -758,16 +758,16 @@
     {
         "dailyReport": {
             "date": "2022-03-16T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:38.873Z",
-            "cuts": 9126.658659171546,
-            "accumulated_cuts_aina": 538257.7073033268,
-            "total_accumulated_cuts": 1421565.7073033268,
+            "createdAt": "2022-04-12T13:29:16.383Z",
+            "cuts": 9384.877429402666,
+            "accumulated_cuts_aina": 542701.3653245438,
+            "total_accumulated_cuts": 1426009.3653245438,
             "valid_cuts": 2664.1304347825935,
             "valid_cuts_aina": 121149.82608695654,
             "total_valid_cuts": 866102.8260869565,
-            "recorded_hours": 11.661841620052428,
-            "recorded_hours_aina": 780.4450704431397,
-            "total_hours": 1816.4450704431397,
+            "recorded_hours": 11.99178782645913,
+            "recorded_hours_aina": 786.1230779146947,
+            "total_hours": 1822.1230779146947,
             "valid_hours": 3.404166666666697,
             "valid_hours_aina": 190.6869444444444,
             "total_valid_hours": 1106.6869444444444,
@@ -775,10 +775,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6231d1424bcf9432a99932da",
-                "date": "2022-03-16T08:25:07.000Z",
-                "total": 6540709,
-                "valid": 3984991
+                "_id": "62324fd14bcf9432a9993664",
+                "date": "2022-03-16T20:28:46.000Z",
+                "total": 6577038,
+                "valid": 3994638
             },
             "languageStatsRef": {
                 "_id": "62327a004bcf9432a9993768",
@@ -791,7 +791,7 @@
             },
             "values": {
                 "valid": 3984073,
-                "total": 6539202.253595303,
+                "total": 6559643.080492901,
                 "speakers": 24226
             }
         }
@@ -799,16 +799,16 @@
     {
         "dailyReport": {
             "date": "2022-03-17T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.090Z",
-            "cuts": 9830.271552813705,
-            "accumulated_cuts_aina": 548087.9788561405,
-            "total_accumulated_cuts": 1431395.9788561405,
+            "createdAt": "2022-04-12T13:29:16.473Z",
+            "cuts": 9253.665708733257,
+            "accumulated_cuts_aina": 551955.031033277,
+            "total_accumulated_cuts": 1435263.031033277,
             "valid_cuts": 2929.7826086956775,
             "valid_cuts_aina": 124079.60869565222,
             "total_valid_cuts": 869032.6086956522,
-            "recorded_hours": 12.560902539706376,
-            "recorded_hours_aina": 793.0059729828461,
-            "total_hours": 1829.005972982846,
+            "recorded_hours": 11.82412840560346,
+            "recorded_hours_aina": 797.9472063202982,
+            "total_hours": 1833.9472063202982,
             "valid_hours": 3.7436111111112496,
             "valid_hours_aina": 194.43055555555566,
             "total_valid_hours": 1110.4305555555557,
@@ -816,10 +816,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6232f8904bcf9432a9993aca",
-                "date": "2022-03-17T08:50:43.000Z",
-                "total": 6586963,
-                "valid": 3999093
+                "_id": "6233a1504bcf9432a9993f22",
+                "date": "2022-03-17T20:52:05.000Z",
+                "total": 6616420,
+                "valid": 4006154
             },
             "languageStatsRef": {
                 "_id": "6233cb814bcf9432a9994030",
@@ -832,7 +832,7 @@
             },
             "values": {
                 "valid": 3997550,
-                "total": 6584421.502738246,
+                "total": 6602209.942753074,
                 "speakers": 24326
             }
         }
@@ -840,16 +840,16 @@
     {
         "dailyReport": {
             "date": "2022-03-18T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.271Z",
-            "cuts": 8691.305658417055,
-            "accumulated_cuts_aina": 556779.2845145576,
-            "total_accumulated_cuts": 1440087.2845145576,
+            "createdAt": "2022-04-12T13:29:16.558Z",
+            "cuts": 8284.165769340238,
+            "accumulated_cuts_aina": 560239.1968026173,
+            "total_accumulated_cuts": 1443547.1968026173,
             "valid_cuts": 2529.3478260870324,
             "valid_cuts_aina": 126608.95652173925,
             "total_valid_cuts": 871561.9565217393,
-            "recorded_hours": 11.105557230199565,
-            "recorded_hours_aina": 804.1115302130456,
-            "total_hours": 1840.1115302130456,
+            "recorded_hours": 10.585322927490552,
+            "recorded_hours_aina": 808.5325292477887,
+            "total_hours": 1844.5325292477887,
             "valid_hours": 3.2319444444442524,
             "valid_hours_aina": 197.6624999999999,
             "total_valid_hours": 1113.6625,
@@ -857,10 +857,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "62344a114bcf9432a99943a0",
-                "date": "2022-03-18T08:58:02.000Z",
-                "total": 6625649,
-                "valid": 4009940
+                "_id": "623500e04bcf9432a9994884",
+                "date": "2022-03-18T21:00:06.000Z",
+                "total": 6655477,
+                "valid": 4018338
             },
             "languageStatsRef": {
                 "_id": "62351d004bcf9432a9994966",
@@ -873,7 +873,7 @@
             },
             "values": {
                 "valid": 4009185,
-                "total": 6624401.508766964,
+                "total": 6640317.105292039,
                 "speakers": 24408
             }
         }
@@ -881,16 +881,16 @@
     {
         "dailyReport": {
             "date": "2022-03-19T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.349Z",
-            "cuts": 8078.102873274591,
-            "accumulated_cuts_aina": 564857.3873878322,
-            "total_accumulated_cuts": 1448165.3873878322,
+            "createdAt": "2022-04-12T13:29:16.646Z",
+            "cuts": 6710.715555850882,
+            "accumulated_cuts_aina": 566949.9123584682,
+            "total_accumulated_cuts": 1450257.9123584682,
             "valid_cuts": 2420.6521739129676,
             "valid_cuts_aina": 129029.60869565222,
             "total_valid_cuts": 873982.6086956522,
-            "recorded_hours": 10.322020338073116,
-            "recorded_hours_aina": 814.4335505511187,
-            "total_hours": 1850.4335505511187,
+            "recorded_hours": 8.574803210253776,
+            "recorded_hours_aina": 817.1073324580425,
+            "total_hours": 1853.1073324580425,
             "valid_hours": 3.0930555555555657,
             "valid_hours_aina": 200.75555555555547,
             "total_valid_hours": 1116.7555555555555,
@@ -898,10 +898,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6235a9a04bcf9432a9994d02",
-                "date": "2022-03-19T09:20:48.000Z",
-                "total": 6662777,
-                "valid": 4021054
+                "_id": "623652604bcf9432a99951a2",
+                "date": "2022-03-19T21:58:01.000Z",
+                "total": 6682870,
+                "valid": 4027361
             },
             "languageStatsRef": {
                 "_id": "62366e804bcf9432a9995230",
@@ -914,7 +914,7 @@
             },
             "values": {
                 "valid": 4020320,
-                "total": 6661560.7819840275,
+                "total": 6671186.396848953,
                 "speakers": 24468
             }
         }
@@ -922,16 +922,16 @@
     {
         "dailyReport": {
             "date": "2022-03-20T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.425Z",
-            "cuts": 5379.13530065096,
-            "accumulated_cuts_aina": 570236.5226884831,
-            "total_accumulated_cuts": 1453544.5226884831,
+            "createdAt": "2022-04-12T13:29:16.740Z",
+            "cuts": 6363.307551214006,
+            "accumulated_cuts_aina": 573313.2199096822,
+            "total_accumulated_cuts": 1456621.2199096822,
             "valid_cuts": 1788.0434782608645,
             "valid_cuts_aina": 130817.65217391308,
             "total_valid_cuts": 875770.6521739131,
-            "recorded_hours": 6.873339550831815,
-            "recorded_hours_aina": 821.3068901019506,
-            "total_hours": 1857.3068901019506,
+            "recorded_hours": 8.130892982106843,
+            "recorded_hours_aina": 825.2382254401493,
+            "total_hours": 1861.2382254401493,
             "valid_hours": 2.284722222222399,
             "valid_hours_aina": 203.04027777777787,
             "total_valid_hours": 1119.0402777777779,
@@ -939,10 +939,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "623709304bcf9432a9995668",
-                "date": "2022-03-20T10:00:08.000Z",
-                "total": 6687694,
-                "valid": 4029382
+                "_id": "6237b1f04bcf9432a9995afe",
+                "date": "2022-03-20T22:50:04.000Z",
+                "total": 6715500,
+                "valid": 4037589
             },
             "languageStatsRef": {
                 "_id": "6237c0014bcf9432a9995b88",
@@ -955,7 +955,7 @@
             },
             "values": {
                 "valid": 4028545,
-                "total": 6686304.804367022,
+                "total": 6700457.611584538,
                 "speakers": 24545
             }
         }
@@ -963,16 +963,16 @@
     {
         "dailyReport": {
             "date": "2022-03-21T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.503Z",
-            "cuts": 7525.263895242009,
-            "accumulated_cuts_aina": 577761.7865837251,
-            "total_accumulated_cuts": 1461069.7865837251,
+            "createdAt": "2022-04-12T13:29:16.827Z",
+            "cuts": 8395.70945637417,
+            "accumulated_cuts_aina": 581708.9293660563,
+            "total_accumulated_cuts": 1465016.9293660563,
             "valid_cuts": 2349.7826086956775,
             "valid_cuts_aina": 133167.43478260876,
             "total_valid_cuts": 878120.4347826088,
-            "recorded_hours": 9.615614977253472,
-            "recorded_hours_aina": 830.922505079204,
-            "total_hours": 1866.922505079204,
+            "recorded_hours": 10.727850972033593,
+            "recorded_hours_aina": 835.9660764121829,
+            "total_hours": 1871.966076412183,
             "valid_hours": 3.002499999999827,
             "valid_hours_aina": 206.0427777777777,
             "total_valid_hours": 1122.0427777777777,
@@ -980,10 +980,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "62385ab04bcf9432a9995f72",
-                "date": "2022-03-21T10:58:01.000Z",
-                "total": 6724094,
-                "valid": 4041261
+                "_id": "623911804bcf9432a9996438",
+                "date": "2022-03-21T23:00:10.000Z",
+                "total": 6754350,
+                "valid": 4048508
             },
             "languageStatsRef": {
                 "_id": "623911804bcf9432a9996452",
@@ -996,7 +996,7 @@
             },
             "values": {
                 "valid": 4039354,
-                "total": 6720921.018285135,
+                "total": 6739077.875083858,
                 "speakers": 24608
             }
         }
@@ -1004,16 +1004,16 @@
     {
         "dailyReport": {
             "date": "2022-03-22T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.579Z",
-            "cuts": 7964.921247038059,
-            "accumulated_cuts_aina": 585726.7078307632,
-            "total_accumulated_cuts": 1469034.7078307632,
+            "createdAt": "2022-04-12T13:29:16.916Z",
+            "cuts": 6916.223627270665,
+            "accumulated_cuts_aina": 588625.152993327,
+            "total_accumulated_cuts": 1471933.152993327,
             "valid_cuts": 2055.8695652174065,
             "valid_cuts_aina": 135223.30434782617,
             "total_valid_cuts": 880176.3043478262,
-            "recorded_hours": 10.177399371215415,
-            "recorded_hours_aina": 841.0999044504194,
-            "total_hours": 1877.0999044504194,
+            "recorded_hours": 8.837396857068143,
+            "recorded_hours_aina": 844.8034732692511,
+            "total_hours": 1880.803473269251,
             "valid_hours": 2.6269444444444616,
             "valid_hours_aina": 208.66972222222216,
             "total_valid_hours": 1124.6697222222222,
@@ -1021,10 +1021,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6239ba404bcf9432a99968d0",
-                "date": "2022-03-22T11:17:43.000Z",
-                "total": 6759928,
-                "valid": 4050230
+                "_id": "623a63004bcf9432a9996d2e",
+                "date": "2022-03-22T23:19:32.000Z",
+                "total": 6784557,
+                "valid": 4056982
             },
             "languageStatsRef": {
                 "_id": "623a63004bcf9432a9996d52",
@@ -1037,7 +1037,7 @@
             },
             "values": {
                 "valid": 4048811,
-                "total": 6757559.65602151,
+                "total": 6770892.503769304,
                 "speakers": 24715
             }
         }
@@ -1045,14 +1045,14 @@
     {
         "dailyReport": {
             "date": "2022-03-23T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.657Z",
-            "cuts": 6292.227045594249,
+            "createdAt": "2022-04-12T13:29:17.015Z",
+            "cuts": 3393.7818830304313,
             "accumulated_cuts_aina": 592018.9348763574,
             "total_accumulated_cuts": 1475326.9348763574,
             "valid_cuts": 1820.8695652174065,
             "valid_cuts_aina": 137044.17391304357,
             "total_valid_cuts": 881997.1739130436,
-            "recorded_hours": 8.040067891592798,
+            "recorded_hours": 4.336499072761171,
             "recorded_hours_aina": 849.1399723420122,
             "total_hours": 1885.1399723420122,
             "valid_hours": 2.3266666666668243,
@@ -1086,16 +1086,16 @@
     {
         "dailyReport": {
             "date": "2022-03-24T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.732Z",
-            "cuts": 6948.074411940528,
-            "accumulated_cuts_aina": 598967.009288298,
-            "total_accumulated_cuts": 1482275.009288298,
+            "createdAt": "2022-04-12T13:29:17.106Z",
+            "cuts": 8036.635769058019,
+            "accumulated_cuts_aina": 600055.5706454155,
+            "total_accumulated_cuts": 1483363.5706454155,
             "valid_cuts": 2789.347826086916,
             "valid_cuts_aina": 139833.5217391305,
             "total_valid_cuts": 884786.5217391305,
-            "recorded_hours": 8.878095081923902,
-            "recorded_hours_aina": 858.0180674239361,
-            "total_hours": 1894.0180674239361,
+            "recorded_hours": 10.269034593796277,
+            "recorded_hours_aina": 859.4090069358085,
+            "total_hours": 1895.4090069358085,
             "valid_hours": 3.5641666666665515,
             "valid_hours_aina": 214.56055555555554,
             "total_valid_hours": 1130.5605555555555,
@@ -1103,10 +1103,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "623bc2904bcf9432a9997692",
-                "date": "2022-03-24T00:00:15.000Z",
-                "total": 6817356,
-                "valid": 4069356
+                "_id": "623c6b504bcf9432a9997b56",
+                "date": "2022-03-24T12:04:53.000Z",
+                "total": 6826916,
+                "valid": 4072072
             },
             "languageStatsRef": {
                 "_id": "623d06004bcf9432a9997f28",
@@ -1119,7 +1119,7 @@
             },
             "values": {
                 "valid": 4070018,
-                "total": 6818465.04272617,
+                "total": 6823472.42496891,
                 "speakers": 24939
             }
         }
@@ -1127,16 +1127,16 @@
     {
         "dailyReport": {
             "date": "2022-03-25T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.809Z",
-            "cuts": 7310.769831879064,
-            "accumulated_cuts_aina": 606277.779120177,
-            "total_accumulated_cuts": 1489585.779120177,
+            "createdAt": "2022-04-12T13:29:17.203Z",
+            "cuts": 7881.517484038835,
+            "accumulated_cuts_aina": 607937.0881294543,
+            "total_accumulated_cuts": 1491245.0881294543,
             "valid_cuts": 2828.0434782608645,
             "valid_cuts_aina": 142661.56521739135,
             "total_valid_cuts": 887614.5652173914,
-            "recorded_hours": 9.341539229623322,
-            "recorded_hours_aina": 867.3596066535595,
-            "total_hours": 1903.3596066535595,
+            "recorded_hours": 10.070827896271794,
+            "recorded_hours_aina": 869.4798348320803,
+            "total_hours": 1905.4798348320803,
             "valid_hours": 3.6136111111111404,
             "valid_hours_aina": 218.17416666666668,
             "total_valid_hours": 1134.1741666666667,
@@ -1144,10 +1144,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "623d14104bcf9432a9997fbc",
-                "date": "2022-03-25T00:51:37.000Z",
-                "total": 6850893,
-                "valid": 4082311
+                "_id": "623dbcd14bcf9432a9998436",
+                "date": "2022-03-25T12:58:01.000Z",
+                "total": 6864109,
+                "valid": 4085635
             },
             "languageStatsRef": {
                 "_id": "623e57804bcf9432a999885c",
@@ -1160,7 +1160,7 @@
             },
             "values": {
                 "valid": 4083027,
-                "total": 6852094.583952814,
+                "total": 6859727.405395489,
                 "speakers": 25034
             }
         }
@@ -1168,16 +1168,16 @@
     {
         "dailyReport": {
             "date": "2022-03-26T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:39.942Z",
-            "cuts": 8160.376728160074,
-            "accumulated_cuts_aina": 614438.1558483371,
-            "total_accumulated_cuts": 1497746.155848337,
+            "createdAt": "2022-04-12T13:29:17.309Z",
+            "cuts": 7401.047780187102,
+            "accumulated_cuts_aina": 615338.1359096414,
+            "total_accumulated_cuts": 1498646.1359096414,
             "valid_cuts": 2260.2173913043225,
             "valid_cuts_aina": 144921.78260869568,
             "total_valid_cuts": 889874.7826086957,
-            "recorded_hours": 10.427148041537748,
-            "recorded_hours_aina": 877.7867546950972,
-            "total_hours": 1913.7867546950972,
+            "recorded_hours": 9.45689438579484,
+            "recorded_hours_aina": 878.9367292178752,
+            "total_hours": 1914.9367292178752,
             "valid_hours": 2.8880555555556384,
             "valid_hours_aina": 221.06222222222232,
             "total_valid_hours": 1137.0622222222223,
@@ -1185,10 +1185,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "623e73a04bcf9432a9998902",
-                "date": "2022-03-26T01:00:12.000Z",
-                "total": 6889634,
-                "valid": 4093425
+                "_id": "623f1c604bcf9432a9998d60",
+                "date": "2022-03-26T13:04:13.000Z",
+                "total": 6899254,
+                "valid": 4096679
             },
             "languageStatsRef": {
                 "_id": "623fa9004bcf9432a999911e",
@@ -1201,7 +1201,7 @@
             },
             "values": {
                 "valid": 4093424,
-                "total": 6889632.31690235,
+                "total": 6893772.22518435,
                 "speakers": 25162
             }
         }
@@ -1209,16 +1209,16 @@
     {
         "dailyReport": {
             "date": "2022-03-27T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.029Z",
-            "cuts": 5020.86176264612,
-            "accumulated_cuts_aina": 619459.0176109832,
-            "total_accumulated_cuts": 1502767.0176109832,
+            "createdAt": "2022-04-12T13:29:17.413Z",
+            "cuts": 5477.515725199832,
+            "accumulated_cuts_aina": 620815.6516348412,
+            "total_accumulated_cuts": 1504123.6516348412,
             "valid_cuts": 1763.0434782608645,
             "valid_cuts_aina": 146684.82608695654,
             "total_valid_cuts": 891637.8260869565,
-            "recorded_hours": 6.415545585603468,
-            "recorded_hours_aina": 884.2023002807007,
-            "total_hours": 1920.2023002807007,
+            "recorded_hours": 6.999047871088578,
+            "recorded_hours_aina": 885.9357770889637,
+            "total_hours": 1921.9357770889637,
             "valid_hours": 2.2527777777777374,
             "valid_hours_aina": 223.31500000000005,
             "total_valid_hours": 1139.315,
@@ -1226,10 +1226,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "623fc5204bcf9432a99991f8",
-                "date": "2022-03-27T01:58:01.000Z",
-                "total": 6912703,
-                "valid": 4101519
+                "_id": "62407bf04bcf9432a99996c8",
+                "date": "2022-03-27T14:00:21.000Z",
+                "total": 6923122,
+                "valid": 4103996
             },
             "languageStatsRef": {
                 "_id": "6240fa804bcf9432a9999a4a",
@@ -1242,7 +1242,7 @@
             },
             "values": {
                 "valid": 4101534,
-                "total": 6912728.2810105225,
+                "total": 6918968.79752027,
                 "speakers": 25250
             }
         }
@@ -1250,16 +1250,16 @@
     {
         "dailyReport": {
             "date": "2022-03-28T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.103Z",
-            "cuts": 5394.729386352934,
-            "accumulated_cuts_aina": 624853.7469973362,
-            "total_accumulated_cuts": 1508161.7469973362,
+            "createdAt": "2022-04-12T13:29:17.499Z",
+            "cuts": 5439.223164726747,
+            "accumulated_cuts_aina": 626254.874799568,
+            "total_accumulated_cuts": 1509562.874799568,
             "valid_cuts": 1489.13043478271,
             "valid_cuts_aina": 148173.95652173925,
             "total_valid_cuts": 893126.9565217393,
-            "recorded_hours": 6.893265327006475,
-            "recorded_hours_aina": 891.0955656077072,
-            "total_hours": 1927.0955656077072,
+            "recorded_hours": 6.950118488261751,
+            "recorded_hours_aina": 892.8858955772255,
+            "total_hours": 1928.8858955772255,
             "valid_hours": 1.9027777777778283,
             "valid_hours_aina": 225.21777777777788,
             "total_valid_hours": 1141.2177777777779,
@@ -1267,10 +1267,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "624124b04bcf9432a9999b48",
-                "date": "2022-03-28T02:58:01.000Z",
-                "total": 6937490,
-                "valid": 4108352
+                "_id": "6241db804bcf9432a999a02c",
+                "date": "2022-03-28T15:00:22.000Z",
+                "total": 6949288,
+                "valid": 4111519
             },
             "languageStatsRef": {
                 "_id": "62424c004bcf9432a999a32a",
@@ -1283,7 +1283,7 @@
             },
             "values": {
                 "valid": 4108384,
-                "total": 6937544.036187746,
+                "total": 6943989.224078012,
                 "speakers": 25347
             }
         }
@@ -1291,16 +1291,16 @@
     {
         "dailyReport": {
             "date": "2022-03-29T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.181Z",
-            "cuts": 5368.398735251278,
-            "accumulated_cuts_aina": 630222.1457325874,
-            "total_accumulated_cuts": 1513530.1457325874,
+            "createdAt": "2022-04-12T13:29:17.591Z",
+            "cuts": 5934.151755321072,
+            "accumulated_cuts_aina": 632189.026554889,
+            "total_accumulated_cuts": 1515497.026554889,
             "valid_cuts": 1770.2173913043225,
             "valid_cuts_aina": 149944.17391304357,
             "total_valid_cuts": 894897.1739130436,
-            "recorded_hours": 6.859620606154522,
-            "recorded_hours_aina": 897.9551862138617,
-            "total_hours": 1933.9551862138617,
+            "recorded_hours": 7.582527242910373,
+            "recorded_hours_aina": 900.4684228201359,
+            "total_hours": 1936.4684228201359,
             "valid_hours": 2.2619444444444525,
             "valid_hours_aina": 227.47972222222234,
             "total_valid_hours": 1143.4797222222223,
@@ -1308,10 +1308,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "624284404bcf9432a999a4bc",
-                "date": "2022-03-29T03:58:01.000Z",
-                "total": 6962330,
-                "valid": 4116581
+                "_id": "62433b104bcf9432a999a9aa",
+                "date": "2022-03-29T16:00:12.000Z",
+                "total": 6979327,
+                "valid": 4121275
             },
             "languageStatsRef": {
                 "_id": "62439d804bcf9432a999ac04",
@@ -1324,7 +1324,7 @@
             },
             "values": {
                 "valid": 4116527,
-                "total": 6962238.670369902,
+                "total": 6971286.322152489,
                 "speakers": 25412
             }
         }
@@ -1332,16 +1332,16 @@
     {
         "dailyReport": {
             "date": "2022-03-30T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.263Z",
-            "cuts": 7096.731072275434,
-            "accumulated_cuts_aina": 637318.8768048629,
-            "total_accumulated_cuts": 1520626.8768048629,
+            "createdAt": "2022-04-12T13:29:17.679Z",
+            "cuts": 5922.1452385426965,
+            "accumulated_cuts_aina": 638111.1717934317,
+            "total_accumulated_cuts": 1521419.1717934317,
             "valid_cuts": 2978.0434782608645,
             "valid_cuts_aina": 152922.21739130444,
             "total_valid_cuts": 897875.2173913044,
-            "recorded_hours": 9.06804525901839,
-            "recorded_hours_aina": 907.0232314728801,
-            "total_hours": 1943.02323147288,
+            "recorded_hours": 7.567185582582397,
+            "recorded_hours_aina": 908.0356084027183,
+            "total_hours": 1944.0356084027183,
             "valid_hours": 3.8052777777777465,
             "valid_hours_aina": 231.28500000000008,
             "total_valid_hours": 1147.285,
@@ -1349,10 +1349,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6243e3d14bcf9432a999ae32",
-                "date": "2022-03-30T04:58:01.000Z",
-                "total": 6986182,
-                "valid": 4125088
+                "_id": "62449aa14bcf9432a999b2f0",
+                "date": "2022-03-30T17:00:26.000Z",
+                "total": 6996688,
+                "valid": 4129140
             },
             "languageStatsRef": {
                 "_id": "6244ef004bcf9432a999b501",
@@ -1367,7 +1367,7 @@
             },
             "values": {
                 "valid": 4130226,
-                "total": 6994883.633302368,
+                "total": 6998528.190249786,
                 "speakers": 25562
             }
         }
@@ -1375,16 +1375,16 @@
     {
         "dailyReport": {
             "date": "2022-03-31T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.339Z",
-            "cuts": 3704.0372976558283,
-            "accumulated_cuts_aina": 641022.9141025187,
-            "total_accumulated_cuts": 1524330.9141025187,
+            "createdAt": "2022-04-12T13:29:17.773Z",
+            "cuts": 5041.4739027642645,
+            "accumulated_cuts_aina": 643152.645696196,
+            "total_accumulated_cuts": 1526460.645696196,
             "valid_cuts": 1523.260869565187,
             "valid_cuts_aina": 154445.47826086963,
             "total_valid_cuts": 899398.4782608696,
-            "recorded_hours": 4.732936547004783,
-            "recorded_hours_aina": 911.7561680198849,
-            "total_hours": 1947.7561680198849,
+            "recorded_hours": 6.441883320198713,
+            "recorded_hours_aina": 914.477491722917,
+            "total_hours": 1950.477491722917,
             "valid_hours": 1.946388888888805,
             "valid_hours_aina": 233.2313888888889,
             "total_valid_hours": 1149.231388888889,
@@ -1392,10 +1392,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "624543604bcf9432a999b74c",
-                "date": "2022-03-31T05:58:01.000Z",
-                "total": 7002082,
-                "valid": 4131427
+                "_id": "6245ec4c4bcf9432a999bc13",
+                "date": "2022-03-31T18:00:11.000Z",
+                "total": 7019942,
+                "valid": 4136186
             },
             "languageStatsRef": {
                 "_id": "624640804bcf9432a999be05",
@@ -1410,7 +1410,7 @@
             },
             "values": {
                 "valid": 4137233,
-                "total": 7011922.204871586,
+                "total": 7021718.970202501,
                 "speakers": 25670
             }
         }
@@ -1418,16 +1418,16 @@
     {
         "dailyReport": {
             "date": "2022-04-01T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.418Z",
-            "cuts": 6119.512964907568,
-            "accumulated_cuts_aina": 647142.4270674263,
-            "total_accumulated_cuts": 1530450.4270674263,
+            "createdAt": "2022-04-12T13:29:17.876Z",
+            "cuts": 6443.152373177698,
+            "accumulated_cuts_aina": 649595.7980693737,
+            "total_accumulated_cuts": 1532903.7980693737,
             "valid_cuts": 1777.3913043477805,
             "valid_cuts_aina": 156222.8695652174,
             "total_valid_cuts": 901175.8695652174,
-            "recorded_hours": 7.819377677381908,
-            "recorded_hours_aina": 919.5755456972668,
-            "total_hours": 1955.5755456972668,
+            "recorded_hours": 8.232916921282822,
+            "recorded_hours_aina": 922.7104086441998,
+            "total_hours": 1958.7104086441998,
             "valid_hours": 2.2711111111111677,
             "valid_hours_aina": 235.50250000000005,
             "total_valid_hours": 1151.5025,
@@ -1435,10 +1435,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6246a2f094df4fec5700ae3a",
-                "date": "2022-04-01T06:21:39.000Z",
-                "total": 7027683,
-                "valid": 4138114
+                "_id": "62474bb094df4fec5700b2e1",
+                "date": "2022-04-01T18:30:37.000Z",
+                "total": 7049204,
+                "valid": 4144143
             },
             "languageStatsRef": {
                 "_id": "6247920094df4fec5700b4c1",
@@ -1453,7 +1453,7 @@
             },
             "values": {
                 "valid": 4145409,
-                "total": 7040071.9645101605,
+                "total": 7051357.471119119,
                 "speakers": 25723
             }
         }
@@ -1461,16 +1461,16 @@
     {
         "dailyReport": {
             "date": "2022-04-02T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.497Z",
-            "cuts": 4897.838101751171,
-            "accumulated_cuts_aina": 652040.2651691774,
-            "total_accumulated_cuts": 1535348.2651691774,
+            "createdAt": "2022-04-12T13:29:18.009Z",
+            "cuts": 4104.926041656872,
+            "accumulated_cuts_aina": 653700.7241110306,
+            "total_accumulated_cuts": 1537008.7241110306,
             "valid_cuts": 1341.304347826168,
             "valid_cuts_aina": 157564.17391304357,
             "total_valid_cuts": 902517.1739130436,
-            "recorded_hours": 6.258348685570809,
-            "recorded_hours_aina": 925.8338943828376,
-            "total_hours": 1961.8338943828376,
+            "recorded_hours": 5.245183275450245,
+            "recorded_hours_aina": 927.95559191965,
+            "total_hours": 1963.95559191965,
             "valid_hours": 1.7138888888887323,
             "valid_hours_aina": 237.2163888888888,
             "total_valid_hours": 1153.2163888888888,
@@ -1478,10 +1478,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6247f47094df4fec5700b757",
-                "date": "2022-04-02T06:37:39.000Z",
-                "total": 7054962,
-                "valid": 4147088
+                "_id": "62489d3094df4fec5700bbf2",
+                "date": "2022-04-02T18:58:01.000Z",
+                "total": 7069547,
+                "valid": 4151172
             },
             "languageStatsRef": {
                 "_id": "6248e38094df4fec5700bdc4",
@@ -1496,7 +1496,7 @@
             },
             "values": {
                 "valid": 4151579,
-                "total": 7062602.019778215,
+                "total": 7070240.13091074,
                 "speakers": 25773
             }
         }
@@ -1504,16 +1504,16 @@
     {
         "dailyReport": {
             "date": "2022-04-03T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.572Z",
-            "cuts": 4443.192924632225,
-            "accumulated_cuts_aina": 656483.4580938097,
-            "total_accumulated_cuts": 1539791.4580938097,
+            "createdAt": "2022-04-12T13:29:18.128Z",
+            "cuts": 4829.048475243617,
+            "accumulated_cuts_aina": 658529.7725862742,
+            "total_accumulated_cuts": 1541837.7725862742,
             "valid_cuts": 1222.173913043458,
             "valid_cuts_aina": 158786.34782608703,
             "total_valid_cuts": 903739.347826087,
-            "recorded_hours": 5.677413181474776,
-            "recorded_hours_aina": 931.5113075643123,
-            "total_hours": 1967.5113075643123,
+            "recorded_hours": 6.170450829477886,
+            "recorded_hours_aina": 934.1260427491279,
+            "total_hours": 1970.126042749128,
             "valid_hours": 1.5616666666667243,
             "valid_hours_aina": 238.7780555555555,
             "total_valid_hours": 1154.7780555555555,
@@ -1521,10 +1521,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "6249540094df4fec5700c102",
-                "date": "2022-04-03T07:00:00.000Z",
-                "total": 7075147,
-                "valid": 4152568
+                "_id": "6249fcc094df4fec5700c59b",
+                "date": "2022-04-03T19:39:56.000Z",
+                "total": 7091454,
+                "valid": 4156615
             },
             "languageStatsRef": {
                 "_id": "624a35004bcf9432a999d8ed",
@@ -1539,7 +1539,7 @@
             },
             "values": {
                 "valid": 4157201,
-                "total": 7083040.707231524,
+                "total": 7092453.75389686,
                 "speakers": 25824
             }
         }
@@ -1547,16 +1547,16 @@
     {
         "dailyReport": {
             "date": "2022-04-04T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.650Z",
-            "cuts": 5529.066812980687,
-            "accumulated_cuts_aina": 662012.5249067903,
-            "total_accumulated_cuts": 1545320.5249067903,
+            "createdAt": "2022-04-12T13:29:18.219Z",
+            "cuts": 6463.036667628214,
+            "accumulated_cuts_aina": 664992.8092539024,
+            "total_accumulated_cuts": 1548300.8092539024,
             "valid_cuts": 2021.739130434813,
             "valid_cuts_aina": 160808.08695652185,
             "total_valid_cuts": 905761.0869565218,
-            "recorded_hours": 7.0649187054750655,
-            "recorded_hours_aina": 938.5762262697874,
-            "total_hours": 1974.5762262697874,
+            "recorded_hours": 8.258324630858397,
+            "recorded_hours_aina": 942.3843673799863,
+            "total_hours": 1978.3843673799863,
             "valid_hours": 2.583333333333485,
             "valid_hours_aina": 241.361388888889,
             "total_valid_hours": 1157.361388888889,
@@ -1564,10 +1564,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "624aa58094df4fec5700ca0b",
-                "date": "2022-04-04T07:45:23.000Z",
-                "total": 7097929,
-                "valid": 4160320
+                "_id": "624b4e4094df4fec5700cec6",
+                "date": "2022-04-04T19:58:01.000Z",
+                "total": 7121488,
+                "valid": 4166094
             },
             "languageStatsRef": {
                 "_id": "624b868094df4fec5700d066",
@@ -1582,7 +1582,7 @@
             },
             "values": {
                 "valid": 4166501,
-                "total": 7108474.414571235,
+                "total": 7122183.72256795,
                 "speakers": 25912
             }
         }
@@ -1590,16 +1590,16 @@
     {
         "dailyReport": {
             "date": "2022-04-05T00:00:00.000Z",
-            "createdAt": "2022-04-11T17:04:40.725Z",
-            "cuts": 5836.180310597643,
-            "accumulated_cuts_aina": 667848.705217388,
-            "total_accumulated_cuts": 1551156.705217388,
+            "createdAt": "2022-04-12T13:29:18.315Z",
+            "cuts": 5532.914610130014,
+            "accumulated_cuts_aina": 670525.7238640324,
+            "total_accumulated_cuts": 1553833.7238640324,
             "valid_cuts": 1565.8695652174065,
             "valid_cuts_aina": 162373.95652173925,
             "total_valid_cuts": 907326.9565217393,
-            "recorded_hours": 7.45734150798603,
-            "recorded_hours_aina": 946.0335677777734,
-            "total_hours": 1982.0335677777734,
+            "recorded_hours": 7.0698353351658625,
+            "recorded_hours_aina": 949.4542027151522,
+            "total_hours": 1985.4542027151522,
             "valid_hours": 2.0008333333332757,
             "valid_hours_aina": 243.36222222222227,
             "total_valid_hours": 1159.3622222222223,
@@ -1607,10 +1607,10 @@
         },
         "ref": {
             "statsRef": {
-                "_id": "624c051094df4fec5700d3ce",
-                "date": "2022-04-05T08:00:00.000Z",
-                "total": 7126007,
-                "valid": 4168256
+                "_id": "624cadd094df4fec5700d83b",
+                "date": "2022-04-05T20:05:13.000Z",
+                "total": 7146361,
+                "valid": 4172960
             },
             "languageStatsRef": {
                 "_id": "624cd80094df4fec5700d939",
@@ -1625,7 +1625,7 @@
             },
             "values": {
                 "valid": 4173704,
-                "total": 7135320.843999985,
+                "total": 7147635.129774548,
                 "speakers": 25995
             }
         }

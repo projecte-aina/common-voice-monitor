@@ -17,23 +17,27 @@ const roundHalfDown = (number) => {
 const generateReport = async (objRef, lastReport) => {
     console.log(`[${DateTime.now().toUTC()}] Generating daily report... `)
 
+
+    let totalAccumulatedCuts, totalValidCuts, totalHours, totalValidHours
     try {
 
-        if (objRef.values.valid / 4.6 != lastReport.total_valid_cuts){
+        if (objRef.values.valid / 4.6 === lastReport.total_valid_cuts){
 
-            const totalAccumulatedCuts  = statsRef.total / 4.6
-            const totalValidCuts = statsRef.valid / 4.6
+            totalAccumulatedCuts  = objRef.statsRef.total / 4.6
+            totalValidCuts = objRef.statsRef.valid / 4.6
 
-            const totalHours = statsRef.total / 3600
-            const totalValidHours = statsRef.valid / 3600
+            totalHours = objRef.statsRef.total / 3600
+            totalValidHours = objRef.statsRef.valid / 3600
+
         }
         else {
 
-            const totalAccumulatedCuts  = objRef.values.total / 4.6
-            const totalValidCuts = objRef.values.valid / 4.6
+            totalAccumulatedCuts  = objRef.values.total / 4.6
+            totalValidCuts = objRef.values.valid / 4.6
 
-            const totalHours = objRef.values.total / 3600
-            const totalValidHours = objRef.values.valid / 3600
+            totalHours = objRef.values.total / 3600
+            totalValidHours = objRef.values.valid / 3600
+
         }
 
         const cuts = totalAccumulatedCuts - lastReport.total_accumulated_cuts
@@ -111,8 +115,6 @@ const generateSingleSourceOfTruth = async (date, locale) => {
 
         throw new Error("Not enough data to generate single source of truth")
 
-        // console.log(JSON.stringify(obj, null, 2))
-
     }
 
 }
@@ -188,7 +190,6 @@ const generate_reports = async () => {
        })
 
         await addElements({doc: loadDoc, sheetName: 'Report Test Complete', headersRowIndex: 2, rows: reportRows})
-
     }
 
 }
