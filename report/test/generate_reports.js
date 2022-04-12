@@ -19,7 +19,7 @@ const generateReport = async (objRef, lastReport) => {
 
     try {
 
-        if (objRef.values.valid / 4.6 != lastReport.total_accumulated_cuts){
+        if (objRef.values.valid / 4.6 != lastReport.total_valid_cuts){
 
             const totalAccumulatedCuts  = statsRef.total / 4.6
             const totalValidCuts = statsRef.valid / 4.6
