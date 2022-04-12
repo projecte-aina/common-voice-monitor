@@ -19,11 +19,22 @@ const generateReport = async (objRef, lastReport) => {
 
     try {
 
-        const totalAccumulatedCuts  = objRef.values.total / 4.6
-        const totalValidCuts = objRef.values.valid / 4.6
+        if (objRef.values.valid / 4.6 != lastReport.total_valid_cuts){
 
-        const totalHours = objRef.values.total / 3600
-        const totalValidHours = objRef.values.valid / 3600
+            const totalAccumulatedCuts  = statsRef.total / 4.6
+            const totalValidCuts = statsRef.valid / 4.6
+
+            const totalHours = statsRef.total / 3600
+            const totalValidHours = statsRef.valid / 3600
+        }
+        else {
+
+            const totalAccumulatedCuts  = objRef.values.total / 4.6
+            const totalValidCuts = objRef.values.valid / 4.6
+
+            const totalHours = objRef.values.total / 3600
+            const totalValidHours = objRef.values.valid / 3600
+        }
 
         const cuts = totalAccumulatedCuts - lastReport.total_accumulated_cuts
         const accumulatedCutsAina = lastReport.accumulated_cuts_aina + cuts
