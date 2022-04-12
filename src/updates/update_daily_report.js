@@ -3,7 +3,7 @@ const {DateTime} = require('luxon')
 const {generateDailyReport} = require("../report/generate_daily_report");
 const {addDailyReport} = require("../service/daily_report");
 const {addElement, loadDocument} = require("../store/spread_sheet");
-const {sheets} = require("../config")
+const {sheets} = require("../../config")
 
 
 const roundHalfDown = (number) => {

@@ -14,5 +14,16 @@ module.exports = {
   mongo: {
     //uri: 'mongodb://localhost:27017/common-voice',
     uri: 'mongodb://129.151.225.145:49153/commonvoice_monitor'
+  },
+  environments: {
+    development: {
+      mongoUri: 'mongodb://localhost:27017/commonvoice_monitor_development',
+    },
+    integration: {
+      mongoUri: 'mongodb://129.151.225.145:49153/commonvoice_monitor',
+    },
+    production: {
+      mongoUri: 'mongodb://localhost:3002/commonvoice_monitor',
+    }
   }
 }

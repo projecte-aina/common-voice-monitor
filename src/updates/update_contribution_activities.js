@@ -3,7 +3,7 @@ const { addElements, loadDocument} = require('../store/spread_sheet')
 const { insertLog, insertError } = require('../utils/logger')
 const { addContributionActivities } = require('../service/contribution_activity')
 const { DateTime } = require('luxon')
-const {sheets} = require("../config");
+const {sheets} = require("../../config");
 
 
 const updateContributionActivities = async () => {

@@ -1,7 +1,7 @@
 const {DateTime} = require('luxon');
 const fs = require("fs");
 const {loadDocument, addElements} = require("../../store/spread_sheet");
-const {sheets} = require("../../config");
+const {sheets} = require("../../../config");
 const {generateSingleSourceOfTruth, generateReport} = require("../helpers");
 const {addDailyReport} = require("../../service/daily_report");
 

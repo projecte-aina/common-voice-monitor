@@ -3,7 +3,7 @@ const {insertLog, insertError} = require('../utils/logger')
 const {DateTime} = require('luxon')
 const {getClipsVotes} = require('../api/commonvoice')
 const {addClipVote} = require('../service/clip_votes')
-const {sheets} = require("../config");
+const {sheets} = require("../../config");
 
 
 const updateClipsVotes = async () => {

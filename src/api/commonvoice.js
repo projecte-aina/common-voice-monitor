@@ -1,4 +1,4 @@
-const { endpoints } = require('../config.js')
+const { endpoints } = require('../../config.js')
 const axios = require('axios')
 
 const getLanguageStats = () => new Promise((resolve, reject) => {

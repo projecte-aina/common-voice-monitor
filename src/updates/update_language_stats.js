@@ -3,7 +3,7 @@ const { DateTime } = require('luxon')
 const { addLanguageStat } = require('../service/language_stat')
 const { addElement, loadDocument} = require('../store/spread_sheet')
 const { insertLog, insertError } = require('../utils/logger')
-const {sheets} = require("../config");
+const {sheets} = require("../../config");
 
 const updateLanguageStats = async () => {
 
