@@ -1,5 +1,5 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet')
-const credentialsFile = require('../private-key.json')
+const credentialsFile = require('../../private-key.json')
 
 
 

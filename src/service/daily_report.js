@@ -41,6 +41,7 @@ const addDailyReport = async (report) => {
     try {
        inserted =  await dailyReport.save()
     } catch (error) {
+        console.log(error)
         await insertError(error, "On save daily report")
     }
 
@@ -54,7 +55,7 @@ const addDailyReport = async (report) => {
 
 const getLastReport = async () => {
     const report = await DailyReport.findOne({})
-        .sort({date: -1})
+        .sort({"dailyReport.date": -1})
 
     if (!report) {
         throw Error("Not report available")
