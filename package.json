@@ -1,11 +1,14 @@
 {
   "name": "commonvoice-monitor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fetch data from common voice and save it to a database for later analysis",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "start": "pm2 start ecosystem.config.js --env production",
+    "start:dev": "pm2 start ecosystem.config.js --env development",
+    "start:integration": "pm2 start ecosystem.config.js --env integration",
+    "start:production": "pm2 start ecosystem.config.js --env production"
   },
   "keywords": [],
   "author": "Paul Andrei Petrea",
@@ -17,5 +20,10 @@
     "google-spreadsheet": "^3.2.0",
     "luxon": "^2.3.0",
     "mongoose": "^6.2.7"
+  },
+  "engines": {
+    "node": ">=16.14.2",
+    "npm": ">=8.6.0",
+    "pm2": ">=5.2.0"
   }
 }
