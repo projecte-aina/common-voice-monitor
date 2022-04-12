@@ -1,5 +1,5 @@
 const {DateTime} = require('luxon');
-const {getStatByDateAscending} = require("../../service/stat");
+const {getStatByDayLatest} = require("../../service/stat");
 const {getLastReport} = require("../../service/daily_report");
 const {getLanguageStatNextDayByLocale
 } = require("../../service/language_stat");
@@ -76,7 +76,7 @@ const generateSingleSourceOfTruth = async (date, locale) => {
 
         const refLanguageStats = await getLanguageStatNextDayByLocale(locale, date)
 
-        const refStats = await getStatByDateAscending(date)
+        const refStats = await getStatByDayLatest(date)
 
 
         if (refLanguageStats && refStats) {
