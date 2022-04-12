@@ -1,15 +1,9 @@
-<h1 align="center">Welcome to commonvoice-monitor 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/node-%3E%3D16.14.2-blue.svg" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D8.6.0-blue.svg" />
-  <img src="https://img.shields.io/badge/pm2-%3E%3D5.2.0-blue.svg" />
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
-  </a>
-</p>
 
-> Fetch data from common voice and save it to a database for later analysis
+# commonvoice-monitor
+
+Fetch data from common voice and save it to a database for later analysis
+
+
 
 ## Prerequisites
 
@@ -17,36 +11,78 @@
 - npm >=8.6.0
 - pm2 >=5.2.0
 - mongodb
+- google spreadsheet credential file (service account) as private-key.json 
+## Installation
 
-## Install
+Install commonvoice-monitor
+ with npm
 
-```sh
-npm install pm2 -g
+```bash
+  npm install pm2 -g  
+  npm install
+```
+    
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/projecte-aina/common-voice-monitor
 ```
 
-```sh
-npm install
+Go to the project directory
+
+```bash
+  cd common-voice-monitor
 ```
 
-## Usage
+Install dependencies
 
-```sh
-npm run start
+```bash
+  npm install
 ```
 
-## Author
+Start the server
 
-👤 **Paul Andrei Petrea**
+```bash
+  npm run start
+```
 
-* Github: [@PaulNdrei](https://github.com/PaulNdrei)
 
-## 🤝 Contributing
+## Config file
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/projecte-aina/common-voice-monitor). 
+Setup mongo uri and google spreadsheet ids
+```javascript
+module.exports = {
+  endpoints: {
+    language_stats: "https://commonvoice.mozilla.org/api/v1/language_stats",
+    voices: "https://commonvoice.mozilla.org/api/v1/ca/clips/voices",
+    stats: "https://commonvoice.mozilla.org/api/v1/ca/clips/stats",
+    contribution_activity: "https://commonvoice.mozilla.org/api/v1/ca/contribution_activity?from=everyone",
+    clips_daily_count: "https://commonvoice.mozilla.org/api/v1/ca/clips/daily_count",
+    clips_daily_votes_count: "https://commonvoice.mozilla.org/api/v1/ca/clips/votes/daily_count"
+  },
+  sheets: {
+    daily_report_id: "10oHwwVgl7E70_dracWn-ncg36IUE0gTVRPPQ0UoWzcc",
+    multiple_id: "10oHwwVgl7E70_dracWn-ncg36IUE0gTVRPPQ0UoWzcc" ,
+  },
+  environments: {
+    development: {
+      mongoUri: 'mongodb://localhost:27017/commonvoice_monitor_development',
+    },
+    integration: {
+      mongoUri: 'mongodb://129.151.225.145:49153/commonvoice_monitor',
+    },
+    production: {
+      mongoUri: 'mongodb://localhost:3002/commonvoice_monitor',
+    }
+  }
+}
+```
+## Authors
 
-## Show your support
+- [@PaulNdrei](https://github.com/PaulNdrei)
+- [@gullabi](https://github.com/gullabi)
 
-Give a ⭐️ if this project helped you!
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+

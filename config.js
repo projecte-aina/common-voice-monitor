@@ -11,10 +11,6 @@ module.exports = {
     daily_report_id: "10oHwwVgl7E70_dracWn-ncg36IUE0gTVRPPQ0UoWzcc",
     multiple_id: "10oHwwVgl7E70_dracWn-ncg36IUE0gTVRPPQ0UoWzcc" ,
   },
-  mongo: {
-    //uri: 'mongodb://localhost:27017/common-voice',
-    uri: 'mongodb://129.151.225.145:49153/commonvoice_monitor'
-  },
   environments: {
     development: {
       mongoUri: 'mongodb://localhost:27017/commonvoice_monitor_development',
