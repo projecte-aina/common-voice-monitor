@@ -1,7 +1,7 @@
-const {DateTime} = require('luxon');
+const {DateTime, Interval} = require('luxon');
 const fs = require("fs");
 const {loadDocument, addElements} = require("../../store/spread_sheet");
-const {sheets} = require("../../../config");
+const {sheets, firstWeekDate} = require("../../../config");
 const {generateSingleSourceOfTruth, generateReport} = require("../helpers");
 const {addDailyReport} = require("../../service/daily_report");
 
@@ -68,6 +68,7 @@ const generate_reports = async () => {
 
        const reportRows = reports.map(report => {
            return {
+               "Setmana": Interval.fromDateTimes(DateTime.fromISO(firstWeekDate), DateTime.fromISO(report.dailyReport.date)).count('weeks'),
                "Data": DateTime.fromISO(report.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
                "#Talls": roundHalfDown(report.dailyReport.cuts),
                "#Talls acumulats AINA": roundHalfDown(report.dailyReport.accumulated_cuts_aina),

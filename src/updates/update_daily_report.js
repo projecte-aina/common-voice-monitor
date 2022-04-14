@@ -1,9 +1,9 @@
 const {insertLog, insertError} = require('../utils/logger')
-const {DateTime} = require('luxon')
+const {DateTime, Interval} = require('luxon')
 const {generateDailyReport} = require("../report/generate_daily_report");
 const {addDailyReport} = require("../service/daily_report");
 const {addElement, loadDocument} = require("../store/spread_sheet");
-const {sheets} = require("../../config")
+const {sheets, firstWeekDate} = require("../../config")
 
 
 const roundHalfDown = (number) => {
@@ -20,6 +20,7 @@ const updateDailyReport = async () => {
             const loadDoc = await loadDocument({id: sheets.daily_report_id})
 
             await addElement({doc: loadDoc, headersRowIndex: 2, sheetName: 'Report', obj: {
+                    "Setmana": Interval.fromDateTimes(DateTime.fromISO(firstWeekDate), DateTime.fromISO(report.dailyReport.date)).count('weeks'),
                     "Data": DateTime.fromJSDate(inserted.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
                     "#Talls": roundHalfDown(inserted.dailyReport.cuts),
                     "#Talls acumulats AINA": roundHalfDown(inserted.dailyReport.accumulated_cuts_aina),

@@ -11,6 +11,7 @@ module.exports = {
     daily_report_id: "10oHwwVgl7E70_dracWn-ncg36IUE0gTVRPPQ0UoWzcc",
     multiple_id: "10oHwwVgl7E70_dracWn-ncg36IUE0gTVRPPQ0UoWzcc" ,
   },
+  firstWeekDate: '2022-02-15T00:00:00.000Z',
   environments: {
     development: {
       mongoUri: 'mongodb://localhost:27017/commonvoice_monitor_development',
