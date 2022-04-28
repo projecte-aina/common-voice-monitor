@@ -43,15 +43,16 @@ const generateSingleSourceOfTruth = async (date, locale) => {
 
 const generateReport = async (objRef, lastReport) => {
     console.log(`[${DateTime.now().toUTC()}] Generating daily report... `)
-
-
+    
+    const seconds_per_cut = 5.592
+   
     let totalAccumulatedCuts, totalValidCuts, totalHours, totalValidHours
     try {
 
-        if (objRef.values.valid / 4.6 === lastReport.total_valid_cuts){
+        if (objRef.values.valid / seconds_per_cut === lastReport.total_valid_cuts){
 
-            totalAccumulatedCuts  = objRef.statsRef.total / 4.6
-            totalValidCuts = objRef.statsRef.valid / 4.6
+            totalAccumulatedCuts  = objRef.statsRef.total / seconds_per_cut
+            totalValidCuts = objRef.statsRef.valid / seconds_per_cut
 
             totalHours = objRef.statsRef.total / 3600
             totalValidHours = objRef.statsRef.valid / 3600
