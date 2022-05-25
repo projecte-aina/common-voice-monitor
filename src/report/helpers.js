@@ -20,7 +20,7 @@ const generateSingleSourceOfTruth = async (date, locale) => {
             const refFraction = refStats.total / refStats.valid
 
             const valid = refLanguageStats.info?.seconds
-            const speakers = refLanguageStats.info.speakers.current_count || refLanguageStats.info.speakers
+            const speakers = refLanguageStats.info.speakers.currentCount || refLanguageStats.info.speakers
             const total = valid * refFraction
 
 
@@ -43,9 +43,9 @@ const generateSingleSourceOfTruth = async (date, locale) => {
 
 const generateReport = async (objRef, lastReport) => {
     console.log(`[${DateTime.now().toUTC()}] Generating daily report... `)
-    
+
     const seconds_per_cut = 5.592
-   
+
     let totalAccumulatedCuts, totalValidCuts, totalHours, totalValidHours
     try {
 
