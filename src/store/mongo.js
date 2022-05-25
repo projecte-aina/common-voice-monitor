@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 
 require('dotenv').config()
 
-const uri = process.env.MONGO_URI
+const uri = process.env.MONGO_URI || "mongodb://129.151.225.145:49153/commonvoice_monitor"
 
 
 mongoose.connect(uri)
