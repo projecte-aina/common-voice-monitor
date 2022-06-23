@@ -41,7 +41,6 @@ const updateLanguageStats = async () => {
 
 }
 
-updateLanguageStats().then(r => console.log())
 module.exports = {
   updateLanguageStats
 }
