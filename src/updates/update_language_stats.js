@@ -1,9 +1,26 @@
+const EventEmitter = require('events');
 const { getLanguageStats } = require('../api/commonvoice')
 const { DateTime } = require('luxon')
 const { addLanguageStat } = require('../service/language_stat')
 const { addElement, loadDocument} = require('../store/spread_sheet')
 const { insertLog, insertError } = require('../utils/logger')
 const {sheets} = require("../../config");
+
+const eventEmitter = new EventEmitter();
+
+
+eventEmitter.on('add_language_stat_element_sheet', async (languageStats) => {
+
+    const element = languageStats['launched'].find(e => e.locale === 'ca')
+    const forSheet = { data: languageStats.date, 'hores gravades': element.recordedHours, 'hores valides': element.recordedHours, parlants: element.speakersCount, frases: element.sentencesCount.currentCount }
+
+    const newDoc = await loadDocument({id: sheets.multiple_id})
+
+    await addElement({doc: newDoc, sheetName: 'Total', obj: forSheet})
+    await insertLog(`Updated language stats inserted to google sheet document`)
+});
+
+
 
 const updateLanguageStats = async () => {
 
@@ -12,27 +29,19 @@ const updateLanguageStats = async () => {
 
     const languageStats = await getLanguageStats()
 
-    const isoDate = DateTime.utc().toISO()
-    const element = languageStats['launched'].find(e => e.locale === 'ca')
-    const forSheet = { data: isoDate, segons: element.seconds, parlants: element.speakers.current_count }
-
-    languageStats.date = isoDate
+    languageStats.date = DateTime.utc().toISO()
 
    await addLanguageStat(languageStats)
       .then(async _ => {
-
-        const newDoc = await loadDocument({id: sheets.multiple_id})
-
-        await addElement({doc: newDoc, sheetName: 'Total', obj: forSheet})
-        await insertLog(`Updated language stats inserted to google sheet document`)
-
+          eventEmitter.emit('add_language_stat_element_sheet', languageStats)
       })
   } catch (error) {
     await insertError({ error: error, date: DateTime.now().toISO(), operation: 'updateLanguageStats' })
-
   }
 
 }
+
+updateLanguageStats().then(r => console.log())
 module.exports = {
   updateLanguageStats
 }
