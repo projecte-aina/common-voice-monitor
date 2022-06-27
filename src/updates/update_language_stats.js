@@ -12,7 +12,7 @@ const eventEmitter = new EventEmitter();
 eventEmitter.on('add_language_stat_element_sheet', async (languageStats) => {
 
     const element = languageStats['launched'].find(e => e.locale === 'ca')
-    const forSheet = { data: languageStats.date, 'hores gravades': element.recordedHours, 'hores valides': element.recordedHours, parlants: element.speakersCount, frases: element.sentencesCount.currentCount }
+    const forSheet = { data: languageStats.date, 'hores gravades': element.recordedHours, 'hores valides': element.validatedHours, parlants: element.speakersCount, frases: element.sentencesCount.currentCount }
 
     const newDoc = await loadDocument({id: sheets.multiple_id})
 
