@@ -20,7 +20,7 @@ eventEmitter.on('add_language_stats_elements_sheet', async (languageStatsList) =
         return {
            data: item.date,
            'hores gravades': element.recordedHours,
-           'hores valides': element.recordedHours,
+           'hores valides': element.validatedHours,
            parlants: element.speakersCount,
            frases: element.sentencesCount.currentCount
        }
