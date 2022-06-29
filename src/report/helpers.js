@@ -11,17 +11,13 @@ const generateSingleSourceOfTruth = async (date, locale) => {
     }
     else {
 
-        const refLanguageStats = await getLanguageStatNextDayByLocale(locale, date)
-
         const refStats = await getStatByDayLatest(date)
 
+        if (refStats) {
 
-        if (refLanguageStats && refStats) {
-            const refFraction = refStats.total / refStats.valid
-
-            const valid = refLanguageStats.info?.seconds
+            const valid = refLanguageStats.info?.validHours * 3600
             const speakers = refLanguageStats.info.speakers.currentCount || refLanguageStats.info.speakers
-            const total = valid * refFraction
+            const total = refLanguageStats.info?.totalHours * 3600
 
 
             return {
