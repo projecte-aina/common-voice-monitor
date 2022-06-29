@@ -18,7 +18,7 @@ const { insertError } = require('./utils/logger')
 
     try {
 
-      const everyDayDailyReport = new Cron('0 2 * * *', {maxRuns: Infinity})
+      // const everyDayDailyReport = new Cron('0 2 * * *', {maxRuns: Infinity})
       const everyFiftyEightMinutes = new Cron('58 * * * *', {maxRuns: Infinity})
       const languageStatsScheduler = new Cron('0 0/2 * * *', {maxRuns: Infinity})
       const everyHourScheduler = new Cron('0 0/1 * * *', {maxRuns:Infinity})
@@ -36,9 +36,9 @@ const { insertError } = require('./utils/logger')
         await Promise.allSettled([updateVoices(), updateStats(), updateContributionActivities()])
       })
 
-      everyDayDailyReport.schedule(async () => {
-        await updateDailyReport()
-      })
+      // everyDayDailyReport.schedule(async () => {
+      //   await updateDailyReport()
+      // })
 
 
     } catch (error) {
