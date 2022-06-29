@@ -6,8 +6,7 @@ const addLanguageStat = async (stat) => {
 
     const lngStat = new LanguageStat({
       date: stat.date,
-      inProgress: stat.inProgress,
-      launched: stat.launched
+      languages: stat.languages,
     })
 
     try {
@@ -26,7 +25,7 @@ const getLanguageStatNextDayByLocale = async (locale, date) => {
         throw Error("Language stats not found...")
     }
 
-    return {_id: languageStats._id, date: languageStats.date, info: languageStats.launched.find(l => l.locale === locale)}
+    return {_id: languageStats._id, date: languageStats.date, info: languageStats.languages.find(l => l.locale === locale)}
 
     // return languageStats.launched.filter(e => e.locale === locale)[0]
 
@@ -38,14 +37,14 @@ const getLanguageStatNextDayByLocale = async (locale, date) => {
 
 const getLanguageStatsByLanguageCode = async (locale) => {
 
-    const languageStats = await LanguageStat.findOne({"launched.locale": locale})
+    const languageStats = await LanguageStat.findOne({"languages.locale": locale})
                                             .sort({date: -1})
 
     if (!languageStats) {
         throw Error("Language stats not found...")
     }
 
-    return languageStats.launched.filter(e => e.locale === locale)[0]
+    return languageStats.languages.filter(e => e.locale === locale)[0]
 }
 
 module.exports = {

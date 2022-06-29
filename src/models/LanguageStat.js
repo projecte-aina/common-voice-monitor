@@ -2,8 +2,7 @@ const { Schema, model } = require('mongoose')
 
 const languageStatSchema = new Schema({
   date: Date,
-  inProgress: [],
-  launched: []
+  languages: []
 }, { versionKey: false })
 
 languageStatSchema.index({ date: 1}, { unique: true })
