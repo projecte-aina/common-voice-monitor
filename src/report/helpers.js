@@ -20,7 +20,7 @@ const generateSingleSourceOfTruth = async (date, locale) => {
             const refFraction = refStats.total / refStats.valid
 
             const valid = refLanguageStats.info?.seconds
-            const speakers = refLanguageStats.info.speakers.currentCount || refLanguageStats.info.speakers
+            const speakers = refLanguageStats.info.speakers.currentCount || refLanguageStats.info.speakersCount
             const total = valid * refFraction
 
 

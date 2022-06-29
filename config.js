@@ -1,6 +1,6 @@
 module.exports = {
   endpoints: {
-    language_stats: "https://commonvoice.mozilla.org/api/v1/language_stats",
+    language_stats: "https://commonvoice.mozilla.org/api/v1/stats/languages",
     voices: "https://commonvoice.mozilla.org/api/v1/ca/clips/voices",
     stats: "https://commonvoice.mozilla.org/api/v1/ca/clips/stats",
     contribution_activity: "https://commonvoice.mozilla.org/api/v1/ca/contribution_activity?from=everyone",
