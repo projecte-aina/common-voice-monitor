@@ -25,7 +25,11 @@ const getLanguageStatNextDayByLocale = async (locale, date) => {
         throw Error("Language stats not found...")
     }
 
-    return {_id: languageStats._id, date: languageStats.date, info: languageStats.languages.find(l => l.locale === locale)}
+
+    const info = languageStats.languages?.find(l => l.locale === locale) || languageStats.launched?.find(l => l.locale === locale)
+    // const checkInfoFormat = languageStats.languages ? languageStats.languages.find(l => l.locale === locale) : languageStats.launched.find(l => l.locale === locale)
+
+    return {_id: languageStats._id, date: languageStats.date, info: info}
 
     // return languageStats.launched.filter(e => e.locale === locale)[0]
 

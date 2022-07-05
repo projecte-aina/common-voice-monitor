@@ -1,6 +1,5 @@
 const {DateTime} = require("luxon");
 const {getLanguageStatNextDayByLocale} = require("../service/language_stat");
-const {getStatByDayLatest} = require("../service/stat");
 const {insertError} = require("../utils/logger");
 
 const generateSingleSourceOfTruth = async (date, locale) => {
@@ -20,13 +19,13 @@ const generateSingleSourceOfTruth = async (date, locale) => {
             // const valid = refLanguageStats.info?.seconds
             // const valid = refLanguageStats.info?.validHours * 3600
 
-            const valid = refLanguageStats.info?.validatedHours * 3600
-
-            const speakers = refLanguageStats.info.speakers.currentCount || refLanguageStats.info.speakersCount
             const total = refLanguageStats.info?.recordedHours * 3600
+            const valid = refLanguageStats.info?.validatedHours * 3600
+            const speakers = refLanguageStats.info.speakersCount
 
 
             return {
+                date: date,
                 languageStatsRef: refLanguageStats,
                 values: {
                     valid: valid,
@@ -52,11 +51,11 @@ const generateReport = async (objRef, lastReport) => {
 
         if (objRef.values.valid / seconds_per_cut === lastReport.total_valid_cuts){
 
-            totalAccumulatedCuts  = objRef.statsRef.total / seconds_per_cut
-            totalValidCuts = objRef.statsRef.valid / seconds_per_cut
+            totalAccumulatedCuts  = objRef.languageStatsRef.total / seconds_per_cut
+            totalValidCuts = objRef.languageStatsRef.valid / seconds_per_cut
 
-            totalHours = objRef.statsRef.total / 3600
-            totalValidHours = objRef.statsRef.valid / 3600
+            totalHours = objRef.languageStatsRef.total / 3600
+            totalValidHours = objRef.languageStatsRef.valid / 3600
 
         }
         else {
@@ -83,7 +82,7 @@ const generateReport = async (objRef, lastReport) => {
 
 
         return {
-            date: DateTime.fromJSDate(objRef.statsRef.date).toUTC().startOf('day').toISO(),
+            date: objRef.date.toUTC().startOf('day').toISO(),
             createdAt: DateTime.utc().toISO(),
             cuts: cuts,
             accumulated_cuts_aina: accumulatedCutsAina,
