@@ -17,17 +17,16 @@ const generateSingleSourceOfTruth = async (date, locale) => {
 
 
         if (refLanguageStats /*&& refStats*/) {
-            const refFraction = refStats.total / refStats.valid
-
             // const valid = refLanguageStats.info?.seconds
-            const valid = refLanguageStats.info?.validHours * 3600
+            // const valid = refLanguageStats.info?.validHours * 3600
+
+            const valid = refLanguageStats.info?.validatedHours * 3600
 
             const speakers = refLanguageStats.info.speakers.currentCount || refLanguageStats.info.speakersCount
-            const total = valid * refFraction
+            const total = refLanguageStats.info?.recordedHours * 3600
 
 
             return {
-                statsRef: refStats,
                 languageStatsRef: refLanguageStats,
                 values: {
                     valid: valid,
