@@ -1,26 +1,8 @@
 [
     {
         "dailyReport": {
-            "date": "2022-06-12T00:00:00.000+00:00",
-            "cuts": 2390.1884532682598,
-            "accumulated_cuts_aina": 958580.2589087316,
-            "total_accumulated_cuts": 1841888.2589087316,
-            "valid_cuts": 1174.3478260870324,
-            "valid_cuts_aina": 274945.043478261,
-            "total_valid_cuts": 1019898.043478261,
-            "recorded_hours": 3.054129690287482,
-            "recorded_hours_aina": 1317.5238863833792,
-            "total_hours": 2353.5238863833792,
-            "valid_hours": 1.5005555555553656,
-            "valid_hours_aina": 387.20305555555547,
-            "total_valid_hours": 1303.2030555555555,
-            "speakers": 28402
-        }
-    },
-    {
-        "dailyReport": {
             "date": "2022-06-13T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.389Z",
+            "createdAt": "2022-07-06T09:09:28.488Z",
             "cuts": 3503.045439094538,
             "accumulated_cuts_aina": 962083.3043478262,
             "total_accumulated_cuts": 1845391.3043478262,
@@ -61,7 +43,7 @@
     {
         "dailyReport": {
             "date": "2022-06-14T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.428Z",
+            "createdAt": "2022-07-06T09:09:28.525Z",
             "cuts": 3130.434782608645,
             "accumulated_cuts_aina": 965213.7391304348,
             "total_accumulated_cuts": 1848521.7391304348,
@@ -102,7 +84,7 @@
     {
         "dailyReport": {
             "date": "2022-06-15T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.480Z",
+            "createdAt": "2022-07-06T09:09:28.563Z",
             "cuts": 3130.434782608878,
             "accumulated_cuts_aina": 968344.1739130437,
             "total_accumulated_cuts": 1851652.1739130437,
@@ -143,7 +125,7 @@
     {
         "dailyReport": {
             "date": "2022-06-16T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.561Z",
+            "createdAt": "2022-07-06T09:09:28.601Z",
             "cuts": 3130.434782608645,
             "accumulated_cuts_aina": 971474.6086956523,
             "total_accumulated_cuts": 1854782.6086956523,
@@ -184,7 +166,7 @@
     {
         "dailyReport": {
             "date": "2022-06-17T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.605Z",
+            "createdAt": "2022-07-06T09:09:28.639Z",
             "cuts": 1565.217391304439,
             "accumulated_cuts_aina": 973039.8260869568,
             "total_accumulated_cuts": 1856347.8260869568,
@@ -225,7 +207,7 @@
     {
         "dailyReport": {
             "date": "2022-06-18T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.645Z",
+            "createdAt": "2022-07-06T09:09:28.676Z",
             "cuts": 1565.217391304206,
             "accumulated_cuts_aina": 974605.043478261,
             "total_accumulated_cuts": 1857913.043478261,
@@ -266,7 +248,7 @@
     {
         "dailyReport": {
             "date": "2022-06-19T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.689Z",
+            "createdAt": "2022-07-06T09:09:28.712Z",
             "cuts": 1565.217391304439,
             "accumulated_cuts_aina": 976170.2608695654,
             "total_accumulated_cuts": 1859478.2608695654,
@@ -307,7 +289,7 @@
     {
         "dailyReport": {
             "date": "2022-06-20T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.725Z",
+            "createdAt": "2022-07-06T09:09:28.748Z",
             "cuts": 3130.434782608645,
             "accumulated_cuts_aina": 979300.6956521741,
             "total_accumulated_cuts": 1862608.695652174,
@@ -348,7 +330,7 @@
     {
         "dailyReport": {
             "date": "2022-06-21T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.763Z",
+            "createdAt": "2022-07-06T09:09:28.784Z",
             "cuts": 2347.826086956542,
             "accumulated_cuts_aina": 981648.5217391306,
             "total_accumulated_cuts": 1864956.5217391306,
@@ -389,7 +371,7 @@
     {
         "dailyReport": {
             "date": "2022-06-22T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.800Z",
+            "createdAt": "2022-07-06T09:09:28.820Z",
             "cuts": 1565.217391304206,
             "accumulated_cuts_aina": 983213.7391304348,
             "total_accumulated_cuts": 1866521.7391304348,
@@ -430,7 +412,7 @@
     {
         "dailyReport": {
             "date": "2022-06-23T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.837Z",
+            "createdAt": "2022-07-06T09:09:28.856Z",
             "cuts": 2347.826086956542,
             "accumulated_cuts_aina": 985561.5652173914,
             "total_accumulated_cuts": 1868869.5652173914,
@@ -471,7 +453,7 @@
     {
         "dailyReport": {
             "date": "2022-06-24T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.873Z",
+            "createdAt": "2022-07-06T09:09:28.894Z",
             "cuts": 1565.217391304439,
             "accumulated_cuts_aina": 987126.7826086958,
             "total_accumulated_cuts": 1870434.7826086958,
@@ -512,7 +494,7 @@
     {
         "dailyReport": {
             "date": "2022-06-25T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.909Z",
+            "createdAt": "2022-07-06T09:09:28.929Z",
             "cuts": 1565.217391304439,
             "accumulated_cuts_aina": 988692.0000000002,
             "total_accumulated_cuts": 1872000.0000000002,
@@ -553,7 +535,7 @@
     {
         "dailyReport": {
             "date": "2022-06-26T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.946Z",
+            "createdAt": "2022-07-06T09:09:28.964Z",
             "cuts": 2347.826086956542,
             "accumulated_cuts_aina": 991039.8260869568,
             "total_accumulated_cuts": 1874347.8260869568,
@@ -594,7 +576,7 @@
     {
         "dailyReport": {
             "date": "2022-06-27T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:40.988Z",
+            "createdAt": "2022-07-06T09:09:28.998Z",
             "cuts": 782.608695652103,
             "accumulated_cuts_aina": 991822.4347826089,
             "total_accumulated_cuts": 1875130.4347826089,
@@ -638,7 +620,7 @@
     {
         "dailyReport": {
             "date": "2022-06-28T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:41.028Z",
+            "createdAt": "2022-07-06T09:09:29.035Z",
             "cuts": 2347.826086956542,
             "accumulated_cuts_aina": 994170.2608695654,
             "total_accumulated_cuts": 1877478.2608695654,
@@ -682,7 +664,7 @@
     {
         "dailyReport": {
             "date": "2022-06-29T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:41.073Z",
+            "createdAt": "2022-07-06T09:09:29.070Z",
             "cuts": 2347.826086956542,
             "accumulated_cuts_aina": 996518.086956522,
             "total_accumulated_cuts": 1879826.086956522,
@@ -726,7 +708,7 @@
     {
         "dailyReport": {
             "date": "2022-06-30T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:41.111Z",
+            "createdAt": "2022-07-06T09:09:29.108Z",
             "cuts": 2347.826086956542,
             "accumulated_cuts_aina": 998865.9130434785,
             "total_accumulated_cuts": 1882173.9130434785,
@@ -770,7 +752,7 @@
     {
         "dailyReport": {
             "date": "2022-07-01T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:41.148Z",
+            "createdAt": "2022-07-06T09:09:29.145Z",
             "cuts": 2347.826086956309,
             "accumulated_cuts_aina": 1001213.7391304348,
             "total_accumulated_cuts": 1884521.7391304348,
@@ -814,7 +796,7 @@
     {
         "dailyReport": {
             "date": "2022-07-02T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:41.187Z",
+            "createdAt": "2022-07-06T09:09:29.181Z",
             "cuts": 1565.217391304439,
             "accumulated_cuts_aina": 1002778.9565217393,
             "total_accumulated_cuts": 1886086.9565217393,
@@ -858,7 +840,7 @@
     {
         "dailyReport": {
             "date": "2022-07-03T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:41.230Z",
+            "createdAt": "2022-07-06T09:09:29.216Z",
             "cuts": 2347.826086956542,
             "accumulated_cuts_aina": 1005126.7826086958,
             "total_accumulated_cuts": 1888434.7826086958,
@@ -902,7 +884,7 @@
     {
         "dailyReport": {
             "date": "2022-07-04T00:00:00.000Z",
-            "createdAt": "2022-07-05T16:07:41.271Z",
+            "createdAt": "2022-07-06T09:09:29.253Z",
             "cuts": 3130.434782608645,
             "accumulated_cuts_aina": 1008257.2173913044,
             "total_accumulated_cuts": 1891565.2173913044,
@@ -940,6 +922,50 @@
                 "valid": 4906800,
                 "total": 8701200,
                 "speakers": 1555396
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-05T00:00:00.000Z",
+            "createdAt": "2022-07-06T09:09:29.288Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 1011387.6521739131,
+            "total_accumulated_cuts": 1894695.652173913,
+            "valid_cuts": 4695.652173913084,
+            "valid_cuts_aina": 326438.30434782617,
+            "total_valid_cuts": 1071391.3043478262,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1385,
+            "total_hours": 2421,
+            "valid_hours": 6,
+            "valid_hours_aina": 453,
+            "total_valid_hours": 1369,
+            "speakers": 1558070
+        },
+        "ref": {
+            "date": "2022-07-05T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62c4d0804cecae04c8eca857",
+                "date": "2022-07-06T00:00:00.873Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2421,
+                    "validatedHours": 1369,
+                    "speakersCount": 1558070,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4928400,
+                "total": 8715600,
+                "speakers": 1558070
             }
         }
     }

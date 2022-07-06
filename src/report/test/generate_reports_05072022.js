@@ -1,8 +1,9 @@
 const {DateTime, Interval} = require('luxon');
 const fs = require("fs");
-// const {loadDocument, addElements} = require("../../store/spread_sheet");
-// const {sheets, firstWeekDate} = require("../../../config");
+const {loadDocument, addElements} = require("../../store/spread_sheet");
+const {sheets, firstWeekDate} = require("../../../config");
 const {generateSingleSourceOfTruth, generateReport} = require("../helpers");
+const {addDailyReport} = require("../../service/daily_report");
 // const {addDailyReport} = require("../../service/daily_report");
 
 
@@ -35,7 +36,7 @@ const generate_reports = async () => {
     ]
 
     const startDate = "2022-06-13T00:00:00.000+00:00";
-    const endDate = "2022-07-04T00:00:00.000+00:00";
+    const endDate = "2022-07-05T00:00:00.000+00:00";
     // loop from start date to end date
 
     const startDateTime = DateTime.fromISO(startDate).toUTC();
@@ -54,40 +55,46 @@ const generate_reports = async () => {
 
     }
 
+    reports.shift()
+
     await fs.promises.writeFile('./reports_05072022.json', JSON.stringify(reports, null, 4))
 
-    // for (const report of reports) {
-    //     await addDailyReport(report)
-    // }
+    for (const report of reports) {
+        await addDailyReport(report)
+    }
 
-    // reports.shift()
 
-    // const loadDoc = await loadDocument({id: sheets.daily_report_id})
-    //
-    // if (loadDoc) {
-    //
-    //     const reportRows = reports.map(report => {
-    //         return {
-    //             "Setmana": Interval.fromDateTimes(DateTime.fromISO(firstWeekDate), DateTime.fromISO(report.dailyReport.date)).count('weeks'),
-    //             "Data": DateTime.fromISO(report.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
-    //             "#Talls": roundHalfDown(report.dailyReport.cuts),
-    //             "#Talls acumulats AINA": roundHalfDown(report.dailyReport.accumulated_cuts_aina),
-    //             "#Talls acumulats TOTALS": roundHalfDown(report.dailyReport.total_accumulated_cuts),
-    //             "#Talls validats": roundHalfDown(report.dailyReport.valid_cuts),
-    //             "#Talls validats AINA": roundHalfDown(report.dailyReport.valid_cuts_aina),
-    //             "#Talls validats TOTALS": roundHalfDown(report.dailyReport.total_valid_cuts),
-    //             "#Hores gravades": roundHalfDown(report.dailyReport.recorded_hours),
-    //             "#Hores gravades AINA": roundHalfDown(report.dailyReport.recorded_hours_aina),
-    //             "#Hores TOTALS": roundHalfDown(report.dailyReport.total_hours),
-    //             "#Hores validades": roundHalfDown(report.dailyReport.valid_hours),
-    //             "#Hores validades AINA": roundHalfDown(report.dailyReport.valid_hours_aina),
-    //             "#Hores validades TOTALS": roundHalfDown(report.dailyReport.total_valid_hours),
-    //             "#Locutors": report.dailyReport.speakers
-    //         }
-    //     })
-    //
-    //     await addElements({doc: loadDoc, sheetName: 'Report Test Complete', headersRowIndex: 2, rows: reportRows})
-    // }
+    const loadDoc = await loadDocument({id: sheets.daily_report_id})
+
+    if (loadDoc) {
+
+        const reportRows = reports.map(report => {
+            return {
+                "Setmana": Interval.fromDateTimes(DateTime.fromISO(firstWeekDate), DateTime.fromISO(report.dailyReport.date)).count('weeks'),
+                "Data": DateTime.fromISO(report.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
+                "#Talls": roundHalfDown(report.dailyReport.cuts),
+                "#Talls acumulats AINA": roundHalfDown(report.dailyReport.accumulated_cuts_aina),
+                "#Talls acumulats TOTALS": roundHalfDown(report.dailyReport.total_accumulated_cuts),
+                "#Talls validats": roundHalfDown(report.dailyReport.valid_cuts),
+                "#Talls validats AINA": roundHalfDown(report.dailyReport.valid_cuts_aina),
+                "#Talls validats TOTALS": roundHalfDown(report.dailyReport.total_valid_cuts),
+                "#Hores gravades": roundHalfDown(report.dailyReport.recorded_hours),
+                "#Hores gravades AINA": roundHalfDown(report.dailyReport.recorded_hours_aina),
+                "#Hores TOTALS": roundHalfDown(report.dailyReport.total_hours),
+                "#Hores validades": roundHalfDown(report.dailyReport.valid_hours),
+                "#Hores validades AINA": roundHalfDown(report.dailyReport.valid_hours_aina),
+                "#Hores validades TOTALS": roundHalfDown(report.dailyReport.total_valid_hours),
+                "#Locutors": report.dailyReport.speakers
+            }
+        })
+
+        try {
+            await addElements({doc: loadDoc, sheetName: 'Report Test', headersRowIndex: 2, rows: reportRows})
+
+        }catch (e) {
+            console.log(`Error`)
+        }
+    }
 
 }
 
