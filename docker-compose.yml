@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  app:
+    container_name: commonvoice-monitor
+    build:
+      context: .
+    restart: unless-stopped
+    env_file:
+      - production.env

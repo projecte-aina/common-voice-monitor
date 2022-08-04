@@ -1,0 +1,2248 @@
+[
+    {
+        "dailyReport": {
+            "date": "2022-06-13T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.490Z",
+            "cuts": 3503.045439094538,
+            "accumulated_cuts_aina": 962083.3043478262,
+            "total_accumulated_cuts": 1845391.3043478262,
+            "valid_cuts": 623.6956521738321,
+            "valid_cuts_aina": 275568.7391304348,
+            "total_valid_cuts": 1020521.7391304348,
+            "recorded_hours": 4.476113616620751,
+            "recorded_hours_aina": 1322,
+            "total_hours": 2358,
+            "valid_hours": 0.7969444444445344,
+            "valid_hours_aina": 388,
+            "total_valid_hours": 1304,
+            "speakers": 28438
+        },
+        "ref": {
+            "date": "2022-06-13T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94d99389abe23b41f964",
+                "date": "2022-06-14T00:58:02.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2358,
+                    "validatedHours": 1304,
+                    "speakersCount": 28438,
+                    "sentencesCount": {
+                        "currentCount": 0,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4694400,
+                "total": 8488800,
+                "speakers": 28438
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-14T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.538Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 965213.7391304348,
+            "total_accumulated_cuts": 1848521.7391304348,
+            "valid_cuts": 1565.217391304439,
+            "valid_cuts_aina": 277133.95652173925,
+            "total_valid_cuts": 1022086.9565217393,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1326,
+            "total_hours": 2362,
+            "valid_hours": 2,
+            "valid_hours_aina": 390,
+            "total_valid_hours": 1306,
+            "speakers": 28462
+        },
+        "ref": {
+            "date": "2022-06-14T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94db9389abe23b41f994",
+                "date": "2022-06-15T00:58:01.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2362,
+                    "validatedHours": 1306,
+                    "speakersCount": 28462,
+                    "sentencesCount": {
+                        "currentCount": 0,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4701600,
+                "total": 8503200,
+                "speakers": 28462
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-15T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.590Z",
+            "cuts": 3130.434782608878,
+            "accumulated_cuts_aina": 968344.1739130437,
+            "total_accumulated_cuts": 1851652.1739130437,
+            "valid_cuts": 1565.2173913043225,
+            "valid_cuts_aina": 278699.1739130436,
+            "total_valid_cuts": 1023652.1739130436,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1330,
+            "total_hours": 2366,
+            "valid_hours": 2,
+            "valid_hours_aina": 392,
+            "total_valid_hours": 1308,
+            "speakers": 28536
+        },
+        "ref": {
+            "date": "2022-06-15T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94dc9389abe23b41f9c4",
+                "date": "2022-06-16T00:58:01.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2366,
+                    "validatedHours": 1308,
+                    "speakersCount": 28536,
+                    "sentencesCount": {
+                        "currentCount": 1097924,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4708800,
+                "total": 8517600,
+                "speakers": 28536
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-16T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.641Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 971474.6086956523,
+            "total_accumulated_cuts": 1854782.6086956523,
+            "valid_cuts": 1565.2173913043225,
+            "valid_cuts_aina": 280264.3913043479,
+            "total_valid_cuts": 1025217.3913043479,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1334,
+            "total_hours": 2370,
+            "valid_hours": 2,
+            "valid_hours_aina": 394,
+            "total_valid_hours": 1310,
+            "speakers": 28549
+        },
+        "ref": {
+            "date": "2022-06-16T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94de9389abe23b41f9f4",
+                "date": "2022-06-17T00:58:02.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2370,
+                    "validatedHours": 1310,
+                    "speakersCount": 28549,
+                    "sentencesCount": {
+                        "currentCount": 1097924,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4716000,
+                "total": 8532000,
+                "speakers": 28549
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-17T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.690Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 973039.8260869568,
+            "total_accumulated_cuts": 1856347.8260869568,
+            "valid_cuts": 1565.2173913043225,
+            "valid_cuts_aina": 281829.6086956522,
+            "total_valid_cuts": 1026782.6086956522,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1336,
+            "total_hours": 2372,
+            "valid_hours": 2,
+            "valid_hours_aina": 396,
+            "total_valid_hours": 1312,
+            "speakers": 28563
+        },
+        "ref": {
+            "date": "2022-06-17T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94df9389abe23b41fa24",
+                "date": "2022-06-18T00:58:01.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2372,
+                    "validatedHours": 1312,
+                    "speakersCount": 28563,
+                    "sentencesCount": {
+                        "currentCount": 1097924,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4723200,
+                "total": 8539200,
+                "speakers": 28563
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-18T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.738Z",
+            "cuts": 1565.217391304206,
+            "accumulated_cuts_aina": 974605.043478261,
+            "total_accumulated_cuts": 1857913.043478261,
+            "valid_cuts": 1565.217391304439,
+            "valid_cuts_aina": 283394.82608695666,
+            "total_valid_cuts": 1028347.8260869567,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1338,
+            "total_hours": 2374,
+            "valid_hours": 2,
+            "valid_hours_aina": 398,
+            "total_valid_hours": 1314,
+            "speakers": 28568
+        },
+        "ref": {
+            "date": "2022-06-18T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94e19389abe23b41fa54",
+                "date": "2022-06-19T00:58:01.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2374,
+                    "validatedHours": 1314,
+                    "speakersCount": 28568,
+                    "sentencesCount": {
+                        "currentCount": 1097924,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4730400,
+                "total": 8546400,
+                "speakers": 28568
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-19T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.788Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 976170.2608695654,
+            "total_accumulated_cuts": 1859478.2608695654,
+            "valid_cuts": 2347.8260869564256,
+            "valid_cuts_aina": 285742.6521739131,
+            "total_valid_cuts": 1030695.6521739131,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1340,
+            "total_hours": 2376,
+            "valid_hours": 3,
+            "valid_hours_aina": 401,
+            "total_valid_hours": 1317,
+            "speakers": 28580
+        },
+        "ref": {
+            "date": "2022-06-19T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94e29389abe23b41fa84",
+                "date": "2022-06-20T00:58:02.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2376,
+                    "validatedHours": 1317,
+                    "speakersCount": 28580,
+                    "sentencesCount": {
+                        "currentCount": 1097924,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4741200,
+                "total": 8553600,
+                "speakers": 28580
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-20T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.836Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 979300.6956521741,
+            "total_accumulated_cuts": 1862608.695652174,
+            "valid_cuts": 1565.217391304439,
+            "valid_cuts_aina": 287307.8695652175,
+            "total_valid_cuts": 1032260.8695652175,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1344,
+            "total_hours": 2380,
+            "valid_hours": 2,
+            "valid_hours_aina": 403,
+            "total_valid_hours": 1319,
+            "speakers": 28627
+        },
+        "ref": {
+            "date": "2022-06-20T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94e49389abe23b41fab2",
+                "date": "2022-06-21T00:58:01.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2380,
+                    "validatedHours": 1319,
+                    "speakersCount": 28627,
+                    "sentencesCount": {
+                        "currentCount": 1158062,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4748400,
+                "total": 8568000,
+                "speakers": 28627
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-21T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.886Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 981648.5217391306,
+            "total_accumulated_cuts": 1864956.5217391306,
+            "valid_cuts": 2347.8260869564256,
+            "valid_cuts_aina": 289655.69565217395,
+            "total_valid_cuts": 1034608.695652174,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1347,
+            "total_hours": 2383,
+            "valid_hours": 3,
+            "valid_hours_aina": 406,
+            "total_valid_hours": 1322,
+            "speakers": 28645
+        },
+        "ref": {
+            "date": "2022-06-21T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94e59389abe23b41fae2",
+                "date": "2022-06-22T00:58:02.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2383,
+                    "validatedHours": 1322,
+                    "speakersCount": 28645,
+                    "sentencesCount": {
+                        "currentCount": 1158062,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4759200,
+                "total": 8578800,
+                "speakers": 28645
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-22T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.933Z",
+            "cuts": 1565.217391304206,
+            "accumulated_cuts_aina": 983213.7391304348,
+            "total_accumulated_cuts": 1866521.7391304348,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 292003.5217391305,
+            "total_valid_cuts": 1036956.5217391305,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1349,
+            "total_hours": 2385,
+            "valid_hours": 3,
+            "valid_hours_aina": 409,
+            "total_valid_hours": 1325,
+            "speakers": 28653
+        },
+        "ref": {
+            "date": "2022-06-22T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94e79389abe23b41fb12",
+                "date": "2022-06-23T00:58:01.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2385,
+                    "validatedHours": 1325,
+                    "speakersCount": 28653,
+                    "sentencesCount": {
+                        "currentCount": 1158062,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4770000,
+                "total": 8586000,
+                "speakers": 28653
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-23T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:58.982Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 985561.5652173914,
+            "total_accumulated_cuts": 1868869.5652173914,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 294351.34782608703,
+            "total_valid_cuts": 1039304.347826087,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1352,
+            "total_hours": 2388,
+            "valid_hours": 3,
+            "valid_hours_aina": 412,
+            "total_valid_hours": 1328,
+            "speakers": 28664
+        },
+        "ref": {
+            "date": "2022-06-23T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94e89389abe23b41fb42",
+                "date": "2022-06-24T00:58:02.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2388,
+                    "validatedHours": 1328,
+                    "speakersCount": 28664,
+                    "sentencesCount": {
+                        "currentCount": 1158062,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4780800,
+                "total": 8596800,
+                "speakers": 28664
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-24T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.030Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 987126.7826086958,
+            "total_accumulated_cuts": 1870434.7826086958,
+            "valid_cuts": 1565.2173913043225,
+            "valid_cuts_aina": 295916.56521739135,
+            "total_valid_cuts": 1040869.5652173914,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1354,
+            "total_hours": 2390,
+            "valid_hours": 2,
+            "valid_hours_aina": 414,
+            "total_valid_hours": 1330,
+            "speakers": 28670
+        },
+        "ref": {
+            "date": "2022-06-24T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94ea9389abe23b41fb72",
+                "date": "2022-06-25T00:58:01.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2390,
+                    "validatedHours": 1330,
+                    "speakersCount": 28670,
+                    "sentencesCount": {
+                        "currentCount": 1158062,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4788000,
+                "total": 8604000,
+                "speakers": 28670
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-25T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.077Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 988692.0000000002,
+            "total_accumulated_cuts": 1872000.0000000002,
+            "valid_cuts": 1565.2173913043225,
+            "valid_cuts_aina": 297481.7826086957,
+            "total_valid_cuts": 1042434.7826086957,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1356,
+            "total_hours": 2392,
+            "valid_hours": 2,
+            "valid_hours_aina": 416,
+            "total_valid_hours": 1332,
+            "speakers": 28679
+        },
+        "ref": {
+            "date": "2022-06-25T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94ec9389abe23b41fba2",
+                "date": "2022-06-26T00:58:02.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2392,
+                    "validatedHours": 1332,
+                    "speakersCount": 28679,
+                    "sentencesCount": {
+                        "currentCount": 1158062,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4795200,
+                "total": 8611200,
+                "speakers": 28679
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-26T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.126Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 991039.8260869568,
+            "total_accumulated_cuts": 1874347.8260869568,
+            "valid_cuts": 1565.217391304439,
+            "valid_cuts_aina": 299047.0000000001,
+            "total_valid_cuts": 1044000.0000000001,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1359,
+            "total_hours": 2395,
+            "valid_hours": 2,
+            "valid_hours_aina": 418,
+            "total_valid_hours": 1334,
+            "speakers": 28690
+        },
+        "ref": {
+            "date": "2022-06-26T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62ea94ed9389abe23b41fbd2",
+                "date": "2022-06-27T00:58:02.000Z",
+                "info": {
+                    "locale": "ca",
+                    "recordedHours": 2395,
+                    "validatedHours": 1334,
+                    "speakersCount": 28690,
+                    "sentencesCount": {
+                        "currentCount": 1158062,
+                        "targetSentenceCount": 5000
+                    }
+                }
+            },
+            "values": {
+                "valid": 4802400,
+                "total": 8622000,
+                "speakers": 28690
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-27T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.176Z",
+            "cuts": 782.608695652103,
+            "accumulated_cuts_aina": 991822.4347826089,
+            "total_accumulated_cuts": 1875130.4347826089,
+            "valid_cuts": 1565.2173913043225,
+            "valid_cuts_aina": 300612.21739130444,
+            "total_valid_cuts": 1045565.2173913044,
+            "recorded_hours": 1,
+            "recorded_hours_aina": 1360,
+            "total_hours": 2396,
+            "valid_hours": 2,
+            "valid_hours_aina": 420,
+            "total_valid_hours": 1336,
+            "speakers": 1542437
+        },
+        "ref": {
+            "date": "2022-06-27T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eaaa35ae7c72a351cca244",
+                "date": "2022-06-28T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2396,
+                    "validatedHours": 1336,
+                    "speakersCount": 1542437,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4809600,
+                "total": 8625600,
+                "speakers": 1542437
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-28T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.224Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 994170.2608695654,
+            "total_accumulated_cuts": 1877478.2608695654,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 302960.043478261,
+            "total_valid_cuts": 1047913.043478261,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1363,
+            "total_hours": 2399,
+            "valid_hours": 3,
+            "valid_hours_aina": 423,
+            "total_valid_hours": 1339,
+            "speakers": 1544039
+        },
+        "ref": {
+            "date": "2022-06-28T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada928aaf172ae24fd4fb",
+                "date": "2022-06-29T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2399,
+                    "validatedHours": 1339,
+                    "speakersCount": 1544039,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4820400,
+                "total": 8636400,
+                "speakers": 1544039
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-29T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.272Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 996518.086956522,
+            "total_accumulated_cuts": 1879826.086956522,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 305307.8695652175,
+            "total_valid_cuts": 1050260.8695652175,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1366,
+            "total_hours": 2402,
+            "valid_hours": 3,
+            "valid_hours_aina": 426,
+            "total_valid_hours": 1342,
+            "speakers": 1546225
+        },
+        "ref": {
+            "date": "2022-06-29T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada938aaf172ae24fd52b",
+                "date": "2022-06-30T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2402,
+                    "validatedHours": 1342,
+                    "speakersCount": 1546225,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4831200,
+                "total": 8647200,
+                "speakers": 1546225
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-06-30T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.320Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 998865.9130434785,
+            "total_accumulated_cuts": 1882173.9130434785,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 308438.30434782617,
+            "total_valid_cuts": 1053391.3043478262,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1369,
+            "total_hours": 2405,
+            "valid_hours": 4,
+            "valid_hours_aina": 430,
+            "total_valid_hours": 1346,
+            "speakers": 1547681
+        },
+        "ref": {
+            "date": "2022-06-30T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada958aaf172ae24fd55b",
+                "date": "2022-07-01T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2405,
+                    "validatedHours": 1346,
+                    "speakersCount": 1547681,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4845600,
+                "total": 8658000,
+                "speakers": 1547681
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-01T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.368Z",
+            "cuts": 2347.826086956309,
+            "accumulated_cuts_aina": 1001213.7391304348,
+            "total_accumulated_cuts": 1884521.7391304348,
+            "valid_cuts": 3913.043478260981,
+            "valid_cuts_aina": 312351.34782608715,
+            "total_valid_cuts": 1057304.3478260871,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1372,
+            "total_hours": 2408,
+            "valid_hours": 5,
+            "valid_hours_aina": 435,
+            "total_valid_hours": 1351,
+            "speakers": 1549969
+        },
+        "ref": {
+            "date": "2022-07-01T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada968aaf172ae24fd58b",
+                "date": "2022-07-02T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2408,
+                    "validatedHours": 1351,
+                    "speakersCount": 1549969,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4863600,
+                "total": 8668800,
+                "speakers": 1549969
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-02T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.418Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 1002778.9565217393,
+            "total_accumulated_cuts": 1886086.9565217393,
+            "valid_cuts": 2347.826086956309,
+            "valid_cuts_aina": 314699.17391304346,
+            "total_valid_cuts": 1059652.1739130435,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1374,
+            "total_hours": 2410,
+            "valid_hours": 3,
+            "valid_hours_aina": 438,
+            "total_valid_hours": 1354,
+            "speakers": 1551202
+        },
+        "ref": {
+            "date": "2022-07-02T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada978aaf172ae24fd5bb",
+                "date": "2022-07-03T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2410,
+                    "validatedHours": 1354,
+                    "speakersCount": 1551202,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4874400,
+                "total": 8676000,
+                "speakers": 1551202
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-03T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.468Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1005126.7826086958,
+            "total_accumulated_cuts": 1888434.7826086958,
+            "valid_cuts": 3130.434782608878,
+            "valid_cuts_aina": 317829.60869565234,
+            "total_valid_cuts": 1062782.6086956523,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1377,
+            "total_hours": 2413,
+            "valid_hours": 4,
+            "valid_hours_aina": 442,
+            "total_valid_hours": 1358,
+            "speakers": 1553178
+        },
+        "ref": {
+            "date": "2022-07-03T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada998aaf172ae24fd5eb",
+                "date": "2022-07-04T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2413,
+                    "validatedHours": 1358,
+                    "speakersCount": 1553178,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4888800,
+                "total": 8686800,
+                "speakers": 1553178
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-04T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.518Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 1008257.2173913044,
+            "total_accumulated_cuts": 1891565.2173913044,
+            "valid_cuts": 3913.043478260748,
+            "valid_cuts_aina": 321742.6521739131,
+            "total_valid_cuts": 1066695.652173913,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1381,
+            "total_hours": 2417,
+            "valid_hours": 5,
+            "valid_hours_aina": 447,
+            "total_valid_hours": 1363,
+            "speakers": 1555396
+        },
+        "ref": {
+            "date": "2022-07-04T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada9a8aaf172ae24fd61b",
+                "date": "2022-07-05T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2417,
+                    "validatedHours": 1363,
+                    "speakersCount": 1555396,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4906800,
+                "total": 8701200,
+                "speakers": 1555396
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-05T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.566Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 1011387.6521739131,
+            "total_accumulated_cuts": 1894695.652173913,
+            "valid_cuts": 4695.652173913084,
+            "valid_cuts_aina": 326438.30434782617,
+            "total_valid_cuts": 1071391.3043478262,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1385,
+            "total_hours": 2421,
+            "valid_hours": 6,
+            "valid_hours_aina": 453,
+            "total_valid_hours": 1369,
+            "speakers": 1558070
+        },
+        "ref": {
+            "date": "2022-07-05T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada9c8aaf172ae24fd64b",
+                "date": "2022-07-06T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2421,
+                    "validatedHours": 1369,
+                    "speakersCount": 1558070,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4928400,
+                "total": 8715600,
+                "speakers": 1558070
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-06T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.613Z",
+            "cuts": 3130.434782608878,
+            "accumulated_cuts_aina": 1014518.086956522,
+            "total_accumulated_cuts": 1897826.086956522,
+            "valid_cuts": 3913.043478260981,
+            "valid_cuts_aina": 330351.34782608715,
+            "total_valid_cuts": 1075304.3478260871,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1389,
+            "total_hours": 2425,
+            "valid_hours": 5,
+            "valid_hours_aina": 458,
+            "total_valid_hours": 1374,
+            "speakers": 1560933
+        },
+        "ref": {
+            "date": "2022-07-06T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada9d8aaf172ae24fd67b",
+                "date": "2022-07-07T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158634
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2425,
+                    "validatedHours": 1374,
+                    "speakersCount": 1560933,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4946400,
+                "total": 8730000,
+                "speakers": 1560933
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-07T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.661Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1016865.9130434785,
+            "total_accumulated_cuts": 1900173.9130434785,
+            "valid_cuts": 3913.043478260748,
+            "valid_cuts_aina": 334264.3913043479,
+            "total_valid_cuts": 1079217.391304348,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1392,
+            "total_hours": 2428,
+            "valid_hours": 5,
+            "valid_hours_aina": 463,
+            "total_valid_hours": 1379,
+            "speakers": 1562944
+        },
+        "ref": {
+            "date": "2022-07-07T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eada9e8aaf172ae24fd6ab",
+                "date": "2022-07-08T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 98,
+                    "recordedHours": 2428,
+                    "validatedHours": 1379,
+                    "speakersCount": 1562944,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4964400,
+                "total": 8740800,
+                "speakers": 1562944
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-08T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.709Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 1019996.3478260871,
+            "total_accumulated_cuts": 1903304.3478260871,
+            "valid_cuts": 4695.652173913084,
+            "valid_cuts_aina": 338960.043478261,
+            "total_valid_cuts": 1083913.043478261,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1396,
+            "total_hours": 2432,
+            "valid_hours": 6,
+            "valid_hours_aina": 469,
+            "total_valid_hours": 1385,
+            "speakers": 1565310
+        },
+        "ref": {
+            "date": "2022-07-08T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaa08aaf172ae24fd6db",
+                "date": "2022-07-09T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2432,
+                    "validatedHours": 1385,
+                    "speakersCount": 1565310,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 4986000,
+                "total": 8755200,
+                "speakers": 1565310
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-09T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.757Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1022344.1739130437,
+            "total_accumulated_cuts": 1905652.1739130437,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 342090.4782608696,
+            "total_valid_cuts": 1087043.4782608696,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1399,
+            "total_hours": 2435,
+            "valid_hours": 4,
+            "valid_hours_aina": 473,
+            "total_valid_hours": 1389,
+            "speakers": 1567383
+        },
+        "ref": {
+            "date": "2022-07-09T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaa18aaf172ae24fd70b",
+                "date": "2022-07-10T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2435,
+                    "validatedHours": 1389,
+                    "speakersCount": 1567383,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5000400,
+                "total": 8766000,
+                "speakers": 1567383
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-10T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.806Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1024692.0000000002,
+            "total_accumulated_cuts": 1908000.0000000002,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 345220.9130434783,
+            "total_valid_cuts": 1090173.9130434783,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1402,
+            "total_hours": 2438,
+            "valid_hours": 4,
+            "valid_hours_aina": 477,
+            "total_valid_hours": 1393,
+            "speakers": 1569047
+        },
+        "ref": {
+            "date": "2022-07-10T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaa38aaf172ae24fd73b",
+                "date": "2022-07-11T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2438,
+                    "validatedHours": 1393,
+                    "speakersCount": 1569047,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5014800,
+                "total": 8776800,
+                "speakers": 1569047
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-11T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.854Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1027039.8260869568,
+            "total_accumulated_cuts": 1910347.8260869568,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 347568.7391304348,
+            "total_valid_cuts": 1092521.7391304348,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1405,
+            "total_hours": 2441,
+            "valid_hours": 3,
+            "valid_hours_aina": 480,
+            "total_valid_hours": 1396,
+            "speakers": 1570824
+        },
+        "ref": {
+            "date": "2022-07-11T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaa48aaf172ae24fd76b",
+                "date": "2022-07-12T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2441,
+                    "validatedHours": 1396,
+                    "speakersCount": 1570824,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5025600,
+                "total": 8787600,
+                "speakers": 1570824
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-12T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.902Z",
+            "cuts": 1565.217391304206,
+            "accumulated_cuts_aina": 1028605.043478261,
+            "total_accumulated_cuts": 1911913.043478261,
+            "valid_cuts": 3913.043478260981,
+            "valid_cuts_aina": 351481.7826086958,
+            "total_valid_cuts": 1096434.7826086958,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1407,
+            "total_hours": 2443,
+            "valid_hours": 5,
+            "valid_hours_aina": 485,
+            "total_valid_hours": 1401,
+            "speakers": 1572513
+        },
+        "ref": {
+            "date": "2022-07-12T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaa58aaf172ae24fd79b",
+                "date": "2022-07-13T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2443,
+                    "validatedHours": 1401,
+                    "speakersCount": 1572513,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5043600,
+                "total": 8794800,
+                "speakers": 1572513
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-13T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:00:59.953Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1030952.8695652175,
+            "total_accumulated_cuts": 1914260.8695652175,
+            "valid_cuts": 3913.043478260748,
+            "valid_cuts_aina": 355394.82608695654,
+            "total_valid_cuts": 1100347.8260869565,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1410,
+            "total_hours": 2446,
+            "valid_hours": 5,
+            "valid_hours_aina": 490,
+            "total_valid_hours": 1406,
+            "speakers": 1574357
+        },
+        "ref": {
+            "date": "2022-07-13T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaa78aaf172ae24fd7cb",
+                "date": "2022-07-14T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2446,
+                    "validatedHours": 1406,
+                    "speakersCount": 1574357,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5061600,
+                "total": 8805600,
+                "speakers": 1574357
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-14T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.001Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 1032518.086956522,
+            "total_accumulated_cuts": 1915826.086956522,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 358525.2608695652,
+            "total_valid_cuts": 1103478.2608695652,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1412,
+            "total_hours": 2448,
+            "valid_hours": 4,
+            "valid_hours_aina": 494,
+            "total_valid_hours": 1410,
+            "speakers": 1575763
+        },
+        "ref": {
+            "date": "2022-07-14T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaa88aaf172ae24fd7fb",
+                "date": "2022-07-15T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2448,
+                    "validatedHours": 1410,
+                    "speakersCount": 1575763,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5076000,
+                "total": 8812800,
+                "speakers": 1575763
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-15T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.050Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1034865.9130434785,
+            "total_accumulated_cuts": 1918173.9130434785,
+            "valid_cuts": 3913.043478260981,
+            "valid_cuts_aina": 362438.30434782617,
+            "total_valid_cuts": 1107391.3043478262,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1415,
+            "total_hours": 2451,
+            "valid_hours": 5,
+            "valid_hours_aina": 499,
+            "total_valid_hours": 1415,
+            "speakers": 1577511
+        },
+        "ref": {
+            "date": "2022-07-15T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaa98aaf172ae24fd82b",
+                "date": "2022-07-16T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2451,
+                    "validatedHours": 1415,
+                    "speakersCount": 1577511,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5094000,
+                "total": 8823600,
+                "speakers": 1577511
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-16T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.098Z",
+            "cuts": 1565.217391304206,
+            "accumulated_cuts_aina": 1036431.1304347827,
+            "total_accumulated_cuts": 1919739.1304347827,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 365568.7391304348,
+            "total_valid_cuts": 1110521.7391304348,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1417,
+            "total_hours": 2453,
+            "valid_hours": 4,
+            "valid_hours_aina": 503,
+            "total_valid_hours": 1419,
+            "speakers": 1579044
+        },
+        "ref": {
+            "date": "2022-07-16T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaab8aaf172ae24fd85b",
+                "date": "2022-07-17T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2453,
+                    "validatedHours": 1419,
+                    "speakersCount": 1579044,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5108400,
+                "total": 8830800,
+                "speakers": 1579044
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-17T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.146Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1038778.9565217393,
+            "total_accumulated_cuts": 1922086.9565217393,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 367916.56521739135,
+            "total_valid_cuts": 1112869.5652173914,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1420,
+            "total_hours": 2456,
+            "valid_hours": 3,
+            "valid_hours_aina": 506,
+            "total_valid_hours": 1422,
+            "speakers": 1580604
+        },
+        "ref": {
+            "date": "2022-07-17T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaac8aaf172ae24fd88b",
+                "date": "2022-07-18T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2456,
+                    "validatedHours": 1422,
+                    "speakersCount": 1580604,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5119200,
+                "total": 8841600,
+                "speakers": 1580604
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-18T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.194Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 1040344.1739130437,
+            "total_accumulated_cuts": 1923652.1739130437,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 371047,
+            "total_valid_cuts": 1116000,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1422,
+            "total_hours": 2458,
+            "valid_hours": 4,
+            "valid_hours_aina": 510,
+            "total_valid_hours": 1426,
+            "speakers": 29021
+        },
+        "ref": {
+            "date": "2022-07-18T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaae8aaf172ae24fd8bb",
+                "date": "2022-07-19T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158655
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2458,
+                    "validatedHours": 1426,
+                    "speakersCount": 29021,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5133600,
+                "total": 8848800,
+                "speakers": 29021
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-19T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.241Z",
+            "cuts": 4695.652173913084,
+            "accumulated_cuts_aina": 1045039.8260869568,
+            "total_accumulated_cuts": 1928347.8260869568,
+            "valid_cuts": 5478.26086956542,
+            "valid_cuts_aina": 376525.2608695654,
+            "total_valid_cuts": 1121478.2608695654,
+            "recorded_hours": 6,
+            "recorded_hours_aina": 1428,
+            "total_hours": 2464,
+            "valid_hours": 7,
+            "valid_hours_aina": 517,
+            "total_valid_hours": 1433,
+            "speakers": 29173
+        },
+        "ref": {
+            "date": "2022-07-19T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaaf8aaf172ae24fd8eb",
+                "date": "2022-07-20T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2464,
+                    "validatedHours": 1433,
+                    "speakersCount": 29173,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5158800,
+                "total": 8870400,
+                "speakers": 29173
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-20T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.289Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 1048170.2608695654,
+            "total_accumulated_cuts": 1931478.2608695654,
+            "valid_cuts": 3913.043478260748,
+            "valid_cuts_aina": 380438.30434782617,
+            "total_valid_cuts": 1125391.3043478262,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1432,
+            "total_hours": 2468,
+            "valid_hours": 5,
+            "valid_hours_aina": 522,
+            "total_valid_hours": 1438,
+            "speakers": 29237
+        },
+        "ref": {
+            "date": "2022-07-20T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadab08aaf172ae24fd91b",
+                "date": "2022-07-21T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2468,
+                    "validatedHours": 1438,
+                    "speakersCount": 29237,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5176800,
+                "total": 8884800,
+                "speakers": 29237
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-21T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.336Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 1051300.695652174,
+            "total_accumulated_cuts": 1934608.695652174,
+            "valid_cuts": 3913.043478260981,
+            "valid_cuts_aina": 384351.34782608715,
+            "total_valid_cuts": 1129304.3478260871,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1436,
+            "total_hours": 2472,
+            "valid_hours": 5,
+            "valid_hours_aina": 527,
+            "total_valid_hours": 1443,
+            "speakers": 29296
+        },
+        "ref": {
+            "date": "2022-07-21T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadab28aaf172ae24fd949",
+                "date": "2022-07-22T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2472,
+                    "validatedHours": 1443,
+                    "speakersCount": 29296,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5194800,
+                "total": 8899200,
+                "speakers": 29296
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-22T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.383Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1053648.5217391306,
+            "total_accumulated_cuts": 1936956.5217391306,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 387481.7826086958,
+            "total_valid_cuts": 1132434.7826086958,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1439,
+            "total_hours": 2475,
+            "valid_hours": 4,
+            "valid_hours_aina": 531,
+            "total_valid_hours": 1447,
+            "speakers": 29340
+        },
+        "ref": {
+            "date": "2022-07-22T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadab38aaf172ae24fd979",
+                "date": "2022-07-23T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2475,
+                    "validatedHours": 1447,
+                    "speakersCount": 29340,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5209200,
+                "total": 8910000,
+                "speakers": 29340
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-23T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.431Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1055996.3478260871,
+            "total_accumulated_cuts": 1939304.3478260871,
+            "valid_cuts": 1565.217391304206,
+            "valid_cuts_aina": 389047,
+            "total_valid_cuts": 1134000,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1442,
+            "total_hours": 2478,
+            "valid_hours": 2,
+            "valid_hours_aina": 533,
+            "total_valid_hours": 1449,
+            "speakers": 29388
+        },
+        "ref": {
+            "date": "2022-07-23T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadab48aaf172ae24fd9a9",
+                "date": "2022-07-24T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2478,
+                    "validatedHours": 1449,
+                    "speakersCount": 29388,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5216400,
+                "total": 8920800,
+                "speakers": 29388
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-24T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.480Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1058344.1739130437,
+            "total_accumulated_cuts": 1941652.1739130437,
+            "valid_cuts": 1565.217391304439,
+            "valid_cuts_aina": 390612.21739130444,
+            "total_valid_cuts": 1135565.2173913044,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1445,
+            "total_hours": 2481,
+            "valid_hours": 2,
+            "valid_hours_aina": 535,
+            "total_valid_hours": 1451,
+            "speakers": 29413
+        },
+        "ref": {
+            "date": "2022-07-24T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadab68aaf172ae24fd9d9",
+                "date": "2022-07-25T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2481,
+                    "validatedHours": 1451,
+                    "speakersCount": 29413,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5223600,
+                "total": 8931600,
+                "speakers": 29413
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-25T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.527Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1060692.0000000002,
+            "total_accumulated_cuts": 1944000.0000000002,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 392960.043478261,
+            "total_valid_cuts": 1137913.043478261,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1448,
+            "total_hours": 2484,
+            "valid_hours": 3,
+            "valid_hours_aina": 538,
+            "total_valid_hours": 1454,
+            "speakers": 29427
+        },
+        "ref": {
+            "date": "2022-07-25T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadab78aaf172ae24fda09",
+                "date": "2022-07-26T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2484,
+                    "validatedHours": 1454,
+                    "speakersCount": 29427,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5234400,
+                "total": 8942400,
+                "speakers": 29427
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-26T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.576Z",
+            "cuts": 3130.434782608645,
+            "accumulated_cuts_aina": 1063822.4347826089,
+            "total_accumulated_cuts": 1947130.4347826089,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 395307.8695652175,
+            "total_valid_cuts": 1140260.8695652175,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1452,
+            "total_hours": 2488,
+            "valid_hours": 3,
+            "valid_hours_aina": 541,
+            "total_valid_hours": 1457,
+            "speakers": 29449
+        },
+        "ref": {
+            "date": "2022-07-26T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadab88aaf172ae24fda39",
+                "date": "2022-07-27T00:58:01.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2488,
+                    "validatedHours": 1457,
+                    "speakersCount": 29449,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5245200,
+                "total": 8956800,
+                "speakers": 29449
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-27T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.623Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1066170.2608695654,
+            "total_accumulated_cuts": 1949478.2608695654,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 398438.30434782617,
+            "total_valid_cuts": 1143391.3043478262,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1455,
+            "total_hours": 2491,
+            "valid_hours": 4,
+            "valid_hours_aina": 545,
+            "total_valid_hours": 1461,
+            "speakers": 29466
+        },
+        "ref": {
+            "date": "2022-07-27T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadaba8aaf172ae24fda69",
+                "date": "2022-07-28T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2491,
+                    "validatedHours": 1461,
+                    "speakersCount": 29466,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5259600,
+                "total": 8967600,
+                "speakers": 29466
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-28T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.672Z",
+            "cuts": 1565.217391304206,
+            "accumulated_cuts_aina": 1067735.4782608696,
+            "total_accumulated_cuts": 1951043.4782608696,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 400786.1304347827,
+            "total_valid_cuts": 1145739.1304347827,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1457,
+            "total_hours": 2493,
+            "valid_hours": 3,
+            "valid_hours_aina": 548,
+            "total_valid_hours": 1464,
+            "speakers": 29484
+        },
+        "ref": {
+            "date": "2022-07-28T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadabb8aaf172ae24fda99",
+                "date": "2022-07-29T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2493,
+                    "validatedHours": 1464,
+                    "speakersCount": 29484,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5270400,
+                "total": 8974800,
+                "speakers": 29484
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-29T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.720Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 1069300.695652174,
+            "total_accumulated_cuts": 1952608.695652174,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 403916.56521739135,
+            "total_valid_cuts": 1148869.5652173914,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1459,
+            "total_hours": 2495,
+            "valid_hours": 4,
+            "valid_hours_aina": 552,
+            "total_valid_hours": 1468,
+            "speakers": 29522
+        },
+        "ref": {
+            "date": "2022-07-29T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadabd8aaf172ae24fdac9",
+                "date": "2022-07-30T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2495,
+                    "validatedHours": 1468,
+                    "speakersCount": 29522,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5284800,
+                "total": 8982000,
+                "speakers": 29522
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-30T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.767Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1071648.5217391306,
+            "total_accumulated_cuts": 1954956.5217391306,
+            "valid_cuts": 1565.217391304439,
+            "valid_cuts_aina": 405481.7826086958,
+            "total_valid_cuts": 1150434.7826086958,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1462,
+            "total_hours": 2498,
+            "valid_hours": 2,
+            "valid_hours_aina": 554,
+            "total_valid_hours": 1470,
+            "speakers": 29537
+        },
+        "ref": {
+            "date": "2022-07-30T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadabe8aaf172ae24fdaf9",
+                "date": "2022-07-31T00:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2498,
+                    "validatedHours": 1470,
+                    "speakersCount": 29537,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5292000,
+                "total": 8992800,
+                "speakers": 29537
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-07-31T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.815Z",
+            "cuts": 1565.217391304439,
+            "accumulated_cuts_aina": 1073213.739130435,
+            "total_accumulated_cuts": 1956521.739130435,
+            "valid_cuts": 1565.217391304206,
+            "valid_cuts_aina": 407047,
+            "total_valid_cuts": 1152000,
+            "recorded_hours": 2,
+            "recorded_hours_aina": 1464,
+            "total_hours": 2500,
+            "valid_hours": 2,
+            "valid_hours_aina": 556,
+            "total_valid_hours": 1472,
+            "speakers": 29546
+        },
+        "ref": {
+            "date": "2022-07-31T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eadabf8aaf172ae24fdb2b",
+                "date": "2022-08-01T01:58:02.000Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2500,
+                    "validatedHours": 1472,
+                    "speakersCount": 29546,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5299200,
+                "total": 9000000,
+                "speakers": 29546
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-08-01T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.863Z",
+            "cuts": 2347.826086956309,
+            "accumulated_cuts_aina": 1075561.5652173914,
+            "total_accumulated_cuts": 1958869.5652173914,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 409394.82608695654,
+            "total_valid_cuts": 1154347.8260869565,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1467,
+            "total_hours": 2503,
+            "valid_hours": 3,
+            "valid_hours_aina": 559,
+            "total_valid_hours": 1475,
+            "speakers": 29567
+        },
+        "ref": {
+            "date": "2022-08-01T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62e86900297074587180fd75",
+                "date": "2022-08-02T00:00:00.836Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2503,
+                    "validatedHours": 1475,
+                    "speakersCount": 29567,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5310000,
+                "total": 9010800,
+                "speakers": 29567
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-08-02T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.912Z",
+            "cuts": 2347.826086956542,
+            "accumulated_cuts_aina": 1077909.391304348,
+            "total_accumulated_cuts": 1961217.391304348,
+            "valid_cuts": 2347.826086956542,
+            "valid_cuts_aina": 411742.6521739131,
+            "total_valid_cuts": 1156695.652173913,
+            "recorded_hours": 3,
+            "recorded_hours_aina": 1470,
+            "total_hours": 2506,
+            "valid_hours": 3,
+            "valid_hours_aina": 562,
+            "total_valid_hours": 1478,
+            "speakers": 29587
+        },
+        "ref": {
+            "date": "2022-08-02T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62e9ba8029707458718102e9",
+                "date": "2022-08-03T00:00:00.785Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2506,
+                    "validatedHours": 1478,
+                    "speakersCount": 29587,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5320800,
+                "total": 9021600,
+                "speakers": 29587
+            }
+        }
+    },
+    {
+        "dailyReport": {
+            "date": "2022-08-03T00:00:00.000Z",
+            "createdAt": "2022-08-04T11:01:00.959Z",
+            "cuts": 3130.434782608878,
+            "accumulated_cuts_aina": 1081039.8260869568,
+            "total_accumulated_cuts": 1964347.8260869568,
+            "valid_cuts": 3130.434782608645,
+            "valid_cuts_aina": 414873.0869565217,
+            "total_valid_cuts": 1159826.0869565217,
+            "recorded_hours": 4,
+            "recorded_hours_aina": 1474,
+            "total_hours": 2510,
+            "valid_hours": 4,
+            "valid_hours_aina": 566,
+            "total_valid_hours": 1482,
+            "speakers": 29615
+        },
+        "ref": {
+            "date": "2022-08-03T00:00:00.000Z",
+            "languageStatsRef": {
+                "_id": "62eb0c00297074587181085d",
+                "date": "2022-08-04T00:00:00.854Z",
+                "info": {
+                    "id": 13,
+                    "is_contributable": 1,
+                    "sentencesCount": {
+                        "targetSentenceCount": 5000,
+                        "currentCount": 1158677
+                    },
+                    "localizedPercentage": 100,
+                    "recordedHours": 2510,
+                    "validatedHours": 1482,
+                    "speakersCount": 29615,
+                    "locale": "ca"
+                }
+            },
+            "values": {
+                "valid": 5335200,
+                "total": 9036000,
+                "speakers": 29615
+            }
+        }
+    }
+]
