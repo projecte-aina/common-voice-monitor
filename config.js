@@ -12,15 +12,15 @@ module.exports = {
     multiple_id: "10oHwwVgl7E70_dracWn-ncg36IUE0gTVRPPQ0UoWzcc" ,
   },
   firstWeekDate: '2022-02-15T00:00:00.000Z',
-  // environments: {
-  //   development: {
-  //     mongoUri: 'mongodb://localhost:27017/commonvoice_monitor_development',
-  //   },
-  //   integration: {
-  //     mongoUri: 'mongodb://129.151.225.145:49153/commonvoice_monitor',
-  //   },
-  //   production: {
-  //     mongoUri: process.env.MONGO_URI,
-  //   }
-  // }
+  environments: {
+    development: {
+      mongoUri: process.env.MONGO_URI,
+    },
+    integration: {
+      mongoUri: process.env.MONGO_URI,
+    },
+    production: {
+      mongoUri: process.env.MONGO_URI,
+    }
+  }
 }
