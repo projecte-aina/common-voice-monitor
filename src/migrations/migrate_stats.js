@@ -2,7 +2,7 @@ const fs = require("fs")
 const {addStats} = require("../service/stat");
 
 const migrate_stats = () => {
-    const path = "C:/Users/bscuser/Desktop/202202/stats"
+    const path = "/home/andrei/Downloads/202207/stats"
 
     fs.readdir(path, async (err, files) => {
         if (err) {
@@ -12,11 +12,17 @@ const migrate_stats = () => {
         for (const file of files) {
             console.log(file);
             const json = fs.readFileSync(`${path}/${file}`)
-            const stats = JSON.parse(json)
 
-            await addStats(stats)
-                .then(inserted => console.log(`Inserted: ${inserted.length}`))
-                .catch(err => console.log(err))
+            try {
+                const stats = JSON.parse(json)
+                await addStats(stats)
+                    .then(inserted => console.log(`Inserted: ${inserted.length}`))
+                    .catch(err => console.log(err))
+            } catch (err) {
+                console.log('error', err);
+            }
+
+
         }
     });
 

@@ -3,11 +3,12 @@ const fs = require("fs")
 const {addLanguageStat} = require("../service/language_stat");
 
 
+
 const {DateTime} = require('luxon')
 
 
-const migrate_language_stats_new_format = () => {
-    const path = "/home/andrei/Downloads/202207/lang"
+const migrate_language_stats = () => {
+    const path = "/home/andrei/Downloads/migrated/202202/lang"
 
     fs.readdir(path, async (err, files) => {
         if (err) {
@@ -27,21 +28,25 @@ const migrate_language_stats_new_format = () => {
 
                 const json = fs.readFileSync(filePath)
 
-                const languages = JSON.parse(json)
+                const languageStats = JSON.parse(json)
 
-                const languageStats = {date: isoDate, languages: languages}
+                languageStats.date = isoDate
+
 
                 await addLanguageStat(languageStats)
                     .then(() => {
                         console.log(`Saved ${file} to db...`)
-                    })
+                    }).catch(error => console.log(error))
             }catch (error) {
                 console.log(`${error} on file ${file}`)
             }
+
+
+
         }
 
     });
 
 }
 
-migrate_language_stats_new_format()
+migrate_language_stats()

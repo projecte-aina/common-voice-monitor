@@ -6,6 +6,8 @@ const addLanguageStat = async (stat) => {
 
     const lngStat = new LanguageStat({
       date: stat.date,
+      launched: stat.launched,
+      inProgress: stat.inProgress,
       languages: stat.languages,
     })
 

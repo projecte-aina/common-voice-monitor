@@ -19,6 +19,6 @@
     "dotenv": "^16.0.0",
     "google-spreadsheet": "^3.3.0",
     "luxon": "^2.3.0",
-    "mongoose": "^6.2.7"
+    "mongoose": "^6.5.0"
   }
 }

@@ -1,13 +1,13 @@
 const fs = require("fs")
 
-const {addLanguageStat} = require("../service/language_stat");
+const {addLanguageStat} = require("../../service/language_stat");
 const EventEmitter = require('events');
 
 
 const {DateTime} = require('luxon')
-const {loadDocument, addElement, addElements} = require("../store/spread_sheet");
-const {sheets} = require("../../config");
-const {insertLog} = require("../utils/logger");
+const {loadDocument, addElement, addElements} = require("../../store/spread_sheet");
+const {sheets} = require("../../../config");
+const {insertLog} = require("../../utils/logger");
 
 const eventEmitter = new EventEmitter();
 
@@ -16,7 +16,7 @@ const doc = loadDocument({id: sheets.multiple_id})
 eventEmitter.on('add_language_stats_elements_sheet', async (languageStatsList) => {
 
     const lMap = languageStatsList.map(item => {
-       const element = item['languages'].find(e => e.locale === 'ca')
+       const element = item['launched'].find(e => e.locale === 'ca')
         return {
            data: item.date,
            'hores gravades': element.recordedHours,
@@ -34,7 +34,7 @@ eventEmitter.on('add_language_stats_elements_sheet', async (languageStatsList) =
 
 
 const migrate_language_stats_new_format = () => {
-    const path = "/home/andrei/Downloads/new_vars_lstats"
+    const path = "/home/andrei/Downloads/language_stats/new_format"
 
     let languageStatsList = []
 
@@ -56,15 +56,18 @@ const migrate_language_stats_new_format = () => {
 
                 const json = fs.readFileSync(filePath)
 
-                const languages = JSON.parse(json)
+                const languageStats = JSON.parse(json)
 
-                const languageStats = {date: isoDate, languages: languages}
+                languageStats.date = isoDate
 
-                await addLanguageStat(languageStats)
-                    .then(() => {
-                        console.log(`Saved ${file} to db...`)
-                        languageStatsList.push(languageStats)
-                    })
+
+                languageStatsList.push(languageStats)
+
+                // await addLanguageStat(languageStats)
+                //     .then(() => {
+                //         console.log(`Saved ${file} to db...`)
+                //         languageStatsList.push(languageStats)
+                //     })
             }catch (error) {
                 console.log(`${error} on file ${file}`)
             }

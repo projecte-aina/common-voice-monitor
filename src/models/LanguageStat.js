@@ -4,6 +4,7 @@ const languageStatSchema = new Schema({
   date: Date,
   languages: [],
   launched: [],
+  inProgress: [],
 }, { versionKey: false })
 
 languageStatSchema.index({ date: 1}, { unique: true })
