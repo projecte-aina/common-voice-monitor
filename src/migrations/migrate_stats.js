@@ -2,7 +2,7 @@ const fs = require("fs")
 const {addStats} = require("../service/stat");
 
 const migrate_stats = () => {
-    const path = "/home/andrei/Downloads/202207/stats"
+    const path = "/home/andrei/Downloads/cv_monitor_20220923_20220925/pending/stats"
 
     fs.readdir(path, async (err, files) => {
         if (err) {

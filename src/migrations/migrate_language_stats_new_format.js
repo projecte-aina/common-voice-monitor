@@ -7,7 +7,7 @@ const {DateTime} = require('luxon')
 
 
 const migrate_language_stats_new_format = () => {
-    const path = "/home/andrei/Downloads/202207/lang"
+    const path = "/home/andrei/Downloads/cv_monitor_20220923_20220925/pending/lang"
 
     fs.readdir(path, async (err, files) => {
         if (err) {

@@ -4,7 +4,7 @@ const {addVoices} = require("../service/voice");
 
 
 const migrate_language_stats = () => {
-    const path = "/home/andrei/Downloads/202207/voices"
+    const path = "/home/andrei/Downloads/cv_monitor_20220923_20220925/pending/voices"
 
     fs.readdir(path, async (err, files) => {
         if (err) {
