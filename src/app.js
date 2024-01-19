@@ -7,7 +7,7 @@ const { updateVoices } = require('./updates/update_voices')
 const { updateStats } = require('./updates/update_stats')
 const { updateContributionActivities } = require('./updates/update_contribution_activities')
 const { updateClipsVotes } = require('./updates/update_clips_votes')
-const {updateDailyReport} = require("./updates/update_daily_report");
+const {updateDailyReport, updateDailyReportsOverdue} = require("./updates/update_daily_report");
 
 const { insertError } = require('./utils/logger')
 
@@ -19,6 +19,8 @@ const { insertError } = require('./utils/logger')
     try {
 
       const everyDayDailyReport = new Cron('0 2 * * *', {maxRuns: Infinity})
+      const everyWeekDailyReportsOverdue = new Cron('0 3 * * 1', {maxRuns: Infinity})
+
       const everyFiftyEightMinutes = new Cron('58 * * * *', {maxRuns: Infinity})
       const languageStatsScheduler = new Cron('0 0/2 * * *', {maxRuns: Infinity})
       const everyHourScheduler = new Cron('0 0/1 * * *', {maxRuns:Infinity})
@@ -38,6 +40,10 @@ const { insertError } = require('./utils/logger')
 
       everyDayDailyReport.schedule(async () => {
         await updateDailyReport()
+      })
+
+      everyWeekDailyReportsOverdue.schedule(async () => {
+        await updateDailyReportsOverdue()
       })
 
 

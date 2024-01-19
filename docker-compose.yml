@@ -6,4 +6,4 @@ services:
       context: .
     restart: unless-stopped
     env_file:
-      - production.env
+      - .env

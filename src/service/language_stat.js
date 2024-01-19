@@ -19,7 +19,6 @@ const addLanguageStat = async (stat) => {
 }
 
 const getLanguageStatNextDayByLocale = async (locale, date) => {
-    //         const refLanguageStats = await languageStats('ca').find({date:{$gte: ISODate("[date+1 day]")}}).sort([ascending])[0]
 
     const languageStats = await LanguageStat.findOne({date: {$gte: date.plus({days: 1})} }).sort({date: 1})
 
@@ -29,14 +28,9 @@ const getLanguageStatNextDayByLocale = async (locale, date) => {
 
 
     const info = languageStats.languages?.find(l => l.locale === locale) || languageStats.launched?.find(l => l.locale === locale)
-    // const checkInfoFormat = languageStats.languages ? languageStats.languages.find(l => l.locale === locale) : languageStats.launched.find(l => l.locale === locale)
 
     return {_id: languageStats._id, date: languageStats.date, info: info}
 
-    // return languageStats.launched.filter(e => e.locale === locale)[0]
-
-  //   return LanguageStat.findOne({"launched.locale": locale})
-  //       .sort({date: 1});
 
 }
 

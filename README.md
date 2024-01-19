@@ -21,9 +21,12 @@ To run this project, you will need to add the following environment variables to
 
 `MONGO_URI`
 
-Example of production.env file
+Example of .env file
 
 ```bash
+LOCALE=ca
+GOOGLE_SHEETS_DOCUMENT_ID=YOUR_DOCUMENT_ID
+FIRST_WEEK_DATE=2022-02-15T00:00:00.000Z
 MONGO_URI=mongodb://EXAMPLE_USER:EXAMPLE_PASSWORD@YOUR_HOST:27017/DATABASE_NAME?authSource=admin
 ```
 
