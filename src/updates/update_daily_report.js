@@ -49,9 +49,9 @@ const updateDailyReportsOverdue = async () => {
     await generateDailyReportsOverdue()
           .then(async (reports) => {
 
-            // for (const report of reports) {
-            //     await addDailyReport(report)
-            // }
+            for (const report of reports) {
+                await addDailyReport(report)
+            }
 
             const loadDoc = await loadDocument({id: sheets.daily_report_id})
 
