@@ -20,21 +20,21 @@ const updateDailyReport = async () => {
             const loadDoc = await loadDocument({id: sheets.daily_report_id})
 
             await addElement({doc: loadDoc, headersRowIndex: 2, sheetName: 'Report', obj: {
-                    "Setmana": Interval.fromDateTimes(DateTime.fromISO(firstWeekDate), DateTime.fromISO(report.dailyReport.date)).count('weeks'),
-                    "Data": DateTime.fromJSDate(inserted.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
-                    "#Talls": roundHalfDown(inserted.dailyReport.cuts),
-                    "#Talls acumulats AINA": roundHalfDown(inserted.dailyReport.accumulated_cuts_aina),
-                    "#Talls acumulats TOTALS": roundHalfDown(inserted.dailyReport.total_accumulated_cuts),
-                    "#Talls validats": roundHalfDown(inserted.dailyReport.valid_cuts),
-                    "#Talls validats AINA": roundHalfDown(inserted.dailyReport.valid_cuts_aina),
-                    "#Talls validats TOTALS": roundHalfDown(inserted.dailyReport.total_valid_cuts),
-                    "#Hores gravades": roundHalfDown(inserted.dailyReport.recorded_hours),
-                    "#Hores gravades AINA": roundHalfDown(inserted.dailyReport.recorded_hours_aina),
-                    "#Hores TOTALS": roundHalfDown(inserted.dailyReport.total_hours),
-                    "#Hores validades": roundHalfDown(inserted.dailyReport.valid_hours),
-                    "#Hores validades AINA": roundHalfDown(inserted.dailyReport.valid_hours_aina),
-                    "#Hores validades TOTALS": roundHalfDown(inserted.dailyReport.total_valid_hours),
-                    "#Locutors": inserted.dailyReport.speakers
+                    "Week": Interval.fromDateTimes(DateTime.fromISO(firstWeekDate), DateTime.fromISO(report.dailyReport.date)).count('weeks'),
+                    "Date": DateTime.fromJSDate(inserted.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
+                    "#Cuts": roundHalfDown(inserted.dailyReport.cuts),
+                    "#PROJECT Accumulated cuts": roundHalfDown(inserted.dailyReport.accumulated_cuts_aina),
+                    "#TOTAL Accumulated cuts": roundHalfDown(inserted.dailyReport.total_accumulated_cuts),
+                    "#Validated cuts": roundHalfDown(inserted.dailyReport.valid_cuts),
+                    "#PROJECT Validated cuts": roundHalfDown(inserted.dailyReport.valid_cuts_aina),
+                    "#TOTAL Validated cuts": roundHalfDown(inserted.dailyReport.total_valid_cuts),
+                    "#Recorded hours": roundHalfDown(inserted.dailyReport.recorded_hours),
+                    "#PROJECT Recorded hours": roundHalfDown(inserted.dailyReport.recorded_hours_aina),
+                    "#TOTAL hours": roundHalfDown(inserted.dailyReport.total_hours),
+                    "#Validated hours": roundHalfDown(inserted.dailyReport.valid_hours),
+                    "#PROJECT Validated hours": roundHalfDown(inserted.dailyReport.valid_hours_aina),
+                    "#TOTAL Validated hours": roundHalfDown(inserted.dailyReport.total_valid_hours),
+                    "#Speakers": inserted.dailyReport.speakers
                 }})
             await insertLog(`Add daily report to google sheet document`)
         }).catch(async (error) => {
@@ -49,9 +49,9 @@ const updateDailyReportsOverdue = async () => {
     await generateDailyReportsOverdue()
           .then(async (reports) => {
 
-            // for (const report of reports) {
-            //     await addDailyReport(report)
-            // }
+            for (const report of reports) {
+                await addDailyReport(report)
+            }
 
             const loadDoc = await loadDocument({id: sheets.daily_report_id})
 
@@ -59,21 +59,21 @@ const updateDailyReportsOverdue = async () => {
         
                 const reportRows = reports.map(report => {
                     return {
-                        "Setmana": Interval.fromDateTimes(DateTime.fromISO(firstWeekDate), DateTime.fromISO(report.dailyReport.date)).count('weeks'),
-                        "Data": DateTime.fromISO(report.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
-                        "#Talls": roundHalfDown(report.dailyReport.cuts),
-                        "#Talls acumulats AINA": roundHalfDown(report.dailyReport.accumulated_cuts_aina),
-                        "#Talls acumulats TOTALS": roundHalfDown(report.dailyReport.total_accumulated_cuts),
-                        "#Talls validats": roundHalfDown(report.dailyReport.valid_cuts),
-                        "#Talls validats AINA": roundHalfDown(report.dailyReport.valid_cuts_aina),
-                        "#Talls validats TOTALS": roundHalfDown(report.dailyReport.total_valid_cuts),
-                        "#Hores gravades": roundHalfDown(report.dailyReport.recorded_hours),
-                        "#Hores gravades AINA": roundHalfDown(report.dailyReport.recorded_hours_aina),
-                        "#Hores TOTALS": roundHalfDown(report.dailyReport.total_hours),
-                        "#Hores validades": roundHalfDown(report.dailyReport.valid_hours),
-                        "#Hores validades AINA": roundHalfDown(report.dailyReport.valid_hours_aina),
-                        "#Hores validades TOTALS": roundHalfDown(report.dailyReport.total_valid_hours),
-                        "#Locutors": report.dailyReport.speakers
+                        "Week": Interval.fromDateTimes(DateTime.fromISO(firstWeekDate), DateTime.fromISO(report.dailyReport.date)).count('weeks'),
+                        "Date": DateTime.fromJSDate(inserted.dailyReport.date, {locale: 'es'}).toFormat("dd/MM/yy").toString(),
+                        "#Cuts": roundHalfDown(inserted.dailyReport.cuts),
+                        "#PROJECT Accumulated cuts": roundHalfDown(inserted.dailyReport.accumulated_cuts_aina),
+                        "#TOTAL Accumulated cuts": roundHalfDown(inserted.dailyReport.total_accumulated_cuts),
+                        "#Validated cuts": roundHalfDown(inserted.dailyReport.valid_cuts),
+                        "#PROJECT Validated cuts": roundHalfDown(inserted.dailyReport.valid_cuts_aina),
+                        "#TOTAL Validated cuts": roundHalfDown(inserted.dailyReport.total_valid_cuts),
+                        "#Recorded hours": roundHalfDown(inserted.dailyReport.recorded_hours),
+                        "#PROJECT Recorded hours": roundHalfDown(inserted.dailyReport.recorded_hours_aina),
+                        "#TOTAL hours": roundHalfDown(inserted.dailyReport.total_hours),
+                        "#Validated hours": roundHalfDown(inserted.dailyReport.valid_hours),
+                        "#PROJECT Validated hours": roundHalfDown(inserted.dailyReport.valid_hours_aina),
+                        "#TOTAL Validated hours": roundHalfDown(inserted.dailyReport.total_valid_hours),
+                        "#Speakers": inserted.dailyReport.speakers
                     }
                 })
         

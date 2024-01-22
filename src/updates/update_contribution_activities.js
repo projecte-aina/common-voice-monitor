@@ -20,11 +20,11 @@ const updateContributionActivities = async () => {
 
       let rows = []
       for (let item of results) {
-        rows.push({ data: item.date, contribucions: item.value })
+        rows.push({ date: item.date, contributions: item.value })
       }
       const newDoc = await loadDocument({id: sheets.multiple_id})
 
-      await addElements({doc: newDoc, sheetName: 'Contribucions', rows: rows})
+      await addElements({doc: newDoc, sheetName: 'Contributions', rows: rows})
 
       await insertLog(`${rows.length} contributions activities inserted to google sheet document`)
 

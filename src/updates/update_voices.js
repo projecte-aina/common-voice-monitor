@@ -19,12 +19,12 @@ const updateVoices = async () => {
     if (results.length > 0) {
       let rows = []
       for (let item of results) {
-        rows.push({ data: item.date, veus: item.value })
+        rows.push({ date: item.date, voices: item.value })
       }
 
       const newDoc = await loadDocument({id: sheets.multiple_id})
 
-      await addElements({doc: newDoc, sheetName: 'Veus', rows: rows })
+      await addElements({doc: newDoc, sheetName: 'Voices', rows: rows })
 
       await insertLog(`${rows.length} voices inserted to google sheet document`)
 

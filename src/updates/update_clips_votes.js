@@ -24,8 +24,8 @@ const updateClipsVotes = async () => {
 
             await addElement({
                 doc: newDoc,
-                sheetName: 'Clips Vots',
-                obj: {data: clipVote.date, clips: clipVote.clips, vots: clipVote.votes}
+                sheetName: 'Clips Votes',
+                obj: {date: clipVote.date, clips: clipVote.clips, votes: clipVote.votes}
             })
             await insertLog(`Clip Votes inserted to google sheet document`)
         }

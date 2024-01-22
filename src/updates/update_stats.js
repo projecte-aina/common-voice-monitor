@@ -16,7 +16,7 @@ const updateStats = async () => {
     if (results.length > 0) {
       let rows = []
       for (let item of results) {
-        rows.push({ data: item.date, total: item.total, valides: item.valid })
+        rows.push({ date: item.date, total: item.total, valid: item.valid })
       }
 
       // const todayRows = rows.filter(e => DateTime.fromJSDate(e.data).month === DateTime.now().month
